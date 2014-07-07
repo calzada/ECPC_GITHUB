@@ -1,0 +1,43 @@
+To tag paragraphs and sentences:
+1. Copy the script in the desired folder
+2. open the shell
+3. cd to the desired folder
+4. type perl tagsentences.pl -l en -f *.xml -e 'speech'
+
+In case you remove elements such as empty paragraphs and/or sentences
+
+To renumber elements (paragraphs and sentences, for others no need to do steps 1, 2, 7, 8):
+
+1. Rename paragraphs as <pa instead of <p:
+Search for: <p id
+Replace by: <pa id
+2. Rename sentences as <se instead of <s:
+Search for: <s id
+Replace by: <se id
+
+Search for: </p>
+Replace for. </pa>
+Search for: </s>
+Replace for. </se>
+
+
+
+Then
+
+3. Copy the script in the desired folder
+4. open the shell
+5. cd to the desired folder
+6. type:
+6.1. for paragraphs:
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e pa -a id -p p -n; done;
+6.2. for sentences:
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e se -a id -p se -n; done;
+
+Finally
+
+7. Restore paragraphs to the right name:
+Search for: <pa id
+Replace by: <p id
+8. Restore sentences to the right name:
+Search for: <se id
+Replace by; <s id

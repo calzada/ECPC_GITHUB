@@ -1,0 +1,685 @@
+﻿TUTORIAL script Congreso Diputados 060414
+
+
+
+
+Programas que debemos instalar:
+HTTrack
+jEdit
+Cygwin
+PROTOCOLO DE ETIQUETADO DE DIPUTADOS DEL CD
+Ejemplo del producto final del doc .sh.
+PROBLEMAS
+Información extra:
+
+
+
+
+Programas que debemos instalar:
+jEdit                                http://www.jedit.org/
+HTTrack (PC)                        http://www.httrack.com/                 (SiteSucker para Linux)
+dwimperl (PC)                        http://dwimperl.com/windows.html
+cygwin (PC)                        http://www.cygwin.com/
+Filezilla                        https://filezilla-project.org/
+
+
+HTTrack
+Vamos a HTTrack y lo configuramos para descargar los html de la página del CD que nos interesan. En este caso nos interesan los diputados de la Legislatura X y la IX.
+Abrimos HTTrack / Next / (escribimos nombre proyecto y seleccionamos ubicación) Next / (copiamos una url) http://www.congreso.es/portal/page/portal/Congreso/Congreso/Diputados?_piref73_1333056_73_1333049_1333049.next_page=/wc/menuAbecedarioInicio&tipoBusqueda=completo&idLegislatura=10
+(y configuramos las opciones de descarga)
+Scan Rules (quitar .gif, .jpg, png…)
+Limits (no poner límite de niveles)
+Links (marcar casilla “Get HTML files first!”)
+Aceptamos las opciones y Next
+
+
+Tarda muchas horas en descargar el contenido. Sin embargo, si necesitamos parar el programa, podemos posteriormente reanudar la descarga completando lo que ya se había descargado: en Action, en vez de elegir Download web site(s), elegimos *Continue interrupted download.
+En C: / My Web Sites / y en la carpeta Diputados, en el subdirectorio que corresponda, se encuentran los html que nos interesan (Busqformxxx.html), para después etiquetar en nuestro script.
+Problema para descargar fichas de los diputados con HTTrack:
+Con HTTrack hay problemas para descargar las fichas de los diputados, nos crea archivos “Busqform” y repite indefinidamente los .html con diputados. 
+
+
+Sin embargo, con Downthemall! es más manejable. Con este add-on y botón derecho sobre una website, nos da a elegir los enlaces de esta website que queremos descargar, en este caso descargamos los enlaces a los diputados por orden alfabético y los descargamos de 25 en 25.
+
+
+https://addons.mozilla.org/es/firefox/addon/downthemall/
+
+
+
+
+Existe un equivalente para Chrome, (pero no lo he probado)
+https://chrome.google.com/webstore/detail/download-master/mcceagdollnkjlogmdckgjakjapmkdjf
+http://monadownloadmaster.blogspot.com.es/
+
+
+Con Downthemall! se descargan los archivos en .htm, por lo tanto, debemos cambiar el script para que todos los *.html sean *.htm
+
+
+jEdit
+Lo primero en jEdit es configurarlo para trabajar con formato de codificación de caracteres UTF-8: 
+Utilities / Buffer Options / Character Encoding (UTF-8)
+Utilities / Global Options / Encodings / Default Character Encoding (UTF-8)
+Vamos a crear y probar con jEdit una serie de expresiones regulares que nos permitan buscar y reemplazar la información que nos interesa. 
+Para más comodidad de visionado: Buffer / Global Options , Word wrap (soft)
+Expresiones regulares: Help / jEdit Help / Using jEdit / Regular Expressions
+Ejemplos de búsqueda y reemplazo:
+
+
+#Para poner todo el texto en una línea
+Find: (\n|\r)+
+Replace:
+
+
+#Para Borrar información no necesaria antes de los datos del diputado
+Find: ^.*<div id=“(datos_diputado)">
+Replace: XXZZ$1YYWW
+
+
+(Esto equivale a: XXZZdatos_diputadoYYWW)
+
+
+Estas expresiones regulares las utilizaremos posteriormente en los oneliners (entre la primera y la segunda barra pegamos la búsqueda y entre la segunda y la tercera pegamos el reemplazo). 
+Ejemplos de oneliners:
+
+
+perl -pi -e 's/(\n|\r)+//g' *.html
+
+
+perl -pi -e 's/^.*<div id=“(datos_diputado)">/XXZZ$1YYWW/g' *.html
+
+
+En el script, se puede observar como el contenido entre las barras (find and replace) es de color rosa, esto indica que el oneliner con perl está correcto; el principio y el final de la línea quedan de color negro. La primera línea al principio del documento indica que es un script (#!/bin/sh), es de color naranja. Los comentarios (comienza la línea con #) son de color rojo.
+Cygwin
+Una vez tenemos los html, vamos a buscar los datos de los diputados en sus html individuales, y recopilarlos en un solo documento final xml (html usa unas etiquetas determinadas, mientras que con xml podemos usar nuestras etiquetas). Tenemos dos opciones, podemos abrir los html de uno en uno y apuntar los datos “a mano” de los diputados; o podemos programar en Perl (lenguaje de programación muy bueno para trabajar con texto), y crear una serie de oneliners (órdenes de perl) para lograr nuestro objetivo mucho más rápida y cómodamente.
+
+
+En Linux y Mac, la consola está preparada para programar en perl y otros lenguajes, pero en PC no. Por eso los usuarios de PC necesitan Cygwin para emular una consola de Linux o Mac en PC. Es muy importante durante la instalación de Cygwin tener en cuenta un detalle a la hora de instalar los paquetes; por defecto no los instala todos de forma completa, así que tenemos que intervenir en la instalación de los paquetes para que se instale todo lo que nos interesa. De todas formas, si queremos instalar más paquetes posteriormente, solo tenemos que ejecutar el instalador de nuevo, y en la pantalla de paquetes elegir los que queremos instalar.
+Por lo tanto, ejecutamos para instalar Cygwin, le damos a todo Next, hasta una pantalla donde nos da a elegir un Mirror para descargar (elegimos http://cygwin.mirror.constant.com); le damos a siguiente hasta la pantalla de Paquetes. En todos pone Default, porque solo instala lo mínimo para funcionar. Nos interesan Perl, Python, Shells (completos), hacemos click en la palabra Default, hasta que que ponga Install, y procedemos a la instalación.
+
+
+Ahora ya tenemos instalado Cygwin y preparado para trabajar con Perl. Algunos ejemplos de órdenes básicas de la consola:
+
+
+INTRODUCCIÓN
+
+
+#para acceder a los directorios con cygdrive                                cd /cygdrive
+
+
+# Para ver el directorio actual        (present working directory)                pwd
+
+
+#Para ver el directorio actual de cygdrive                                pwd /cygdrive
+
+
+#Para listar (list)                                                        ls
+
+
+#Para cambiar directorio (change directory)                                cd
+
+
+#Para subir un nivel de directorio                                        cd ..
+
+
+#Más comandos para Linux: http://www.linuxtotal.com.mx/?cont=info_admon_002
+
+
+##Por ejemplo para entrar en mi Escritorio de mc:        cd /cygdrive/c/Users/mc/Desktop
+
+
+###FGB                                                cd /cygdrive/c/Users/FGB/Desktop
+
+
+###ACE                                                cd  /cygdrive/c/Users/ACE/Desktop
+
+
+#Para entrar en una carpeta en la que vamos a trabajar
+
+
+cd /cygdrive/c/Users/mc/Desktop/NEW_FOLDER
+
+
+
+
+APLICAR ÓRDENES
+
+
+1. Abrimos el documento .sh en Jedit
+
+
+2. Copiamos la primera orden
+perl -pi -e 's/(\n|\r)+//g' *.html
+
+
+3. La pegamos en la consola de cygwin así
+Shift + Insert
+
+
+4. La ejecutamos y en la siguiente línea no aparece nada, pero lo comprobamos en jEdit y vemos como la orden se ha ejecutado y hemos cambiado lo que queríamos.
+
+
+PRUEBA
+Creamos una carpeta en el escritorio (en C: sería más rápido y cómodo para trabajar con Cygwin). En esta carpeta introducimos 5 html de 5 diputados que usaremos en esta prueba. Importante: los archivos html con los que trabajaremos, 5 en este caso, deben estar al nivel de la carpeta donde vamos a trabajar, y no en una subcarpeta. En esta carpeta pegamos también el .sh que hemos creado con jEdit.
+A continuación seguiremos el siguiente:
+
+
+
+
+PROTOCOLO DE ETIQUETADO DE DIPUTADOS DEL CD
+
+
+0. Crear una dtd (con las instrucciones de nuestro XML)
+0.1 jEdit / Plugins / Plugin Manager, Install (jDiffPlugin y XML, nótese que al hacer click en estos dos, algunos más se clickarán automáticamente)
+0.2 jEdit / Plugins / XML / Remove all tags (para eliminar todos los < > , ejs:<ecpc_cd> es un elemento; <intervention number>, sin unir, es un atributo)
+        0.3 jEdit / Plugins / XML / Generate DTD (solamente se hace una vez)
+        
+        Así queda en el encabezamiento de nuestro script, el nombre del .dtd que tendremos en         
+        nuestra carpeta debe ser igual al del encabezamiento de nuestro documento. Ejemplo:
+        
+<\?xml version="1\.0" encoding=\"UTF-8\" standalone="no"\?>\n<\!DOCTYPE ecpc_EP SYSTEM "mp_CD.dtd">
+0.4 jEdit / Plugins / jDiff / Dual Diff (Comprobar que dos o más documentos son completamente iguales)
+
+
+1. Crear expresiones regulares (búsquedas y reemplazos) en jEdit. Se crea cada búsqueda y reemplazo de forma individual y se prueba en una muestra de documentos en JEDIT.
+
+
+2. Cuando ya se tienen probadas las expresiones regulares en Jedit, se crea un script (programa) de Shell (.sh) para aplicar todas las expresiones regulares en todos los documentos que deseemos. 
+Para ello debemos:
+
+
+2.1. Iniciar nuestro script con
+
+
+#!/bin/sh
+
+
+2.2. Poner comentarios con datos del script
+
+
+#Este script para extraer la información de los diputados del CD
+#autores: ace, fg, mc
+#fecha: 4/04/2014 
+#perl -pi -e 's///g' *.html
+
+
+2.3. Guardar el documento como 
+
+
+NOMBRE.sh
+
+
+2.4. Observar que nuestro script se basa en el oneliner
+
+
+perl -pi -e ‘s///g’ *.html 
+
+
+Si nuestros archivos están en xml, pondríamos
+
+
+perl -pi -e ‘s///g’ *.xml
+
+
+Por eso, hemos puesto ese onliner entre los comentarios del punto 2.2.
+
+
+Entre las dos primeras barras de perl, ponemos la búsqueda y entre las dos segundas barras el reemplazo. RECORDAR que al pasar de las expresiones regulares de Jedit a las expresiones regulares de perl hemos de escapar (\) símbolos como /, “, ., etc.
+
+
+3. Ejecutar el script
+
+
+
+
+Para ello,
+
+
+3.1. En la consola/terminal, nos ponemos en la carpeta donde están los documentos en html que queremos cambiar y el script. Por ejemplo:
+
+
+cd /cygdrive/c/Users/mc/Desktop/NEW_FOLDER
+
+
+3.2. Aplicamos la orden, por ejemplo:
+
+
+sh mp_cd_regex.sh *.html
+
+
+4. Validar los documentos en XML y la codificación, para así comprobar que está todo bien.
+
+
+Aplicar la orden
+
+
+xmllint -valid -noout *.html
+
+
+(Si nuestros documentos fueran xml sería
+
+
+xmllint -valid -noout *.xml
+
+
+------
+
+
+5. Pegar documentos y a la vez transformarlos en xml
+
+
+
+
+cat *.html > total.xml
+
+
+Si hay problemas con cygwin, debemos instalar en Packages/(search) RCS (e instalar este paquete para poder juntar documentos en uno)
+
+
+
+
+6. Quitar denominción xml y <datos_diputado> y </datos_diputado>
+
+
+
+
+7. Cuando tenemos el documento total.xml, borramos </datos_diputado> y las líneas en blanco:
+
+
+Find:
+\n\s*
+Replace:
+\n
+
+
+8.Una vez todo juntado y sin espacios, copiamos todos los diputados y los pegamos en una hoja de excel. De este modo los ordenamos alfabéticamente; después los volvemos a pegar en el xml.
+
+
+
+
+
+
+Ejemplo del producto final del doc .sh. 
+(Nótese que algunos caracteres cambian en Google Docs):
+
+
+#!/bin/sh
+#Este script para extraer la información de los diputados del CD
+#autores: ace, fg, mc
+#fecha: 27/03/2014 (en magdalena festa plena)
+#perl -pi -e 's///g' .html
+#Este script para extraer la información de los diputados del CD
+#autores: ace, fg, mc
+#fecha: 27/03/2014 (en magdalena festa plena)
+#perl -pi -e 's///g' .html
+
+
+
+
+#Para poner todo el texto en una línea
+
+
+perl -pi -e 's/(\n|\r)+//g' *.html
+
+
+#Para Borrar información no necesaria antes de los datos del diputado.
+
+
+perl -pi -e 's/^.*<div id="(datos_diputado)">/XXZZ$1YYWW/g' *.html
+
+
+#Bajas
+
+
+perl -pi -e 's/<li><div class="dip_rojo">Causó baja el (.*?)\.?<\/div><\/li>/XXZZbajaYYWW$1XXZZ\/bajaYYWW/g' *.html
+
+
+
+
+#Sustituido por
+
+
+perl -pi -e 's/<li>Sustituido por(.*?)<\/li>/XXZZsustituido_porYYWW$1XXZZ\/sustituido_porYYWW/g' *.html
+
+
+#Altas
+
+
+perl -pi -e 's/<li><div class="dip_rojo">\p{Z}*?(Fecha alta:|.*?alta)\p{Z}+(\d+?\/\d+?\/\d+)\p{Z}*?\.?\p{Z}*?<\/div><\/li>/
+XXZZfecha_altaYYWW$2XXZZ\/fecha_altaYYWW/g' *.html
+
+
+#Sustituye_a
+
+
+perl -pi -e 's/<li>\p{Z}*?(.ustituyó|.ustituye)\p{Z}+a(.*?)<\/li>/XXZZsustituye_aYYWW$1XXZZ\/sustituye_aYYWW/g' *.html
+
+
+#Histórico
+#Fin datos diputado
+
+
+perl -pi -e 's/<p class="titular_historico">Histórico<\/p>(.*?)<div class="paginacion" id="enlaceHistory" style="display:none;"\s*?>.*$/XXZZCargos_ocupadosYYWW$1XXZZ\/Cargos_ocupadosYYWWXXZZ\/datos_diputadoYYWW/g' *.html
+
+
+
+
+#Para poner nuestra etiqueta de nombre
+
+
+perl -pi -e 's/<div class="nombre_dip">(.+?)<\/div>/XXZZnameYYWW$1XXZZ\/nameYYWW/g' *.html
+
+
+
+
+#Para etiquetar género masculino y constituency
+
+
+perl -pi -e 's/<div class="dip_rojo">(\s|\t)*?Diputado por(\s|\t)*?(.*?)\.*?(\s|\t)*?<\/div>/XXZZgenderYYWWmaleXXZZ\/genderYYWWXXZZconstituencyYYWW$3XXZZ\/constituencyYYWW/g' *.html
+
+
+
+
+#Para etiquetar género femenino y constituency
+
+
+perl -pi -e 's/<div class="dip_rojo">(\s|\t)*?Diputada por(\s|\t)*?(.*?)\.*?(\s|\t)*?<\/div>/XXZZgenderYYWWfemaleXXZZ\/genderYYWWXXZZconstituencyYYWW$3XXZZ\/constituencyYYWW/g' *.html
+
+
+
+
+#Etiquetar el partido
+
+
+perl -pi -e 's/<p class="nombre_grupo">(.*?)<\/p>/XXZZpartido_nacionalYYWW$1XXZZ\/partido_nacionalYYWW/g' *.html
+
+
+#Etiquetar el grupo
+
+
+perl -pi -e 's/<div class="dip_rojo"><a href=.*?class=.. >(.*?)<\/a><\/div>/
+XXZZgrupo_europeoYYWW$1XXZZ\/grupo_europeoYYWW/g' *.html
+
+
+#Etiquetar fecha y lugar de nacimiento. SOLO HAY MEMORIA PARA 9 REEMPLAZOS ES DECIR $9. \W cubre los casos de (\s|\t)
+
+
+perl -pi -e 's/<li>\W*?Nacid.\W+?el\W+?(\d+)\W+?de\W+?(.*?)\W+?de\W+?(\d+)\W+?en\W+?(.*?)\p{Z}+<\/li>/XXZZfecha_nacimientoYYWW$1 de $2 de $3XXZZ\/fecha_nacimientoYYWWXXZZlugar_nacimientoYYWW$4XXZZ\/lugar_nacimientoYYWW/g' *.html
+
+
+
+
+#Etiquetar legislatura
+perl -pi -e 's/<div class="principal">(.*?)<\/div>/XXZZlegislaturaYYWW$1XXZZ\/legislaturaYYWW/g' *.html
+
+
+#Etiquetar descripción personal
+
+
+perl -pi -e 's/<li>\p{Z}*?(.*?)\.*?<\/li>\W+?<li><\/li><br>/XXZZdescripcion_personalYYWW$1XXZZ\/descripcion_personalYYWW/g' *.html
+
+
+# Eliminar texto en rojo
+
+
+perl -pi -e 's/<\!--(.*?)-->//g' *.html
+
+
+#Para borrar html innecesario
+
+
+perl -pi -e 's/<.*?>//g' *.html
+
+
+#NUEVA Para borrar entre body y Schedule
+
+
+perl -pi -e 's/body.*?Schedule//g' *.html
+
+
+# Cambiar nuevas etiquetas a formato XML
+
+
+perl -pi -e 's/XXZZ/</g' *.html
+
+
+perl -pi -e 's/YYWW/>/g' *.html
+
+
+#Cambiar \t por \s
+
+
+perl -pi -e 's/\t/ /g' *.html
+
+
+#Cambiar \n por \s
+
+
+perl -pi -e 's/\n/ /g' *.html
+
+
+#Quitar \s innecesarias
+
+
+perl -pi -e 's/(\p{Z})(\p{Z})+/$1/g' *.html
+
+
+
+
+#Quitar \s innecesarias después de > innecesarias para que no haya espacios en blanco innecesarios
+
+
+perl -pi -e 's/(>)\s+?/$1/g' *.html
+
+
+#Quitar Ficha personal
+
+
+perl -pi -e 's/Ficha personal//g' *.html
+
+
+#Repetir nombre y separar del resto con \t
+
+
+perl -pi -e 's/(<datos_diputado>)(<partido_nacional>.*?<\/partido_nacional>)(<legislatura>.*? <\/legislatura>)(<name>.*?<\/name>)(<gender>.*?<\/gender>)(<constituency>.*?<\/constituency>)(<grupo_europeo>.*?<\/grupo_europeo>)/$1\n$4\t$4$5$6$2$7$3/g' *.html
+
+
+#Añadir \n delante de <\datos_diputado>
+perl -pi -e 's/(<\/Cargos_ocupados>)(<\/datos_diputado>)/$1\n$2/g' *.html
+
+
+#Pegar denominación xml al principio del documento
+
+
+perl -pi -e 's/^^(<datos_diputado>)/<\?xml version="1\.0" encoding=\"UTF-8\" standalone="no"\?>\n<\!DOCTYPE ecpc_EP SYSTEM "ep\.dtd">/g' *.html
+
+
+#Para eliminar &nbsp; y cambiar por espacio en blanco
+
+
+perl -pi -e 's/\&nbsp;/ /g' *.html
+
+
+
+
+
+
+#---------------------------------------------------------------------------
+#Pegar todos los documentos
+#cat *.html > total.xml
+____________________________________________________________________________
+___________________________________________________________________________
+__________________________________________________________________________
+
+
+SERVIDOR XTRAD
+
+
+
+
+en cygwin (consola)
+
+
+ssh ecpc.xtrad.uji.es -p 22 -l administrador
+
+
+
+
+yes
+
+
+password
+tradd1107
+
+
+
+
+_______________________
+
+
+pwd
+ls
+
+
+(para alinear)
+en la carpeta Intertext
+
+
+programa TCA2 / Hunalign
+usaremos TCA2, está dentro del Intertext (interfaz)
+
+
+
+
+(para consultar)
+cd anders
+cd glosa
+ls
+
+
+en Researchers creamos una carpeta para nosotros
+(make dir)
+mkdir Fernando
+
+
+__________________________
+subir documentos comprimidos .tar.gz
+google: comprimir descomprimir utilerias
+
+
+Comprimir el archivo en .tar.gz
+tar czvf XXX_Instrucciones.tar.gz ./XXX_Instrucciones
+
+
+
+
+subir el archivo al servidor xtrad
+scp -P 22 ./XXX_Instrucciones.tar.gz administrador@ecpc.xtrad.uji.es:/home/administrador/Researchers/Fernando
+
+
+__________________________________
+
+
+Administrador@LGD /cygdrive/c
+$ ssh ecpc.xtrad.uji.es -p 22 -l administrador
+administrador@ecpc.xtrad.uji.es's password:
+Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic x86_64)
+
+
+ * Documentation:  https://help.ubuntu.com/
+
+
+  System information as of Tue Apr 29 17:50:34 CEST 2014
+
+
+  System load:  0.05                 Processes:               204
+  Usage of /:   9.1% of 5.32TB   Users logged in:         1
+  Memory usage: 65%                  IP address for eth0: 192.168.11.3
+  Swap usage:   0%
+
+
+  Graph this data and manage this system at https://landscape.canonical.com/
+
+
+417 packages can be updated.
+240 updates are security updates.
+
+
+Last login: Tue Apr 29 17:12:47 2014 from 10.1.3.69
+administrador@ecpc:~$ ls
+anders               CLARE                        CORELAT         EuroVoc             general_documentation  InterText-2.0          Researchers  turicorp.tar.gz
+backup               concECPC                     DemoCorpus  EuroVoc.tar.gz  glossa                     InterText-2.0.zip  tmp              WordSmith_6
+bootstrap.sh         concecpc-fullbackup.tgz  ECPC            exclude.txt         hardcopy.1                 old                    treetagger
+caracteristicas  concecpc-setup.tgz           EMPAC           exclude.txt~        InterText                  packages               TURICORP
+administrador@ecpc:~$ ECPC
+ECPC: command not found
+administrador@ecpc:~$ cd ECPC
+administrador@ecpc:~/ECPC$ ls
+01_ECPC_HTTRACK_DISCURSOS.zip  02_ECPC_COMPLETO_HTML.zip  03_ECPC05.zip            CD                   EP_2004_2011        HC            Readme_ECPC.txt
+02_ECPC_COMPLETO_HTML              03_ECPC05                      1996_2003_es-en.tgz  Corpus 1993.zip  EUconst.tar.gz  __MACOSX  Readme_ECPC.txt~
+administrador@ecpc:~/ECPC$ ls
+01_ECPC_HTTRACK_DISCURSOS.zip  02_ECPC_COMPLETO_HTML.zip  03_ECPC05.zip            CD                   EP_2004_2011        HC            Readme_ECPC.txt
+02_ECPC_COMPLETO_HTML              03_ECPC05                      1996_2003_es-en.tgz  Corpus 1993.zip  EUconst.tar.gz  __MACOSX  Readme_ECPC.txt~
+administrador@ecpc:~/ECPC$ 02_ECPC_COMPLETO_HTML/
+-bash: 02_ECPC_COMPLETO_HTML/: Es un directorio
+administrador@ecpc:~/ECPC$ cd 02_ECPC_COMPLETO_HTML/
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML$ ls
+CD  DOCS_ZIP  ECPC_F.iso  EP  hc_con_Nino  HC_sin_Nino  Readme_ECPC_COMPLETO.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML$ cd CD
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ls
+CD04  CD06  CD07  CD08  CD09  cd_dip  cd-release-2-1.tar.gz  CDrenombrar.pl  README.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ vim README.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ls
+CD04  CD06  CD07  CD08  CD09  cd_dip  cd-release-2-1.tar.gz  CDrenombrar.pl  README.rtf
+
+
+_________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________
+
+
+Información extra:
+
+
+Servidor ECPC en la UJI:
+
+
+ecpc.xtrad.uji.es
+
+
+Filezilla
+https://filezilla-project.org/
+
+
+Cursos Online (tipo MOOC), informática, programación básica, etc
+
+
+* Coursera.org 
+* Edx
+* Udacity

@@ -1,0 +1,237 @@
+1. SE ABREN DOS SPEECHES DIFERENTES CON DOS LENGUAS DIFERENTES. ESTO SE DEBE A QUE EL ORADOR HABLAR EN DOS LENGUAS
+
+EJEMPLO
+
+<intervention ref="inXY">
+<speaker>
+<name>Pat the Cope Gallagher</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group="ALDE"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN">Mr President, Haiti is a country in desperate need of help – whether it be medicine, food, water or shelter – at critical levels.
+
+<speech ref="spXY" language="GA">
+Many people in the area affected by the earthquake are waiting for help that has not yet arrived. The European Union must be to the forefront of the international response aimed at providing support and help to the people of Haiti.
+
+To help alleviate the growing problem of food shortages, I strongly urge the European Commission to include food aid – such as processed canned fish products – as part of the EU response for the people of Haiti. I know that canned fish products are high in protein, have a long shelf-life and could be provided at short notice, as they were in the past.
+
+<speech ref="spXY" language="GA">
+As such, I ask the European Commission and the Commissioners, particularly those that are responsible for development aid and fisheries, to consider this proposal as a matter of urgency.
+
+Mr President, thank you very much for your indulgence.
+</speech>
+</intervention>
+
+
+SOLUCIÓN: SE CIERRA SPEECH ANTES DE QUE SE ABRA DE NUEVO SPEECH. EL EJEMPLO ANTERIOR QUEDARÍA ASÍ:
+
+
+<intervention ref="inXY">
+<speaker>
+<name>Pat the Cope Gallagher</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group="ALDE"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN">Mr President, Haiti is a country in desperate need of help – whether it be medicine, food, water or shelter – at critical levels.
+</speech>
+<speech ref="spXY" language="GA">
+Many people in the area affected by the earthquake are waiting for help that has not yet arrived. The European Union must be to the forefront of the international response aimed at providing support and help to the people of Haiti.
+
+To help alleviate the growing problem of food shortages, I strongly urge the European Commission to include food aid – such as processed canned fish products – as part of the EU response for the people of Haiti. I know that canned fish products are high in protein, have a long shelf-life and could be provided at short notice, as they were in the past.
+</speech>
+
+<speech ref="spXY" language="GA">
+As such, I ask the European Commission and the Commissioners, particularly those that are responsible for development aid and fisheries, to consider this proposal as a matter of urgency.
+
+Mr President, thank you very much for your indulgence.
+</speech>
+</intervention>
+
+
+-----------------------------------------------------------------------------
+2. EL PROBLEMA SE PRODUCE CON EL PRESIDENTE QUE APARECE ETQUETADO COMO WRITER CUANDO ES SPEAKER. EL PRESIDENTE (CASI) SIEMPRE ES SPEAKER. 
+
+EJEMPLO
+
+
+<intervention ref="inXY">
+<writer>
+<name>UNKNOWN</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="UNKNOWN"/>
+</affiliation>
+<post>President</post>
+</speaker>
+<speech ref="spXY" language="UNKNOWN">
+The next item is the Commission statement on EU-Tunisia relations.
+</speech>
+</intervention>
+
+SOLUCIÓN
+
+CAMBIAR <writer> por <speaker>. 
+
+QUEDARIÁ ASÍ:
+
+<intervention ref="inXY">
+<speaker>
+<name>UNKNOWN</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="UNKNOWN"/>
+</affiliation>
+<post>President</post>
+</speaker>
+<speech ref="spXY" language="UNKNOWN">
+The next item is the Commission statement on EU-Tunisia relations.
+</speech>
+</intervention>
+
+--------------------------------------------------------------------------------
+
+2. NO ESTÁN BIEN CERRADAS LAS ETIQUETAS
+
+<ep group=UNKNOWN</name>
+
+SOLUCIÓN: ASEGURARNOS DE QUE TODAS LAS ETIQUETAS DESDE INTERVENCIÓN ESTÁN BIEN CERRADAS. ESTA EN CONCRETO QUEDA ASÍ:
+
+<ep group="UNKNOWN"/>
+
+--------------------------------------------------------------------------------
+3. SE PRODUCE UNA CONFUSIÓN ENTRE WRITER Y SPEAKER CUANDO EL NATIONAL PARTY PRESENTA EL ERROR DE UNKNONW EN VEZ DE UNKNOWN. 
+
+<intervention ref="inXY">
+<writer>
+<name>Edward Scicluna</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</writer>
+<writing ref="wrXY" language="FI">
+Mr President, it is regrettable that there are so many different conflicts in the world dressed up in the guise of religion. In this connection, it has to be said that there are very many different fundamentalist trends in the world in connection with the Christian, Islamic and other religions. Personally, I have encountered fewer of these fundamentalist aspirations with Buddhism. In any case, it is important that the European Parliament adopts a position when these kinds of violent episodes between religious groups occur.
+
+[...]
+<omit>(Applause)</omit>
+</speech>
+</intervention>
+
+Para saber si es speaker or writer copiar parte del párrafo en google, acceder a la página web y ver si es speaker o writer. Aquí parece que sería writer porque hay aplausos. 
+
+OTRO EJEMPLO DE LO ANTERIOR
+
+<intervention ref="inXY">
+<writer>
+<name>Cătălin Sorin Ivan</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</writer>
+<writing ref="wrXY" language="LT">
+If a Central European citizen were asked what is happening in the Philippines, he probably would not be able to answer and would say that there is nothing about it on television, so things are probably calm there. However, political murders, clan warfare, people being buried alive, chainsaw massacres, a state of war − this is everyday life in the Philippines. Quite recently, 57 people were murdered, half of them journalists. That is the biggest ever death toll among journalists in the world. We call on the government, we demand that it immediately stop such occurrences, disband the private militias and finally put an end to impunity. This is particularly important during the upcoming elections.
+</speech>
+</intervention>
+
+OTRO EJEMPLO
+
+<intervention ref="inXY">
+<speaker>
+<name>Wojciech Michał Olejniczak</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</writer>
+<writing ref="wrXY" language="EN">
+
+
+SOLUCIÓN CON REGEX (SI AL FINAL SE DEMUESTRA QUE SON SPEECHES)
+
+(<intervention ref="inXY">QWQWÑLÑL)
+<writer>QWQWÑLÑL
+(<name>.+?<\/name>QWQWÑLÑL
+<affiliation>QWQWÑLÑL
+<national_party>)UNKNONW(<\/national_party>QWQWÑLÑL
+<ep group=")(PPE|S_and_D|ALDE|Verts-ALE|ECR|GUE-NGL|EFD|NI|UNKNOWN|NA)("\/>QWQWÑLÑL
+<\/affiliation>QWQWÑLÑL
+<post>.+?<\/post>QWQWÑLÑL)
+<\/writer>QWQWÑLÑL
+<writing( ref="wrXY" language="FI">)
+
+$1<speaker>QWQWÑLÑL$2UNKNOWN$3$4$5<\/speaker>QWQWÑLÑL<speech$6
+
+
+
+SOLUCIÓN CON REGEX (SI AL FINAL SE DEMUESTRA QUE SON SPEECHES)
+
+(<intervention ref="inXY">QWQWÑLÑL)
+<writer>QWQWÑLÑL
+(<name>.+?<\/name>QWQWÑLÑL
+<affiliation>QWQWÑLÑL
+<national_party>)UNKNONW(<\/national_party>QWQWÑLÑL
+<ep group=")(PPE|S_and_D|ALDE|Verts-ALE|ECR|GUE-NGL|EFD|NI|UNKNOWN|NA)("\/>QWQWÑLÑL
+<\/affiliation>QWQWÑLÑL
+<post>.+?<\/post>QWQWÑLÑL)
+<\/writer>QWQWÑLÑL
+<writing( ref="wrXY" language="FI">)
+
+$1<speaker>QWQWÑLÑL$2UNKNOWN$3$4$5<\/speaker>QWQWÑLÑL<speech$6
+
+
+SOLUCIÓN SI SE DEMUESTRA QUE ES WRITING 
+
+(<intervention ref="inXY">QWQWÑLÑL
+<writer>QWQWÑLÑL
+<name>.+?<\/name>QWQWÑLÑL
+<affiliation>QWQWÑLÑL
+<national_party>)UNKNONW(<\/national_party>QWQWÑLÑL
+<ep group=")(PPE|S_and_D|ALDE|Verts-ALE|ECR|GUE-NGL|EFD|NI|UNKNOWN|NA)("\/>QWQWÑLÑL
+<\/affiliation>QWQWÑLÑL
+<post>.+?<\/post>QWQWÑLÑL
+<\/writer>QWQWÑLÑL
+<writing ref="wrXY" language="FI">.+?)<\/speech>QWQWÑLÑL<\/intervention>
+
+$1UNKNOWN$2$3$4<\/writing>QWQWÑLÑL<\/intervention>
+
+--------------------------------------------------------------------------------
+4. 
+
+<intervention ref="inXY">
+<writer>
+<name>Artur Zasada
+</name>
+<affiliation>
+<national_party>UNKNONW</national_party>
+<ep group=Artur Zasada
+PPE/>
+</affiliation>
+<post>NA</writer>
+<writing ref="wrXY" language="EN">
+
+<ep group=Artur Zasada
+
+Buscar este orador en el mismo documento. Si no está, copiar y pegar parte de su discurso e identificar en Internet el grupo del PE al que pertenece
+
+--------------------------------------------------------------------------------
+
+5. EL OMIT ESTÁ MAL ETIQUETADO. APARECE POR EJEMPLO UN POST ENTRE MEDIAS. SE QUITA LA ETIQUETA SOBRANTE
+
+EJEMPLO:
+
+<omit>(
+<post>The speaker agreed to take a blue card question under Rule 149(8)</omit>)
+
+
+SOLUCIÓN
+
+<omit>The speaker agreed to take a blue card question under Rule 149(8)</omit>)

@@ -1,0 +1,670 @@
+﻿EXPRESIONES REGULARES CONGRESO DE LOS DIPUTADOS
+
+
+
+
+#Para poner todo el texto en una línea
+#Para Borrar información no necesaria antes de los datos del diputado
+#Para Borrar información no necesaria después de los datos del diputado
+#Para poner nuestra etiqueta de nombre
+#Para etiquetar género masculino y constituency
+#Para etiquetar género femenino y constituency
+#Etiquetar el partido
+#Etiquetar el grupo
+#Etiquetar fecha y lugar de nacimiento
+#Etiquetar legislatura
+#Etiquetar descripción personal
+# Eliminar texto en rojo
+#Para borrar html innecesario
+#Quitar \n innecesarias
+#Repetir nombre y separar del resto con \t
+INSTRUCCIONES
+#SCRIPT EN SH
+#Para poner todo el texto en una línea
+#Para Borrar información no necesaria antes de los datos del diputado
+#Para Borrar información no necesaria después de los datos del diputado
+#Para poner nuestra etiqueta de nombre
+#Para etiquetar género masculino y constituency
+#Para etiquetar género femenino y constituency
+#Etiquetar el partido
+#Etiquetar el grupo
+#Etiquetar fecha y lugar de nacimiento
+#Etiquetar legislatura
+#Etiquetar descripción personal
+# Eliminar texto en rojo
+#Para borrar html innecesario
+#Quitar \n innecesarias
+#Repetir nombre y separar del resto con \t
+mp_cd_regex.sh
+
+
+
+
+#Para poner todo el texto en una línea
+
+
+Find:
+
+
+(\n|\r)+
+Para más comodidad Buffer\ Global Options , Word wrap (soft)
+
+
+Replace:
+
+
+
+
+#Para Borrar información no necesaria antes de los datos del diputado
+
+
+Find:
+^.*<div id=“(datos_diputado)">
+
+
+Replace:
+
+
+XXZZ$1YYWW
+
+
+Esto equivale a:
+
+
+XXZZdatos_diputadoYYWW
+
+
+#Para Borrar información no necesaria después de los datos del diputado
+
+
+Find
+
+
+<li class="regact_dip">.*$
+
+
+
+
+Replace
+
+
+XXZZ/fin_datos_diputadoYYWW
+
+
+#Para poner nuestra etiqueta de nombre
+
+
+Find:
+
+
+<div class="nombre_dip">(.+?)<\/div>(\s)
+
+
+
+
+Replace:
+
+
+XXZZnameYYWW$1XXZZ/nameYYWW$2
+
+
+
+
+#Para etiquetar género masculino y constituency
+
+
+Find:
+
+
+<div class="dip_rojo">(\s|\t)+Diputado por(\s|\t)+(.*?)(\W)(\s|\t)+</div>
+
+
+Replace:
+
+
+XXZZgenderYYWWmaleXXZZ/genderYYWW\nXXZZconstituencyYYWW$3XXZZ/constituencyYYWW
+
+
+#Para etiquetar género femenino y constituency
+
+
+Find:
+
+
+<div class="dip_rojo">(\s|\t)+Diputada por(\s|\t)+(.*?)(\W)(\s|\t)+</div>
+
+
+Replace
+
+
+XXZZgenderYYWWfemaleXXZZ/genderYYY
+
+
+XXZZconstituencyYYWW$3XXZZ/constituencyYYWW
+
+
+#Etiquetar el partido
+
+
+Find:
+<p class="nombre_grupo">(.*?)</p>(\s)
+
+
+Replace:
+XXZZpartido_nacionalYYWW$1XXZZ/partido_nacionalYYWW$2
+
+
+#Etiquetar el grupo 
+
+
+Find:
+
+
+<div class="dip_rojo"><a href='BusqFormda\d+?a\.html\?_piref\d+?_\d+?_\d+?_\d+?_\d+?\.next_page=/wc/composicionGrupo\&amp;idGrupo=\d’ class='' >(.*?)</a></div>
+
+
+Replace:
+XXZZgrupo_europeoYYWW$1XXZZ/grupo_europeoYYWW
+#Etiquetar fecha y lugar de nacimiento
+
+
+Find:
+<li>(\s|\t)+Nacid.(\s|\t)+el(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+en(.*?)(\W)(\s|\t)+</li>
+
+
+Replace:
+XXZZfecha_nacimientoYYWW$4 de $7 de $10XXZZ/fecha_nacimientoYYWW
+XXZZlugar_nacimientoYYWW$12XXZZ/lugar_nacimientoYYWW
+
+
+
+
+
+
+#Etiquetar legislatura
+
+
+Find:
+<div class="principal">(.*?)</div>(\s)
+
+
+Replace:
+XXZZlegislaturaYYWW$1XXZZ/legislaturaYYWW$2
+
+
+
+
+
+
+#Etiquetar descripción personal
+
+
+
+
+Find:
+<li>(.*?)</li>(\s|\t)+<li>(.*?)<br>(.*?)<br> (.*?)</li>(\s)
+
+
+Replace:
+XXZZdescripción_personalYYWW$1$3$4$5XXZZ/descripción_personalYYWW$6
+
+
+
+
+
+
+# Eliminar texto en rojo
+
+
+Find:
+<!--(.*?)-->
+
+
+Replace:
+
+
+
+
+
+
+
+
+#Para borrar html innecesario
+Find:
+
+
+<.*?>
+
+
+Replace
+
+
+
+
+Find:
+
+
+<!--.*-->
+
+
+Replace:
+
+
+
+
+Find:
+
+
+XXZZ
+
+
+Replace
+<
+
+
+Find:
+YYWW
+
+
+Replace
+>
+
+
+#Quitar \n innecesarias
+
+
+Find:
+\n
+
+
+Replace
+
+
+\s
+
+
+#Quitar \s innecesarias después de > innecesarias para que no haya espacios en blanco innecesarios
+
+
+Find:
+(>\s)\s+?
+
+
+Replace:
+$1
+#Repetir nombre y separar del resto con \t
+
+
+Find:
+
+
+(<datos_diputado>\s<partido_nacional>.*?</partido_nacional>\s<legislatura>.*? <legislatura>\s)(<name>.*?</name>)
+
+
+Replace
+
+
+$2\t$1$2
+___________________________________________________________________________
+
+
+INSTRUCCIONES
+
+
+AL PASAR DE REGEX
+A UN SCRIPT
+HAY QUE ESCAPAR MÁS COSAS
+POR EJEMPLO
+"
+será \"
+y '
+será \'
+
+
+y sobre todo /
+será \/
+
+
+entonces vuestra faena es
+copiar y pegar el ONLINER
+y meter
+el find
+entre las dos priemras barras
+y el replace entre las dos segundas
+si no sale con los colores que tocan
+es que tenéis que escapar algo
+por ejemplp
+XXZZ/$1YYWW
+no sale
+tenéis que poner
+XXZZ\/$1YYWW
+puede pasar lo mismo comillas
+
+
+_____________________
+
+
+para que quede todo como ha de quedar
+es copiar el onliner
+perl -pi -e 's///g' .html
+
+
+
+
+(nóteses que no le ponemos la almohadilla delante)
+yes
+y luego
+Copias la expresión del find y la pegas entre las dos primeras barras
+lo mismo con el replace y las dos últimas barras
+si los colores NO os salen como en el primer apartado
+es porque hay simbolos raros con los que .sh tiene problemas
+por tanto tienes que
+escapar esos símbolos
+por ejemplo si hay
+'
+tienes que poner \'
+
+
+
+
+
+
+#SCRIPT EN SH
+
+
+#!/bin/sh
+#Este script para extraer la información de los diputados del CD
+#autores: ace, fg, mc
+#fecha: 27/03/2014 (en magdalena festa plena)
+#perl -pi -e ‘s///g’ .html
+
+
+#Para poner todo el texto en una línea
+
+
+perl -pi -e ‘s/(\n|\r)+//g’ .html
+
+
+#Para Borrar información no necesaria antes de los datos del diputado
+
+
+
+
+perl -pi -e 's/^.*<div id=“(datos_diputado)">/XXZZ$1YYWW/g' *.html
+Esto equivale a:
+
+
+XXZZdatos_diputadoYYWW
+
+
+#Para Borrar información no necesaria después de los datos del diputado
+
+
+Find
+
+
+<li class="regact_dip">.*$
+
+
+
+
+Replace
+
+
+XXZZ/fin_datos_diputadoYYWW
+
+
+#Para poner nuestra etiqueta de nombre
+
+
+Find:
+
+
+<div class="nombre_dip">(.+?)<\/div>(\s)
+
+
+
+
+Replace:
+
+
+XXZZnameYYWW$1XXZZ/nameYYWW$2
+
+
+
+
+#Para etiquetar género masculino y constituency
+
+
+Find:
+
+
+<div class="dip_rojo">(\s|\t)+Diputado por(\s|\t)+(.*?)(\W)(\s|\t)+</div>
+
+
+Replace:
+
+
+XXZZgenderYYWWmaleXXZZ/genderYYWW\nXXZZconstituencyYYWW$3XXZZ/constituencyYYWW
+
+
+#Para etiquetar género femenino y constituency
+
+
+Find:
+
+
+<div class="dip_rojo">(\s|\t)+Diputada por(\s|\t)+(.*?)(\W)(\s|\t)+</div>
+
+
+Replace
+
+
+XXZZgenderYYWWfemaleXXZZ/genderYYY
+
+
+XXZZconstituencyYYWW$3XXZZ/constituencyYYWW
+
+
+#Etiquetar el partido
+
+
+Find:
+<p class="nombre_grupo">(.*?)</p>(\s)
+
+
+Replace:
+XXZZpartido_nacionalYYWW$1XXZZ/partido_nacionalYYWW$2
+
+
+#Etiquetar el grupo 
+
+
+Find:
+
+
+<div class="dip_rojo"><a href='BusqFormda\d+?a\.html\?_piref\d+?_\d+?_\d+?_\d+?_\d+?\.next_page=/wc/composicionGrupo\&amp;idGrupo=\d’ class='' >(.*?)</a></div>
+
+
+Replace:
+XXZZgrupo_europeoYYWW$1XXZZ/grupo_europeoYYWW
+#Etiquetar fecha y lugar de nacimiento
+
+
+Find:
+<li>(\s|\t)+Nacid.(\s|\t)+el(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+en(.*?)(\W)(\s|\t)+</li>
+
+
+Replace:
+XXZZfecha_nacimientoYYWW$4 de $7 de $10XXZZ/fecha_nacimientoYYWW
+XXZZlugar_nacimientoYYWW$12XXZZ/lugar_nacimientoYYWW
+
+
+
+
+
+
+#Etiquetar legislatura
+
+
+Find:
+<div class="principal">(.*?)</div>(\s)
+
+
+Replace:
+XXZZlegislaturaYYWW$1XXZZ/legislaturaYYWW$2
+
+
+
+
+
+
+#Etiquetar descripción personal
+
+
+
+
+Find:
+<li>(.*?)</li>(\s|\t)+<li>(.*?)<br>(.*?)<br> (.*?)</li>(\s)
+
+
+Replace:
+XXZZdescripción_personalYYWW$1$3$4$5XXZZ/descripción_personalYYWW$6
+
+
+
+
+
+
+# Eliminar texto en rojo
+
+
+Find:
+<!--(.*?)-->
+
+
+Replace:
+
+
+
+
+
+
+
+
+#Para borrar html innecesario
+Find:
+
+
+<.*?>
+
+
+Replace
+
+
+
+
+Find:
+
+
+<!--.*-->
+
+
+Replace:
+
+
+
+
+Find:
+
+
+XXZZ
+
+
+Replace
+<
+
+
+Find:
+YYWW
+
+
+Replace
+>
+
+
+#Quitar \n innecesarias
+
+
+Find:
+\n
+
+
+Replace
+
+
+\s
+
+
+#Quitar \s innecesarias después de > innecesarias para que no haya espacios en blanco innecesarios
+
+
+Find:
+(>\s)\s+?
+
+
+Replace:
+$1
+#Repetir nombre y separar del resto con \t
+
+
+Find:
+
+
+(<datos_diputado>\s<partido_nacional>.*?</partido_nacional>\s<legislatura>.*? <legislatura>\s)(<name>.*?</name>)
+
+
+Replace
+
+
+$2\t$1$2
+
+
+
+
+___________________________________________________________________________
+
+
+mp_cd_regex.sh 
+
+
+
+
+#!/bin/sh
+#Este script para extraer la información de los diputados del CD
+#autores: ace, fg, mc
+#fecha: 27/03/2014 (en magdalena festa plena)
+#perl -pi -e ‘s///g’ .html
+'
+perl -pi -e ‘s/(\n|\r)+//g’ .html
+perl -pi -e ‘s/^.*<div id=“(datos_diputado)">/XXZZ$1YYWW/g’ *.html
+perl -pi -e ‘s/<li class="regact_dip">.*$/XXZZ\/fin_datos_diputadoYYWW/g’ *.html
+perl -pi -e ‘s/<div class="nombre_dip">(.+?)<\/div>(\s)/XXZZnameYYWW$1XXZZ\/nameYYWW$2/g’ *.html
+perl -pi -e ‘s/<div class="nombre_dip">(.+?)<\/div>(\s)/XXZZnameYYWW$1XXZZ\/nameYYWW$2/g’ *.html
+perl -pi -e ‘s/<div class="dip_rojo">(\s|\t)+Diputado por(\s|\t)+(.*?)(\W)(\s|\t)+</div>/XXZZgenderYYWWmaleXXZZ\/genderYYWW\nXXZZconstituencyYYWW$3XXZZ\/constituencyYYWW/g’ *.html
+perl -pi -e ‘s/<div class="dip_rojo">(\s|\t)+Diputada por(\s|\t)+(.*?)(\W)(\s|\t)+</div>/XXZZgenderYYWWfemaleXXZZ\/genderYYY\nXXZZconstituencyYYWW$3XXZZ\/constituencyYYWW/g’ *.html
+perl -pi -e ‘s/<p class="nombre_grupo">(.*?)</p>(\s)/XXZZpartido_nacionalYYWW$1XXZZ\/partido_nacionalYYWW$2/g’ *.html
+perl -pi -e ‘s/<div class="dip_rojo"><a href=BusqFormda\d+?a\.html\?_piref\d+?_\d+?_\d+?_\d+?_\d+?\.next_page=\/wc\/composicionGrupo\&amp;idGrupo=\d’ class='' >(.*?)<\/a><\/div>/XXZZgrupo_europeoYYWW$1XXZZ\/grupo_europeoYYWW/g’ *.html
+perl -pi -e ‘s/<li>(\s|\t)+Nacid.(\s|\t)+el(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+de(\s|\t)+(.*?)(\s|\t)+en(.*?)(\W)(\s|\t)+</li>/XXZZfecha_nacimientoYYWW$4 de $7 de $10XXZZ\/fecha_nacimientoYYWW\nXXZZlugar_nacimientoYYWW$12XXZZ\/lugar_nacimientoYYWW/g’ *.html
+perl -pi -e ‘s/<div class="principal">(.*?)<\/div>(\s)/XXZZlegislaturaYYWW$1XXZZ\/legislaturaYYWW$2/g’ *.html
+perl -pi -e ‘s/<li>(.*?)<\/li>(\s|\t)+<li>(.*?)<br>(.*?)<br> (.*?)<\/li>(\s)/XXZZdescripción_personalYYWW$1$3$4$5XXZZ\/descripción_personalYYWW$6/g’ *.html
+perl -pi -e ‘s/<!--(.*?)-->//g’ *.html
+perl -pi -e ‘s/<.*?>//g’ *.html
+perl -pi -e ‘s/<!--.*-->//g’ *.html
+perl -pi -e ‘s/XXZZ/</g’ *.html
+perl -pi -e ‘s/YYWW/>/g’ *.html
+perl -pi -e ‘s/\n/\s/g’ *.html
+perl -pi -e ‘s/(>\s)\s+?/$1/g’ *.html
+perl -pi -e ‘s/(<datos_diputado>\s<partido_nacional>.*?<\/partido_nacional>\s<legislatura>.*? <legislatura>\s)(<name>.*?<\/name>)/$2\t$1$2/g’ *.html
+'
+#En "etiquetar el grupo" (línea rosa 9) he tenido que eliminar un ' delante de Busqform, no me deja escaparlo

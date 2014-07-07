@@ -1,0 +1,48 @@
+1. Eliminar todos los \n\n y reemplazarlos por \n
+
+2. UNKNONW --> UNKNOWN
+
+perl -pi -e 's/UNKNONW/UNKNOWN/g' *.xml
+
+
+1. Enumerar las intervenciones de acuerdo a las instrucciones de Nino (xmlnumberer)
+2. Enumerar los speeches|writings|writing_COMMON de acuerdo con las instrucciones de nino (xmlnumberer)
+
+3. Quitar  dos espacios en blanco en y reemplazar por uno
+<speech id='sp1'  language="UNKNOWN">
+
+perl -pi -e 's/(<speech id=.sp\d+.)  (language)/$1 $2/g' *.xml
+perl -pi -e 's/(<writing id=.wr\d+.)  (language)/$1 $2/g' *.xml
+perl -pi -e 's/(<writing_COMMON id=.wrc\d+.)  (language)/$1 $2/g' *.xml
+
+4. Enumerar párrafos y frases de acuerdo con tagsentences_instructions
+
+5. Eliminar párrafos y frases innecesarias 
+
+perl -pi -e 's/<pa id=.p\d+.><se id=.se\d+.>(<intervention id=.in\d+.>|<speaker>|<\/speaker>|<writer>|<\/writer>|<COMMON_writer>|<\/COMMON_writer>|<name>.+?<\/name>|<affiliation>|<national_party>UNKNOWN<\/national_party>|<ep group=.+?\/>|<\/affiliation>|<post>.+?<\/post>|<speech id=.sp\d+. language=.\p{Lu}+.>|<writing id=.wr\d+. language=.\p{Lu}+.>|<writing_COMMON id=.wrc\d+. language=.\p{Lu}+.>|<\/speech>|<\/writing_COMMON>|<\/writing_COMMON>|<\/intervention>)<\/se><\/pa>/$1/g' *.xml
+
+<pa id='p344'><se id='se1030'><name>Paulo Rangel</se></pa>
+<pa id='p345'><se id='se1031'></name></se></pa>
+
+perl -pi -e 's/<pa id=.p\d+.><se id=.se\d+.>(<name>)/$1/g' *.xml
+
+perl -0777 -pi -e 's/<\/se><\/pa>\n<pa id=.p\d+.><se id=.se\d+.>(<\/name>)<\/se><\/pa>/$1/g' *.xml
+
+<pa id='p1400'><se id='se4607'><speech id='sp271' language="EN">
+<pa id='p735'><se id='se2119'><writing id='wr98' language="EN">
+
+perl -pi -e 's/(<pa id=.p\d+.><se id=.se\d+.>)(<speech id=.sp\d+. language=.\p{Lu}+.>)(\p{Lu})/$2$1$3/g' *.xml
+
+perl -pi -e 's/(<pa id=.p\d+.><se id=.se\d+.>)(<writing id=.wr\d+. language=.\p{Lu}+.>)(\p{Lu})/$2$1$3/g' *.xml
+
+6. Volver a numerar:
+6.1. for paragraphs:
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e pa -a id -p p -n; done;
+6.2. for sentences:
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e se -a id -p se -n; done;
+
+7. Pasar xmllint
+
+8. Volver a numerar
+
+9. Pasar xmllint
