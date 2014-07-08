@@ -1,0 +1,81 @@
+<!ELEMENT ecpc_EP ( header, body+, back* ) >
+
+
+<!ELEMENT header ( legislature, title, label, date, place, edition, index ) >
+<!ATTLIST header filename CDATA #REQUIRED >
+<!ATTLIST header language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV) #REQUIRED >
+
+<!ELEMENT legislature ( #PCDATA ) >
+<!ATTLIST legislature begin CDATA #REQUIRED >
+<!ATTLIST legislature end CDATA #REQUIRED >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT label ( #PCDATA ) >
+
+<!ELEMENT date ( #PCDATA ) >
+
+<!ELEMENT place ( #PCDATA ) >
+
+<!ELEMENT edition ( #PCDATA ) >
+
+<!ELEMENT index ( indextitle, indexitem+ ) >
+
+<!ELEMENT indextitle ( #PCDATA ) >
+<!ELEMENT indexitem ( #PCDATA ) >
+<!ATTLIST indexitem number NMTOKEN #REQUIRED >
+
+<!ELEMENT body ( #PCDATA | heading | intervention | omit )* >
+
+<!ELEMENT heading ( #PCDATA | omit | pa)* >
+<!ATTLIST heading number CDATA #REQUIRED >
+
+
+<!ELEMENT intervention ( (speaker|writer|COMMON_writer)+, (speech|writing|writing_COMMON)+ ) >
+<!ATTLIST intervention id ID #REQUIRED >
+
+<!ELEMENT speaker ( name, affiliation, post ) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT affiliation ( national_party, ep ) >
+
+<!ELEMENT ep EMPTY >
+<!ATTLIST ep group ( ALDE | ECR | EFD | GUE-NGL | NI | PPE | S_and_D | UNKNOWN | Verts-ALE | NA) #REQUIRED >
+
+<!ELEMENT national_party ( #PCDATA ) >
+
+
+<!ELEMENT post ( #PCDATA ) >
+
+
+<!ELEMENT speech ( pa | omit )* >
+<!ATTLIST speech language ( BG| CS | DA | DE | EL | EN | ES | ET | FI | FR | GA | HU | IT | LT | LV | MT | NL | PL | PT | RO | SL | SK | SV | UNKNOWN ) #REQUIRED >
+<!ATTLIST speech id ID #REQUIRED >
+
+
+<!ELEMENT writer (name, affiliation, post) >
+
+<!ELEMENT writing ( pa | omit )*>
+<!ATTLIST writing id ID #REQUIRED >
+<!ATTLIST writing language (BG|CS|DA|DE|EL|EN|ES|ET|FI|FR|GA|HU|IT|LT|LV|MT|NL|PL|PT|RO|SK|SL|SV|UNKNOWN) #REQUIRED>
+
+
+<!ELEMENT COMMON_writer (name, affiliation, post) >
+
+<!ELEMENT writing_COMMON ( pa | omit)+>
+<!ATTLIST writing_COMMON id ID #REQUIRED >
+<!ATTLIST writing_COMMON language (BG|CS|DA|DE|EL|EN|ES|ET|FI|FR|GA|HU|IT|LT|LV|MT|NL|PL|PT|RO|SK|SL|SV|UNKNOWN) #REQUIRED>
+
+<!ELEMENT pa ( se | omit )+ >
+<!ATTLIST pa id ID #REQUIRED >
+
+<!ELEMENT se ( #PCDATA | omit )* >
+<!ATTLIST se id ID #REQUIRED >
+
+
+<!ELEMENT omit ( #PCDATA | se | pa)* >
+
+<!ELEMENT back (update,disclaimer)*>
+<!ELEMENT update (#PCDATA)>
+<!ELEMENT disclaimer (#PCDATA)>

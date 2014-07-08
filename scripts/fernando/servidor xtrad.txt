@@ -1,0 +1,132 @@
+en cygwin
+
+ssh ecpc.xtrad.uji.es -p 22 -l administrador
+
+
+yes
+
+password
+tradd1107
+
+_______________________
+
+pwd
+ls
+
+(para alinear)
+en la carpeta Intertext
+
+programa TCA2 / Hunalign
+usaremos TCA2, está dentro del Intertext(interfaz)
+
+
+(para consultar)
+cd anders
+cd glosa
+ls
+
+en Researchers creamos una carpeta para nosotros
+(make dir)
+mkdir Fernando
+
+__________________________
+subir documentos comprimidos .tar.gz
+google: comprimir descomprimir utilerias
+
+
+
+
+Comprimir el archivo en .tar.gz
+tar czvf XXX_Instrucciones.tar.gz ./XXX_Instrucciones
+
+
+subir el archivo al servidor xtrad
+scp -P 22 ./XXX_Instrucciones.tar.gz administrador@ecpc.xtrad.uji.es:/home/administrador/Researchers/Fernando
+__________________________________
+
+Administrador@LGD /cygdrive/c
+$ ssh ecpc.xtrad.uji.es -p 22 -l administrador
+administrador@ecpc.xtrad.uji.es's password:
+Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Tue Apr 29 17:50:34 CEST 2014
+
+  System load:  0.05             Processes:           204
+  Usage of /:   9.1% of 5.32TB   Users logged in:     1
+  Memory usage: 65%              IP address for eth0: 192.168.11.3
+  Swap usage:   0%
+
+  Graph this data and manage this system at https://landscape.canonical.com/
+
+417 packages can be updated.
+240 updates are security updates.
+
+Last login: Tue Apr 29 17:12:47 2014 from 10.1.3.69
+administrador@ecpc:~$ ls
+anders           CLARE                    CORELAT     EuroVoc         general_documentation  InterText-2.0      Researchers  turicorp.tar.gz
+backup           concECPC                 DemoCorpus  EuroVoc.tar.gz  glossa                 InterText-2.0.zip  tmp          WordSmith_6
+bootstrap.sh     concecpc-fullbackup.tgz  ECPC        exclude.txt     hardcopy.1             old                treetagger
+caracteristicas  concecpc-setup.tgz       EMPAC       exclude.txt~    InterText              packages           TURICORP
+administrador@ecpc:~$ ECPC
+ECPC: command not found
+administrador@ecpc:~$ cd ECPC
+administrador@ecpc:~/ECPC$ ls
+01_ECPC_HTTRACK_DISCURSOS.zip  02_ECPC_COMPLETO_HTML.zip  03_ECPC05.zip        CD               EP_2004_2011    HC        Readme_ECPC.txt
+02_ECPC_COMPLETO_HTML          03_ECPC05                  1996_2003_es-en.tgz  Corpus 1993.zip  EUconst.tar.gz  __MACOSX  Readme_ECPC.txt~
+administrador@ecpc:~/ECPC$ ls
+01_ECPC_HTTRACK_DISCURSOS.zip  02_ECPC_COMPLETO_HTML.zip  03_ECPC05.zip        CD               EP_2004_2011    HC        Readme_ECPC.txt
+02_ECPC_COMPLETO_HTML          03_ECPC05                  1996_2003_es-en.tgz  Corpus 1993.zip  EUconst.tar.gz  __MACOSX  Readme_ECPC.txt~
+administrador@ecpc:~/ECPC$ 02_ECPC_COMPLETO_HTML/
+-bash: 02_ECPC_COMPLETO_HTML/: Es un directorio
+administrador@ecpc:~/ECPC$ cd 02_ECPC_COMPLETO_HTML/
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML$ ls
+CD  DOCS_ZIP  ECPC_F.iso  EP  hc_con_Nino  HC_sin_Nino  Readme_ECPC_COMPLETO.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML$ cd CD
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ls
+CD04  CD06  CD07  CD08  CD09  cd_dip  cd-release-2-1.tar.gz  CDrenombrar.pl  README.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ vim README.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ^C
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ls
+CD04  CD06  CD07  CD08  CD09  cd_dip  cd-release-2-1.tar.gz  CDrenombrar.pl  README.rtf
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$ ^C
+administrador@ecpc:~/ECPC/02_ECPC_COMPLETO_HTML/CD$
+
+_________________________________________________________
+
+
+CD04
+CD06
+
+...
+bajar dos primeros documentos de cada carpeta (cada año)
+
+
+etiquetar los nombres, cuando salga el nombre, 
+
+
+TAREA:
+dos pasos, (el primero sobretodo)
+1 cuando haya un orador, hacer una orden de REGEX para poner 
+
+ej: El|la señor|señora blablabla
+y poner delante del nombre de cada orador <name>blablabla</name>
+					<genero> </genero>
+					<post> </post>
+
+
+_____________________________________
+en la carpeta 2.1 hay instrucciones de como etiquetar el html con la estructura de la pagina web del congreso de los diputados
+
+
+
+
+
+
+
+
+___________________________________
+Discursos CD 
+
+tenemos hasta el 2009 descargados (CD09)

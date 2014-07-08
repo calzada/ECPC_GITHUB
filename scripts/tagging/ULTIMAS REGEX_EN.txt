@@ -1,0 +1,201 @@
+#Borrar código lenguas innecesario al principio de los documentos
+
+perl -pi -e 's/\n/QWQWÑLÑL/g' *.xml
+
+perl -pi -e 's/(7th)<omit>">fr - français<\/omit>(<\/legislature>)QWQWÑLÑLhr - hrvatskiQWQWÑLÑLit - italianoQWQWÑLÑLlv - latviešu valodaQWQWÑLÑLlt - lietuvių kalbaQWQWÑLÑLhu - magyarQWQWÑLÑLmt - MaltiQWQWÑLÑLnl - NederlandsQWQWÑLÑLpl - polskiQWQWÑLÑLpt - portuguêsQWQWÑLÑLro - românăQWQWÑLÑLsk - slovenčinaQWQWÑLÑLsl - slovenščinaQWQWÑLÑLfi - suomiQWQWÑLÑLsv - svenskaQWQWÑLÑL Índice QWQWÑLÑLQWQWÑLÑLQWQWÑLÑL/$1$2/g' *.xml
+
+perl -pi -e 's/(<\/legislature>)\s*(.+?)-(.+?)QWQWÑLÑL(<edition>)/$1<title>$2<\/title>QWQWÑLÑL<label>Debates<\/label>QWQWÑLÑL<date>$2<\/date>QWQWÑLÑL<place>$3<\/place>QWQWÑLÑL$4/g' *.xml
+
+#Se duplican writing y speech separados por un guión o un punto y un guión
+
+#Quito punto (si lo hay) y guión
+perl -pi -e 's/(<speech ref="spXY" language="EN">)\s*?\.\s*?$/$1/g' *.xml
+
+perl -pi -e 's/(<writing ref="wrXY" language="EN">)\s*?\.*?\s*?−$/$1/g' *.xml
+perl -pi -e 's/(<writing ref="wrXY" language="EN">)\s*?\.-?\s*?/$1/g' *.xml
+perl -pi -e 's/(<writing ref="wrXY" language="EN">)\s+?\.\s*?$/$1/g' *.xml
+
+#Quito las barras n y las reemplazo por QWQWÑLÑL
+perl -pi -e 's/\n/QWQWÑLÑL/g' *.xml
+
+#Elimino el duplicado, dejándolo bien
+
+perl -pi -e 's/(<writing ref="wrXY" )language="EN">QWQWÑLÑL<speech ref="spXY" (language="\p{Lu}\p{Lu}">)/$1$2/g' *.xml
+
+perl -pi -e 's/(<writing ref="wrXY" )language="EN"><speech ref="spXY" (language="\p{Lu}\p{Lu}">)/$1$2/g' *.xml
+
+perl -pi -e 's/(<writing_COMMON ref="wrXY" )language="EN"><speech ref="spXY" (language="\p{Lu}\p{Lu}">)/$1$2/g' *.xml
+
+#Se duplican speech con EN y speech con otra lengua, separados por un guión o un punto y un guión
+
+#Quito punto (si lo hay) y guión
+perl -pi -e 's/(<speech ref="spXY" language="EN">)\W+?$/$1/g' *.xml
+
+#Quito las barras n y las reemplazo por QWQWÑLÑL
+perl -pi -e 's/\n/QWQWÑLÑL/g' *.xml
+
+#Elimino el duplicado, dejándolo bien
+perl -pi -e 's/(<speech ref="spXY" )language="EN">QWQWÑLÑL<speech ref="spXY" (language="\p{Lu}\p{Lu}">)/$1$2/g' *.xml
+
+#Eliminar
+
+�
+
+perl -pi -e 's/�//g' *.xml
+
+#Se duplica speech en EN con COMMON_writer
+
+perl -pi -e 's/\n/QWQWÑLÑL/g' *.xml
+
+perl -pi -e 's/<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">(<\/COMMON_writer>QWQWÑLÑL<writing_COMMON ref="wrXY" language="SV">)/$1/g' *.xml
+
+perl -pi -e 's/QWQWÑLÑL/\n/g' *.xml
+
+
+
+
+_______________
+PROBLEMAS MÁS FRECUENTES
+
+#1
+perl -pi -e 's/(<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">)<post>(QWQWÑLÑL.+?)<\/post>QWQWÑLÑL<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">/$1$2\. /g' *.xml
+
+
+<intervention ref="inXY">
+<speaker>
+<name>Ana Gomes
+</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN"><post>
+Mr President, first of all I would like to salute the efforts made by Gilad Shalit’s family to seek his release, which we wholeheartedly support</post>
+</speaker>
+<speech ref="spXY" language="EN">That is the message we want to convey through this resolution. We believe, as the Goldstone Report highlights, that he is indeed entitled to the status of prisoner of war, as the prisoners kept by Israel, including many children, should be.
+
+<intervention ref="inXY">
+<speaker>
+<name>Ana Gomes
+</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN">
+Mr President, first of all I would like to salute the efforts made by Gilad Shalit’s family to seek his release, which we wholeheartedly support. That is the message we want to convey through this resolution. We believe, as the Goldstone Report highlights, that he is indeed entitled to the status of prisoner of war, as the prisoners kept by Israel, including many children, should be.
+
+----------
+#2
+
+perl -pi -e 's/(<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">)<post>(QWQWÑLÑL.+?)<\/post>QWQWÑLÑL<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">/$1$2\. /g' *.xml
+
+perl -pi -e 's/(<\/speaker>QWQWÑLÑL<speech ref="spXY" language=)"EN"><post>\s*?–\s*\((\p{Lu}\p{Lu})\)(QWQWÑLÑL.+?)<\/post>QWQWÑLÑL<\/speaker>QWQWÑLÑL<speech ref="spXY" language="EN">/$1"$2">$3\. /g' *.xml
+
+
+<intervention ref="inXY">
+<speaker>
+<name>Eija-Riitta Korhola</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="PPE"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN"><post>– (FI)
+Mr President, as we know, the background to this resolution was a very politically sensitive set of circumstances, but that ought not to prevent us from passing a clearly humanitarian resolution that is not watered down by general political remarks on the situation as a whole</post>
+</speaker>
+<speech ref="spXY" language="EN">I am pleased that this resolution has kept to the point. I intend to vote in favour of it. It stresses the idea that all parties involved in the crisis in the Middle East must comply with international humanitarian law and human rights legislation. I hope that it receives the firm support of this House.
+
+<omit>(Applause)</omit>
+</speech>
+</intervention>
+
+<intervention ref="inXY">
+<speaker>
+<name>Eija-Riitta Korhola</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="PPE"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="FI">
+Mr President, as we know, the background to this resolution was a very politically sensitive set of circumstances, but that ought not to prevent us from passing a clearly humanitarian resolution that is not watered down by general political remarks on the situation as a whole. I am pleased that this resolution has kept to the point. I intend to vote in favour of it. It stresses the idea that all parties involved in the crisis in the Middle East must comply with international humanitarian law and human rights legislation. I hope that it receives the firm support of this House.
+
+<omit>(Applause)</omit>
+</speech>
+</intervention>
+
+---------------
+
+#3
+
+ESTE NO SE PUEDE ARREGLAR. SE COMERÍA TEXTO. HAY QUE REVISARLO A MANO.
+
+
+
+<intervention ref="inXY">
+<speaker>
+<name>Joanna Senyszyn
+</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN"><post>in writing</post>
+</speaker>
+<speech ref="spXY" language="EN">(PL)
+
+
+<intervention ref="inXY">
+<writer>
+<name>Joanna Senyszyn
+</name>
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</writer>
+<speech ref="spXY" language="PL">
+
+Y AÑADIR CIERRE DE WRITING
+
+--------------
+
+#4
+
+<intervention ref="inXY">
+<speaker>
+<name>Göran Färm, Anna Hedh, Olle Ludvigsson and Marita Ulvskog
+<affiliation>
+<national_party>UNKNOWN</national_party>
+<ep group="S_and_D"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+<speech ref="spXY" language="EN"><post>in writing</post>
+</speaker>
+<speech ref="spXY" language="SV">
+We Swedish Social Democrats voted against the part of the report that calls for a common forestry policy in the EU. We believe that the Member States should continue to make the decisions on matters relating to forestry policy.
+</speech>
+</intervention>
+
+-------------------
+
+perl -pi -e 's/(<name>.+?<\/name>)\s*?,\s*?(.+?)\.\s*?$/$1QWQWÑLÑL<affiliation>QWQWÑLÑL<national_party>UNKNOWN<\/national_party>QWQWÑLÑL<ep group="NA"\/>QWQWÑLÑL<\/affiliation>QWQWÑLÑL<post>$2<\/post>QWQWÑLÑL<\/speaker>QWQWÑLÑL/g' *.xml
+------------------
+
+<omit>(
+<post>The speaker agreed to take a blue card question under Rule 149(8)</omit>)
+
+
+
+------------------

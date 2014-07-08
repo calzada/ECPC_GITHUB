@@ -1,0 +1,65 @@
+there's the one I wrote for the cd corpus (if memory serves) based on
+the preprocessor written by Philipp Koehn for the europarl corpus.
+Unlike Koehn's, my splitter preprocesses for the TCA alignment tool, adding
+sentence and paragraph id tags (e.g. <p id='p1'><s id='s1'>...</s><s
+id='s2'>...</s></p>)
+
+A tar file containing the splitter (called tagsentences.pl) is attached, along
+with a list of prefixes which, when followed by a period character, do *not*
+cause a sentence break (directory nonbreaking_prefixes/, which should be
+uncompressed in the same directory as tagsentences.pl) for a few languages. This
+is somewhat crude but works fairly well in practice.
+
+Here's the usage summary:
+
+ USAGE
+
+  tagsentences.pl [-h] [-l en|de|...] [-e elements] file1 file2 ...
+
+  Files file1, file2, ... will have its sentences which occur between the
+  chosen elements tagged. E.g. if you specify -e speech|writing, the
+  chunk
+
+    '<speech ref='s1'>this is a sentence. this is another.</speech>'
+
+  will become
+
+    '<speech ref='s1'>
+     <p id='p1'><s id='s1'>this is a sentence.</s>
+     <s id='s2'>this is another.</s></p>
+     </speech>'
+
+  The original files will be save with extension '.tagsentences.pl' (e.g.
+  file1.tagsentences.pl etc and file1, ... will
+  contain the paragraph/sentence-annotated version.
+
+  OPTIONS:
+
+      -e element Element within whose tags sentences will be split
+                 DEFAULT: speech|writing
+
+      -l lang    Splitting will consider non-breaking patterns for
+                 language lang. See nonbreaking_prefixes/ directory
+                 for available patterns (e.g. nonbreaking_prefix.en,
+                 for English language prefixes.
+                 DEFAULT: en
+
+      -p par     paragraph identifier. The token that identifies a
+                 paragraph break. This could be a markup element, such
+                 as <p> or <p/>, a line break, a double line break or
+                 anything else you fancy.
+
+                 DEFAULT: \n
+
+      -q         Execute quietly. I.e. do not print progress messages
+
+      -h         Just display this message and quit.
+
+  EXAMPLE:
+
+     tagsentences.pl -f EN20050512.xml -e 'speech|writing'
+
+
+
+regards,
+nino

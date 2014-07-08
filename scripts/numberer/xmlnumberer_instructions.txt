@@ -1,0 +1,20 @@
+hi Maria,
+
+for the ep corpus we used:
+
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e intervention -a ref ; done;
+
+to renunmber all ref attributes in all intervention tags of all .xml files in
+the directory where the command above was types (assuming xmlnumberer.pl is also
+in that directory.
+
+for i in `ls *.xml`; do perl xmlnumberer.pl -f $i -e speech -a ref -p s; done;
+
+does the same for ref attributes of speech elements, but prefixes the number by
+'s' (ID tags cannot start with a digit).
+
+You may of course also run the script on a single file. E.g.:
+
+perl xmlnumberer.pl -f EN0001.xml -e speech -a ref -p s
+
+-nino
