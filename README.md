@@ -14,7 +14,9 @@ http://git_scm.com/book/en/Getting-Started-About-Version-Control
  
 1. Download GIT from http:/git_scm.com/downloads.
 Notice that: 
-1.1. if you download GIT for Windows, you will be downloading Git Bash as well.  Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. Installation should be straight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case.  
+
+1.1. if you download GIT for Windows, you will be downloading Git Bash as well.  Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. Installation should be straight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case. 
+
 1.2. If you are using Mac, you do not need Git Bash, since you will work from the Terminal. 
 
 2. From Git Bash or the Terminal, we need configure username and email. You do this by entering the following commands, one at a time:
