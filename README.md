@@ -60,17 +60,20 @@ YOU ARE DONE!
 ---
 
 ### BASIC GIT AND GITHUB COMMANDS
+
+####Working from local repo to remore repo
+
 Git works following this path:
 
 workspace ---> index ---> local repo ---> remote repo
 
-In short, this means you start a document in your local directory in your computer. You need to index files (and changes) to tell git that they should be controlled. So your files are at your local repo (and are updated in the local repo via commit) and then they are sent to the remote repo (in GITHUB) via push. 
+In short, this means you start a document in your local directory in your computer (see also "Editing on github.com and updating your local repo"). You need to index files (and changes) to tell git that they should be controlled. So your files are at your local repo (and are updated in the local repo via commit) and then they are sent to the remote repo (in GITHUB) via push. 
 
 So this is how you do this: 
 
 1. You create a file in your local directory.
-2. You need to add this file in order to send it to the index and keep track of it. You do 
-*git add .* [sends files to the index]
+2. You need to add this file (and subsequent versions, with changes) in order to send it to the index and keep track of it. You do 
+*git add .* [sends file versions to the index]
 or
 *git add -u* [updates tracking for files that changed names or were deleted]
 or
@@ -81,9 +84,16 @@ You should always do this (with all changes) and before commiting
 4. You push changes to the remote repo (in GITHUB)
 *git push*
 
-### Editing GITHUB and updating local repo 
-Once you enter GITHUB you may also work there change things in the remote repo, commit changes in the remote repo. If you want to send changes to your computer, you need to go to your directory and from there do
+#### Working from remote repo to local repo 
+
+Git works following this path:
+
+workspace ---> index ---> remote repo ---> loca repo
+
+This means that, once you enter GITHUB you may also work there (on the web, in what is called the remote repo), change things in the remote repo), commit changes in the remote repo. Then, when  you want to send changes to your computer, you need to go open git bash, go to the mygits/ECPC_GITHUB/ECPC_GITHUB directory and from there do
 *git pull origin master*
+
+(Warning: I think that if you make changes to the CD branch, it seems reasonable to do *git pull origin CD*. But this needs testing).
  
 ##### REMEMBER: You may also create branches and tags.
 
@@ -98,4 +108,22 @@ the first thing you do is update your local repo from remote repo with
 *git pull origin master*
 
 (You do this in case someone else in the group has introduced changes since you worked last).
+
 Then you follow instructions above.
+
+
+---
+
+### WORKING AS A TEAM
+
+Once you have forked the ECPC_GITHUB project, there are actually as many ECPC_GITHUB projects as members collaborating in the project. On 9/07/2014, therefore, there are 3 ECPC_GITHUB project (calzada/ECPC_GITHUB, al----/ECPC_GITHUB, and estandia/ECPC_GITHUB). 
+This means you can work on your ECPC_GITHUB without changing other ECPC_GITHUBSs. 
+But what happens if you want to incorporate other people's files (or other people's work)?
+
+1. You need to "FOLLOW" other ECPC_GITHUBs. This way you will be keot informed of changes. 1.1. Open Gituhub. 1.2. Go to your ECPC_GITHUB (by clicking on it). 1.3. Go to the upper right hand corner and look for "Fork". 1.4. Click on the number next to fork. This brings you to a window that shows all collaborators in the ECPC_GITHUB project. 1.5. Click on "Members". 1.6. Click on the username you want to follow (notice you have to click on the username, NOT ON THE ECPC/GITHUB). 1.6. Click on Follow (upper right hand side corner). NOW YOU ARE FOLLOWING THE OTHER MEMBERS IN THE TEAM.
+2. You need to "WATCH" other ECPC_GITHUBs. 2.1. Go through steps 1.1 to 1.6 above. 2.2. Click on "Repositories". 2.3. Click on the ECPC_GITHUB. 2.4. Click on Watching (Upper right hand side corner; icon next to Star and Fork). NOW YOU ARE WATCHING THE OTHER ECPC_GITHUBs IN THE TEAM.
+3. To go back to your project, click on your username (upper right hand side corner).
+4. 
+
+
+
