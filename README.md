@@ -6,54 +6,60 @@ Author: mc
 Date: 20-06-2014
 
 ###INSTALLING GIT
-GIT is a Version Control System, that records changes to a file or a set of files over time so that you can recall specific versions later. See:
+
+GIT is a Version Control System, that records changes to a file or a set of files over time so that you can recall specific versions later. 
+
+See:
 http://git_scm.com/book/en/Getting-Started-About-Version-Control
  
-* Download GIT from http:/git_scm.com/downloads.\n 
-Notice that (i) if you download GIT for Windows, you will be downloading Git Bash as well. Installation should be stragight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case. Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. (ii) If you are using Mac, you do not need Git Bash, since you will work from the Terminal. 
+1. Download GIT from http:/git_scm.com/downloads.
 
-* From Git Bash or the Terminal, we need configure username and email. You do this by entering the following commands, one at a time:
+Notice that: 
+
+(i) if you download GIT for Windows, you will be downloading Git Bash as well.  Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. Installation should be straight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case.  
+
+(ii) If you are using Mac, you do not need Git Bash, since you will work from the Terminal. 
+
+2. From Git Bash or the Terminal, we need configure username and email. You do this by entering the following commands, one at a time:
 
 git config --global user.name "yourusername"
 git config -- global user.email "youremail"
 
-* Check everything is ok with
+3. Check everything is ok with
 
 git config --list
 
-* Exit with 
+4. Exit with 
 
 exit
 
 ###GITHUB
 Github is a website that has been developed to allow you to collaborate on projects together with other researchers/developers. In fact, it is a web-based hosting service for software development projects that use the GIT version control system.  
 
-* Setup a Github account
-* Edit your profile (if you so wish)
-
-* Create a repository from GITHUB
-** Go to http://github.com/yourusername
-** Click on repositories. Click on new. Select "public" ("private" repos require payment or education account). Check the box next to "initialize this repo with a README". And create a repo. You have created a repo in your GITHUB account. 
-
-* Creating a copy of this repo in your computer.
-** With Git Bash or Terminal, create a new directory wherever you want to have the GITHUB repo. Use 
+1. Setup a Github account
+2. Edit your profile (if you so wish)
+3. Create a repository from GITHUB
+    3.1. Go to http://github.com/yourusername
+    3.2. Click on repositories. Click on new. Select "public" ("private" repos require payment or education account). Check the box next to "initialize this repo with a README". And create a repo. You have created a repo in your GITHUB account. 
+4. Creating a copy of this repo in your computer.
+    4.1. With Git Bash or Terminal, create a new directory wherever you want to have the GITHUB repo. Use 
 mkdir nameofdirectory
-** Initialise your local repo: Go to the directory you have just created 
-cd nameofdirectory
-And from the directory do
-git init
-** Point to your local repository at the remote repository in GITHUB doing
-git remote add origin https://github.com/yourusername/repoyouwanttobringtoyourcomputer.git
-** Clone the repo in your computer with
-git clone https://github.co/calzada/repoyouwanttobringtoyourcomputer.git
+    4.2. Initialise your local repo: Go to the directory you have just created 
+    cd nameofdirectory
+    And from the directory do
+    git init
+    4.3. Point to your local repository at the remote repository in GITHUB doing
+    git remote add origin https://github.com/yourusername/repoyouwanttobringtoyourcomputer.git
+    4.4. Clone the repo in your computer with
+    git clone https://github.co/calzada/repoyouwanttobringtoyourcomputer.git
 
-YOU ARE DONE!
+==YOU ARE DONE!
 
-* You can also clone other researchers'/developers' repos. This is called forking.
-** Search for the repos of your interest by cliking Explore. Click on "Fork" if you want to have access to another repo.
-** Follow step 4 above (from 4.1. to 4.4.)
+5. You can also clone other researchers'/developers' repos. This is called forking.
+    5.1. Search for the repos of your interest by clicking "Explore". Click on "Fork" if you want to have access to another repo.
+    5.2. Follow step 4 above (from 4.1. to 4.4.)
 
-* You could also create a directory in your local computer and then create a repo from it. For thi follow instructions in git - the simple guide:
+6. You could also create a directory in your local computer and then create a repo from it. For thi follow instructions in git - the simple guide:
 http://rogerdudler.github.io/git-guide/
 
 ### BASIC GIT AND GITHUB COMMANDS
