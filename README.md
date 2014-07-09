@@ -47,7 +47,7 @@ mkdir nameofdirectory
     4.4. Clone the repo in your computer with
     git clone https://github.co/calzada/repoyouwanttobringtoyourcomputer.git
 
-==YOU ARE DONE!
+=YOU ARE DONE!
 
 5. You can also clone other researchers'/developers' repos. This is called forking.
     5.1. Search for the repos of your interest by clicking "Explore". Click on "Fork" if you want to have access to another repo.
