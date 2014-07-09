@@ -9,7 +9,8 @@ Date: 20-06-2014
 GIT is a Version Control System, that records changes to a file or a set of files over time so that you can recall specific versions later. See:
 http://git_scm.com/book/en/Getting-Started-About-Version-Control
  
-* Download GIT from http:/git_scm.com/downloads. Notice that (i) if you download GIT for Windows, you will be downloading Git Bash as well. Installation should be stragight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case. Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. (ii) If you are using Mac, you do not need Git Bash, since you will work from the Terminal. 
+* Download GIT from http:/git_scm.com/downloads.\n 
+Notice that (i) if you download GIT for Windows, you will be downloading Git Bash as well. Installation should be stragight forward BUT if you have Cygwin in your computer, BE CAREFUL, and check whether you need to follow precise instructions in this case. Git Bash is a CLI (Command Line Interface, some sort of console or terminal). You will be using Git Bash for many of the operations you require. (ii) If you are using Mac, you do not need Git Bash, since you will work from the Terminal. 
 
 * From Git Bash or the Terminal, we need configure username and email. You do this by entering the following commands, one at a time:
 
