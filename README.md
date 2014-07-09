@@ -27,6 +27,8 @@ git config --list
 4. Exit with 
 exit
 
+---
+
 ###GITHUB
 Github is a website that has been developed to allow you to collaborate on projects together with other researchers/developers. In fact, it is a web-based hosting service for software development projects that use the GIT version control system.  
 
@@ -55,6 +57,8 @@ mkdir nameofdirectory
 
 6. You could also create a directory in your local computer and then create a repo from it. For thi follow instructions in git - the simple guide:
 http://rogerdudler.github.io/git-guide/
+
+---
 
 ### BASIC GIT AND GITHUB COMMANDS
 Git works following this path:
