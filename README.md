@@ -49,7 +49,7 @@ mkdir nameofdirectory
     4.4. Clone the repo in your computer with
     git clone https://github.co/calzada/repoyouwanttobringtoyourcomputer.git
 
---YOU ARE DONE!
+YOU ARE DONE!
 
 5. You can also clone other researchers'/developers' repos. This is called forking.
     5.1. Search for the repos of your interest by clicking "Explore". Click on "Fork" if you want to have access to another repo.
@@ -65,40 +65,38 @@ Git works following this path:
 
 workspace ---> index ---> local repo ---> remote repo
 
-In short, this means you start a document in your local directory in your computer. You need to index files (and changes???) to tell git that they should be controlled. So your files are at your local repo (and are updated in the local repo via commit) and then they are sent to the remote repo (in GITHUB) via push. 
+In short, this means you start a document in your local directory in your computer. You need to index files (and changes) to tell git that they should be controlled. So your files are at your local repo (and are updated in the local repo via commit) and then they are sent to the remote repo (in GITHUB) via push. 
 
 So this is how you do this: 
 
-* You create a file in your local directory.
-* You need to add this file to send it to the index and keep track of it. You do 
-git add .
-[sends files to the index]
+1. You create a file in your local directory.
+2. You need to add this file in order to send it to the index and keep track of it. You do 
+*git add . [sends files to the index]
 or
-git add -U
-[updates tracking for files that changed names or were deleted]
+*git add -u [updates tracking for files that changed names or were deleted]
 or
-git add -A 
-[does both of the previous]
-You should always do this (with all changes) add before commiting
-* You commit changes to your local repo. In this way you save an intermediate version. 
-git commit -m "you write a message here so that you remember later on what this commit does" 
-Commit only updates your local repo.
-* You push changes to the remote repo (in GITHUB)
-git push
+*git add -A [does both of the previous]
+You should always do this (with all changes) and before commiting
+3. You commit changes to your local repo. In this way you save an intermediate version. 
+*git commit -m "you write a message here so that you remember later on what this commit does". [Commit only updates your local repo].
+4. You push changes to the remote repo (in GITHUB)
+*git push
 
 ### Editing GITHUB and updating local repo 
 Once you enter GITHUB you may also work there change things in the remote repo, commit changes in the remote repo. If you want to send changes to your computer, you need to go to your directory and from there do
+*git pull origin master
+ 
+##### REMEMBER: You may also create branches and tags.
 
-git pull origin master.
- 
-### REMEMBER: You may also create branches and tags.
- 
+---
+
 ### ECPC WORKFLOW
 
-* First time you work with ECPC_GITHUB. You need to fork ECPC_GITHUB and clone it in your computer. You are then ready to work. Follow the instructions above.
+1. First time you work with ECPC_GITHUB
+*You need to fork ECPC_GITHUB and clone it in your computer. You are then ready to work. Follow the instructions above.
+2. From then on:
+*the first thing you do is update your local repo from remote repo with
+*git pull origin master 
 
-* From then on: the first thing you do is update your local repo from remote repo with
-
-git pull origin master 
-(in case someone else in the group has introduced changes since you worked last).
+(You do this in case someone else in the group has introduced changes since you worked last).
 Then you follow instructions above.
