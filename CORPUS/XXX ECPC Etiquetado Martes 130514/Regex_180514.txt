@@ -1,0 +1,387 @@
+﻿_____________________________________________
+### ETIQUETADO DE NOMBRE:
+
+
+##POST Y NOMBRE ENTRE PARÉNTESIS
+
+#ETIQUETAR SEÑOR ejemplo    El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez):
+
+El señor(.*)\((.*)\):
+
+
+XXZZpostYYWW$1XXZZ/postYYWWXXZZnameYYWW$2XXZZ/nameYYWW
+
+
+#ETIQUETAR SEÑORA ejemplo    La señora SECRETARIA PRIMERA DE LA MESA DE EDAD (Fuentes González):
+
+La señora(.*)\((.*)\):
+
+
+XXZZpostYYWW$1XXZZ/postYYWWXXZZnameYYWW$2XXZZ/nameYYWW
+
+
+
+
+
+##SEÑOR/SEÑORA PRESIDENTE/PRESIDENTA/VICEPRESIDENTE/VICEPRESIDENTA
+
+Find
+(El\p{Z}+señor|El\p{Z}+Sr.)(.*?PRESIDENTE):
+
+Replace
+XXZZpostYYWW$2XXZZ/postYYWW
+
+
+
+(La\p{Z}+señora|La\p{Z}+Sra.)(.*?)(PRESIDENTE|PRESIDENTA):
+
+XXZZpostYYWW$2$3xxzz/postYYWW
+
+
+
+
+##NOMBRE SÓLO
+##El señor ESTEBAN BRAVO:
+Find
+
+(El\p{Z}+señor|La\p{Z}+señora)\p{Z}+(\p{Lu}+.*?):
+
+Replace
+
+XXZZnameYYWW$2XXZZ/nameYYWW
+
+
+_________________________________________________________________
+
+ETIQUETADO ESTRUCTURA SESIÓN
+
+#dejarlo todo en una línea
+Find
+(\n|\r)+
+Replace
+
+
+
+#etiqueta title
+Find
+^.*?<div id="CABECERA_TEXTO_POPUP">\s(.*?)\s</div>
+
+Replace
+
+XXZZ?xml version="1.0" encoding="UTF-8" standalone="no"?YYWW\nXXZZ!DOCTYPE ecpc_CD SYSTEM "cd.dtd"YYWW\nXXZZecpc_CDYYWW\nXXZZtitleYYWW$1XXZZ/titleYYWW\n
+
+
+
+#
+<br>Sesión plenaria(.*?)<br>(.*?)</div>
+
+
+\nXXZZlabelYYWWSesión Plenaria$1XXZZ/labelYYWW\nXXZZdateYYWW$2XXZZ/dateYYWW
+
+
+
+#
+XXZZ/titleYYWW\n(.*?)</a>\s*(CORTES.*?)<br>(.*?)<br>(.*?)</div>
+
+
+XXZZ/titleYYWW\nXXZZplaceYYWW$2XXZZ/placeYYWW\nXXZZeditionYYWW$3$4XXZZ/editionYYWW\nXXZZindexYYWW\n
+
+
+
+
+#
+XXZZindexYYWW\n\s*<div class(.*?)><br>(.*?)<br>(.*)\nXXZZlabelYYWW(.*?)XXZZ/labelYYWW
+
+
+
+XXZZindexYYWW\nXXZZlabelYYWW$4($3$2)XXZZ/labelYYWW
+
+
+
+#
+XXZZ/dateYYWW(.*?)ORDEN DEL DÍA:
+
+
+XXZZ/dateYYWW\nORDEN DEL DÍA:\n
+
+
+#
+SUMARIO
+
+
+\nSUMARIO\n
+
+
+
+#
+<br><br>(.*?)</a>\s
+
+
+$1\n
+
+
+#
+<br><br>(.*?)<br>\s
+
+
+$1\n
+
+
+
+
+_____________________________________________
+
+#Para etiquetar páginas
+
+Find
+
+<center><a name="\(Página\d+\)"><b>\((Página \d+)\)</b></a></center>
+
+Replace
+
+XXZZpage_numberYYWW$1XXZZ/page_numberYYWW
+
+
+#Para etiquetar final
+
+Find
+
+<!-- FUNCION PIE -->
+
+Replace
+
+</speech>XXZZPYYWW</intervention>XXZZPYYWWXXZZPYYWW</chair>XXZZPYYWWXXZZPYYWW</body>XXZZPYYWWXXZZPYYWW<back>
+
+______________________________________
+
+
+#Para etiquetar el final del documento
+
+Find
+
+(.\Z)
+
+Replace
+
+
+$1XXZZ/backYYWWXXZZPYYWWXXZZPYYWWXXZZ/ecpc_CDYYWW
+
+
+
+
+
+#Para cambiar los <br>
+Find
+<br><br>
+Replace
+\n
+
+
+Find
+<br>\s
+Replace
+\n
+
+
+#Quitar las etiquetas de html
+
+Find
+
+<.*?>
+
+Replace
+
+
+
+
+#Hacemos limpieza de espacios en blanco
+
+
+Find
+
+^\p{Z}+(.)
+
+Replace
+
+$1
+
+
+
+#Cambiar orden post y name
+
+Find
+
+(XXZZpostYYWW.*?XXZZ/postYYWW)(XXZZnameYYWW.*?XXZZ/nameYYWW)
+
+Replace
+$2$1
+
+
+#
+\(Aplausos.\)
+
+XXZZomitYYWW\(Aplausos.\)XXZZ/omitYYWW
+
+
+
+
+#Cambiar orden title y lable
+Find
+(XXZZplaceYYWW.*XXZZ/placeYYWW\nXXZZeditionYYWW.*\nXXZZindexYYWW)\n(XXZZlabelYYWW.*\nXXZZdateYYWW.*XXZZ/dateYYWW)
+
+Replace
+$2\n$1\nXXZZindexitemYYWW
+
+
+
+
+#Etiquetar indexitem
+
+XXZZindexitemYYWW\nORDEN DEL DÍA:\n(.*)\n(.*)\nSUMARIO
+
+
+XXZZindexitemYYWW\nORDEN DEL DÍA:\n$1\n$2\nXXZZ/indexitemYYWW\nXXZZindexitemYYWW\nSUMARIO:
+
+
+
+#
+XXZZPYYWW
+
+\n
+
+
+
+
+#para cerrar index e indexitem
+\n(Se suspende.*)\n(.*?|)\n*(Se abre la sesión.*?)\n
+
+\nXXZZomitYYWW($1)XXZZ/omitYYWW\nXXZZ/indexitemYYWW\nXXZZ/indexYYWW\nXXZZ/headerYYWW\n\nXXZZbodyYYWW\n($2)\nXXZZomitYYWW($3)XXZZ/omitYYWW\n
+
+
+
+
+\n(Se levanta.*)\n(.*?|)\n*(Se abre la sesión.*?)\n
+
+
+\nXXZZomitYYWW($1)XXZZ/omitYYWW\nXXZZ/indexitemYYWW\nXXZZ/indexYYWW\nXXZZ/headerYYWW\n\nXXZZbodyYYWW\n($2)\nXXZZomitYYWW($3)XXZZ/omitYYWW\n
+
+
+
+
+#Para etiquetar headings. HAY QUE ETIQUETARLO AQUÍ
+
+(?!XXZZ)(\p{Lu}\p{Lu}+.*?\p{Lu}\.\n\(Número de expediente.*?\))
+
+Replace
+
+XXZZheadingYYWW\n$1$2\nXXZZ/headingYYWW\n
+
+
+#Hacemos limpieza de espacios en blanco
+
+Find
+
+^\p{Z}+(.)
+
+Replace
+
+$1
+
+
+
+#etiquetar speaker
+
+(XXZZnameYYWW.*?XXZZ/nameYYWWXXZZpostYYWW.*?XXZZ/postYYWW)
+
+XXZZspeakerYYWW\n$1\nXXZZ/speakerYYWW\n
+
+
+
+(XXZZpostYYWW.*?XXZZ/postYYWW)
+
+
+XXZZspeakerYYWW\n$1\nXXZZ/speakerYYWW\n
+
+
+
+
+
+
+(XXZZnameYYWW.*?XXZZ/nameYYWW)
+
+
+XXZZspeakerYYWW\n$1\nXXZZ/speakerYYWW\n
+
+
+
+
+#Cerrar intervenciones
+
+(XXZZspeakerYYWW\n.*\n*XXZZ/speakerYYWW)(\n*.*\n)(XXZZspeakerYYWW)
+
+
+$1\n$2\nXXZZ/speechYYWW\nXXZZ/interventionYYWW\n\n$3
+
+
+
+
+
+
+
+#Hacemos limpieza de espacios en blanco
+
+Find
+
+^\p{Z}+(.)
+
+Replace
+
+$1
+
+
+
+
+___________________________________________________________
+
+
+FALTA POR ETIQUETAR
+1) 
+<header>????
+
+<header filename='CD20050111' language="ES">
+<legislature begin="20040402" end="20080401">VIII</legislature>
+
+
+2) 
+<chair who="Marín González, Manuel">
+<chair who="UNKNOWN">
+
+
+3) 
+
+<intervention id='in1'>          
+
+4) Caso especial
+
+<speaker>
+<name>Candidato a la Presidencia del Gobierno</name>
+</speaker>
+
+<post> RODRÍGUEZ ZAPATERO </post>
+
+
+
+5)
+
+<speech id='sp1' language="ES">
+
+
+________________________________________________
+SOLO NOS INTERESA LOS QUE PRECEDEN A UN DISCURSO
+
+para trabajar con mayusculas
+\p{L}
+\p{Lu}
+\p{Ll}
+
+_________________________________________________
