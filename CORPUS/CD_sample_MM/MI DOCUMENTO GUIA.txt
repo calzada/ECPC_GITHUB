@@ -19,10 +19,8 @@ INFO DE FORMATO:
  <br><br>La señora SAINZ GARCÍA:
  <br><br>La señora VILLALOBOS TALERO:
  <br><br>El señor BARRERO LÓPEZ:
-a
-aa
-aaaaaaa
 
+Remember:
 casa <-- casa casa.?, casa.*
 casas <-- casa.?, casa.*
 casassss <-- casa.*
@@ -58,10 +56,8 @@ $ =end of a line
 * =null or more repetitions (zero or more of the preceding element. For example, ab*c matches "ac", "abc", "abbc", "abbbc", and so on)
 ? =null or one repetition (zero or one of the preceding element. For example, colou?r matches both "color" and "colour")
 
-
-
- I. EXPRESIONES REGULARES PARA EL DOCUMENT XXXX 
- 1. 
+I. EXPRESIONES REGULARES PARA EL DOCUMENT XXXX 
+1. 
  Find:
  
  <br><br>(El|La)\W*?señor(.)+?\W*?(VICE)*(PRESIDENT.):
