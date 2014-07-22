@@ -1,0 +1,1607 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+
+<!-- Mirrored from www.congreso.es/portal/page/portal/Congreso/PopUpCGI?CMD=VERDOC&CONF=BRSPUB.cnf&BASE=PUW8&PIECE=PUW8&DOCS=1-1&FMT=PUWTXDTS.fmt&OPDEF=Y&QUERY=(D).PUBL.+%26+(CONGRESO).SECC.+%26+(PLENO).ORSE.+Y+CDP200404020001.CODI. by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 01 Mar 2011 23:41:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<HEAD>
+<STYLE>
+body{float:left;font-size:62.5%;font-family: Arial, Verdana, Helvetica, sans-serif;}
+blockquote{margin:0px;padding:0px;border:0px;list-style-type:none; }
+a{text-decoration:none; color:#626469;}
+a:hover{text-decoration:underline;font-weight:normal;color:#626469;}
+a:active{text-decoration:none;font-weight:normal;color:#000000;}
+</STYLE>
+<TITLE>PopUpCGI</TITLE>
+<link href="../../../../wc/htdocs/web/css/congreso.css" rel="stylesheet" type="text/css">
+<link href="../../../../wc/htdocs/web/css/portada.css" rel="stylesheet" type="text/css">
+<link href="../../../../wc/htdocs/web/css/prensa.css" rel="stylesheet" type="text/css">
+<link href="../../../../wc/htdocs/web/css/apps.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../../../wc/htdocs/web/js/wc.js" language="JavaScript"></script>
+<STYLE TYPE="text/css">.GroupHeaderid1siteid73{Text-Align:left;Height:20;Background-Color:#336699;}
+.GroupHeaderLinkid1siteid73{Color:#FFFFFF;Font-Family:Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.GroupHeaderTextid1siteid73{Font-Family:Arial, Helvetica;Color:#FFFFFF;Font-Size:9pt;Font-Weight:Bold;}
+.RegionHeaderid1siteid73{Background-Color:#b29200;Height:20;Text-Align:left;}
+.RegionHeaderTextid1siteid73{Color:#ffffff;Font-Weight:Bold;Font-Family:Verdana;Font-Size:10px;}
+.Bodyid1siteid73{Background-Color:#FFFFFF;}
+.ArchivoAnuncioid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.AudioFotoNoticiaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.AudioNotaPrensaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.Campo1Pieid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Campo1Region3id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Campo2Pieid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Campo2Region3id1siteid73{Font-Family:Arial, Helvetica;Color:#000000;Font-Size:8pt;}
+.Campo3Pieid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.ComprobacionSelladoid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.Concesionid1siteid73{Font-Size:11px;Font-Family:Arial;Color:#626469;}
+.Convocatoriaid1siteid73{Font-Size:11px;Font-Family:Arial;Color:#626469;}
+.Correcciondeerroresid1siteid73{Font-Size:11px;Font-Family:Arial;Color:#626469;}
+.CuartoPlatoCafeteriaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.DescNotaPrensaid1siteid73{Color:#626469;Font-Size:11px;Font-Family:Arial;Font-Weight:Bold;}
+.Descripcionid1siteid73{Font-Size:11px;Color:#626469;Font-Family:Arial;}
+.DescripcionAnuncioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.DescripcionBoletinid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.DescripcionDiarioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Destinoid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.DiaSemanaAgendaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.DiaSemanaCanalid1siteid73{Font-Family:Arial, Helvetica;Color:#000000;Font-Size:8pt;}
+.EnPortadaAnuncioid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.EnPortadaNotaPrensaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.EnVentanaNuevaAnuncioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.EnVentanaNuevaNovedadIntranetid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Enlaceid1siteid73{Font-Family:Arial, Helvetica;Color:#000000;Font-Size:8pt;}
+.EnlaceAnuncioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.EnlaceURLNovedadid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.EtiquetaArchivoAnuncioid1siteid73{Font-Size:8pt;Color:#000000;Font-Family:Arial, Helvetica;}
+.EtiquetaEnlaceNovedadIntranetid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.EtiquetaURLNovedadid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.EtiquetadelEnlacedelAnuncioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Faxid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Fax2id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.FechaAgendaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.FechaAnuncioid1siteid73{Font-Size:8pt;Color:#000000;Font-Family:Arial, Helvetica;}
+.FechaBoletinid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.FechaCanalid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaDiarioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaFotonoticiaid1siteid73{Color:#b29200;Font-Family:Arial;Font-Size:11px;}
+.FechaFotonoticiaPresidenciaid1siteid73{Font-Size:8pt;Color:#000000;Font-Family:Arial, Helvetica;}
+.FechaMenuid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaMenuCafeteriaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaNotaPrensaid1siteid73{Color:#b29200;Font-Size:11px;Font-Family:Arial;Font-Weight:Bold;}
+.FechaNovedadid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaNovedadIntranetid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.FechaRuedaPrensaid1siteid73{Font-Weight:Bold;Color:#b29200;Font-Family:Arial;Font-Size:11px;}
+.Foto1descargaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Foto1emergenteid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Foto1thumbnailid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Foto2descargaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Foto2emergenteid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Foto2thumbnailid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.FotoEmergenteNotaPrensaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.FotoNotaPrensaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.GraficoFotoNoticiaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.GraficoNotaPrensaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Grupoid1siteid73{Font-Family:Arial;Color:#626469;Font-Size:11px;}
+.Horaid1siteid73{Color:#626469;Font-Family:Arial;Font-Size:11px;}
+.HoraAgendaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.HoraCanalid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.ImagenDiaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.InformacionGeneralid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.InstruccinArchivo1id1siteid73{Font-Size:8pt;Color:#000000;Font-Family:Arial, Helvetica;}
+.InstruccinArchivoIIid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Intervinienteid1siteid73{Font-Size:11px;Font-Family:Arial;Color:#626469;}
+.JefedeCocinaMenuid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.LineaAgendaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.LineaCanalid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.ListaPuestoMiembroDiputadoid1siteid73{Color:#626469;Font-Family:Arial;Font-Size:11px;}
+.ListaPuestoMiembroSenadoid1siteid73{Color:#626469;Font-Family:Arial;Font-Size:11px;}
+.Listadebecariosparticipantesid1siteid73{Color:#626469;Font-Family:Arial;Font-Size:11px;}
+.Lugarid1siteid73{Font-Size:11px;Font-Family:Arial;Color:#626469;}
+.LugarAgendaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.LugarCanalid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.Mail1id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Mail2id1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.Mail3id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Mail4id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Nombreid1siteid73{Font-Family:Arial;Font-Size:11px;Font-Weight:Bold;Color:#626469;}
+.NombreBoletinid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.NombreDiarioid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.NombreMiembroid1siteid73{Font-Size:11px;Font-Weight:Bold;Font-Family:Arial;Color:#626469;}
+.NumeroOrdenAnuncioid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.NumeroOrdenImagenid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.NumeroOrdenNotaPrensaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PDFBoletinid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PDFDiarioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.PaginaBOCGBoletinid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.PieImagenid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.PrimerPlato1Menuid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PrimerPlato2Menuid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.PrimerPlato3Menuid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.PrimerPlato4Menuid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.PrimerPlatoCafeteriaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.PrimerPlatoSaludableMenuid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Programaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PuestoMiembroDiputadoid1siteid73{Color:#626469;Font-Family:Arial;Font-Weight:Bold;Font-Size:11px;}
+.PuestoMiembroSenadoid1siteid73{Color:#626469;Font-Size:11px;Font-Family:Arial;Font-Weight:Bold;}
+.QuintoPlatoCafeteriaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.RefBOEid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.RefBOEIIid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.SegundoPlato1Menuid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.SegundoPlato2Menuid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.SegundoPlatoCafeteriaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.SegundoPlatoSaludableMenuid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.SeptimoPlatoCafeteriaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.SextoPlatoCafeteriaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.SiglasBoletinid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.SiglasDiarioid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.SugerenciaCafeteriaid1siteid73{Font-Size:8pt;Color:#000000;Font-Family:Arial, Helvetica;}
+.TargetNovedadid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Telefonoid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Telefono2id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TemaFotoNoticiaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TemaNotaPrensaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.TemaRuedaPrensaid1siteid73{Color:#000000;Font-Family:Arial;Font-Size:11px;}
+.TercerPlatoCafeteriaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TextoAlternativoFoto1Fotonoticiaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TextoAlternativoFoto2Fotonoticiaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TextoAlternativoFotoNotaPrensaid1siteid73{Font-Family:Arial, Helvetica;Color:#000000;Font-Size:8pt;}
+.TitularFotoNoticiaid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.Tituloid1siteid73{Font-Family:Arial, Helvetica;Font-Size:11px;Font-Weight:Bold;Color:#626469;}
+.TituloAnuncioid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.TituloImagendelDiaid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.TituloNovedadid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.TituloNovedadIntranetid1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.URLEnlaceNovedadIntranetid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.VideoFotoNoticiaid1siteid73{Font-Family:Arial, Helvetica;Font-Size:8pt;Color:#000000;}
+.VideoNotaPrensaid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.Visitasid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.authorid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.createdateid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.creatorid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.defaultattributeid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.descriptionid1siteid73{Color:#626469;Font-Family:Arial;Font-Size:11px;}
+.documentsizeid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.expiredateid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.inplacedisplayid1siteid73{Color:#000000;Font-Family:Arial;Font-Size:11px;}
+.itemfunctionid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.keywordsid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.listaid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.perspectivesid1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.scoreid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.subpagetitleid1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.titleid1siteid73{Font-Size:11px;Font-Weight:Bold;Font-Family:Arial;Color:#626469;}
+.titleorimageid1siteid73{Font-Family:Arial;Font-Size:11px;Color:#626469;}
+.wwsbr_category_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_charset_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_image_or_title_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_img_or_title_dur_link_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_itemtype_id1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.wwsbr_mime_type_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_page_id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.wwsbr_pagegroup_id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.wwsbr_publishdate_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_title_and_img_dur_link_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_title_dur_link_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_title_link_id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.wwsbr_updatedate_id1siteid73{Font-Size:8pt;Font-Family:Arial, Helvetica;Color:#000000;}
+.wwsbr_updator_id1siteid73{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_version_number_id1siteid73{Color:#000000;Font-Size:8pt;Font-Family:Arial, Helvetica;}
+.LeftCurve{}
+.PortletBodyColor{}
+.PortletHeaderColor{Background-Color:#b29200;}
+.PortletHeaderLink{Color:#FFFFFF;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PortletHeaderStyle{}
+.PortletHeaderText{Color:#FFFFFF;Font-Weight:Bold;Font-Size:10pt;Font-Family:Arial, Helvetica;}
+.PortletHeading1{Color:#336699;Font-Family:Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.PortletHeading2{Color:#336699;Font-Size:8pt;Font-Family:Arial, Helvetica;Font-Weight:Bold;}
+.PortletHeading3{Color:#336699;Font-Weight:Bold;Font-Size:7pt;Font-Family:Arial, Helvetica;}
+.PortletHeading4{Color:#336699;Font-Family:Arial, Helvetica;Font-Size:7pt;Font-Weight:Bold;}
+.PortletSubHeaderColor{Background-Color:#EEEEDD;}
+.PortletSubHeaderLink{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:9pt;}
+.PortletSubHeaderText{Color:#000000;Font-Size:9pt;Font-Family:Arial, Helvetica;}
+.PortletText1{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PortletText2{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:8pt;}
+.PortletText3{Font-Family:Arial, Helvetica;Font-Size:7pt;Color:#000000;}
+.PortletText4{Color:#000000;Font-Family:Arial, Helvetica;Font-Size:7pt;}
+.RightCurve{}
+.LeftSubTabid1siteid73{Background-Position:left top;Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(../../../../images/FFFFFFsl.gif);Background-Repeat:no-repeat;}
+.LeftTabBgSlantid1siteid73{Background-Position:left top;Background-Image:url(../../../../images/FFFFFFtl.gif);Background-Color:#CCCC99;Background-Attachment:scroll;Background-Repeat:no-repeat;}
+.LeftTabForeSlantid1siteid73{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(../../../../images/FFFFFFtl.gif);Background-Position:left top;Background-Repeat:no-repeat;}
+.RightSubTabid1siteid73{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(../../../../images/FFFFFFsr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.RightTabBgCurveid1siteid73{Background-Image:url(../../../../images/FFFFFFtr.gif);Background-Color:#CCCC99;Background-Attachment:scroll;Background-Position:right top;Background-Repeat:no-repeat;}
+.RightTabForeCurveid1siteid73{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(../../../../images/FFFFFFtr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.SubTabBgTextid1siteid73{Color:#CCCC99;Text-Decoration:none;Font-Family:Arial, Helvetica;Font-Size:11pt;Font-Weight:Bold;}
+.TabBackgroundColorid1siteid73{Background-Color:#CCCC99;}
+.TabBackgroundTextid1siteid73{Color:#003366;Text-Decoration:none;Font-Family:Arial, Helvetica;Font-Size:10pt;}
+.TabForegroundColorid1siteid73{Background-Color:#336699;}
+.TabForegroundTextid1siteid73{Color:#FFFFFF;Text-Decoration:none;Font-Family:Arial, Helvetica;Font-Size:10pt;Font-Weight:Bold;}
+.portlet-font{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-font-dim{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-status{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-info{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-error{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-alert{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-success{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-header{Color:#336699;    Font-Family:Arial, Helvetica;    Font-Size:9pt;    Font-Weight:Bold;    }
+.portlet-section-body{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-alternate{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-selected{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-subheader{Color:#336699;    Font-Size:8pt;    Font-Family:Arial, Helvetica;    Font-Weight:Bold;    }
+.portlet-section-footer{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-text{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-header{Color:#336699;    Font-Family:Arial, Helvetica;    Font-Size:9pt;    Font-Weight:Bold;    Background-Color:#EEEEDD;    }
+.portlet-table-body{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-alternate{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-selected{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-subheader{Color:#336699;    Font-Size:8pt;    Font-Family:Arial, Helvetica;    Font-Weight:Bold;    }
+.portlet-table-footer{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-text{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-label{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-input-field{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-button{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-icon-label{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-dlg-icon-label{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-field-label{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-field{Color:#000000;    Font-Family:Arial, Helvetica;    Font-Size:8pt;    }
+.RegionNoBorder{}
+.RegionBorder { border:#b29200  1px solid; }
+.RegionHeaderColor { background-color:; border:#b29200 0px solid }
+.PageColor { background-color:#FFFFFF}
+ </STYLE>
+</HEAD>
+<BODY leftMargin="0" rightMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+<div id="texto_parrafo">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+  <tr valign="top"><td align="center" valign="top">
+    <table width="500" cellpadding="0" cellspacing="0" border="0" height="100%">
+      <tr>
+        <td align="center" width="500" height="100%" valign="top">
+<iframe id="portalIFrame" title="" frameborder="0" width="0" height="0" src="../../../../images/pobtrans.gif"></iframe><SCRIPT TYPE="text/javascript" SRC="http://www.congreso.es/portal/pls/portal/PORTAL.wwsbr_javascript.page_js?p_language=us&amp;p_version=10.1.4.0.0.594">
+<!-- Comment out script for old browsers
+//-->
+</SCRIPT>
+<TABLE  WIDTH="100%" id="rg88017"  border="0" cellpadding="0" cellspacing="0" summary=""><TR ALIGN="LEFT">
+<TD vAlign="top" style="padding:4px 4px 0px 4px;" width="100%"><DIV id="p73_2138133_73_2138049_2138049"><TABLE BORDER="0" WIDTH="100%" CELLPADDING="0"CELLSPACING="0" class="RegionNoBorder"><TR><TD class="RegionHeaderColor" WIDTH="100%" DIR="LTR" ><DIV id="pcnt73_2138133_73_2138049_2138049">
+
+
+
+
+
+
+<html>
+  
+<!-- Mirrored from www.congreso.es/portal/page/portal/Congreso/PopUpCGI?CMD=VERDOC&CONF=BRSPUB.cnf&BASE=PUW8&PIECE=PUW8&DOCS=1-1&FMT=PUWTXDTS.fmt&OPDEF=Y&QUERY=(D).PUBL.+%26+(CONGRESO).SECC.+%26+(PLENO).ORSE.+Y+CDP200404020001.CODI. by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 01 Mar 2011 23:41:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+        <title>Listas de valores</title>
+        <SCRIPT LANGUAGE="JavaScript" type="text/javascript" src="../../../../wc/htdocs/web/js/wc.js"></SCRIPT> 
+		<link type="text/css" href="../../../../wc/htdocs/web/css/apps.css" rel="STYLESHEET">   
+        <link type="text/css" href="../../../../wc/htdocs/web/css/congreso.css" rel="STYLESHEET">   
+        <link type="text/css" href="../../../../wc/htdocs/web/css/portada.css" rel="STYLESHEET">   
+        <link type="text/css" href="../../../../wc/htdocs/web/css/prensa.css" rel="STYLESHEET">   
+        <link type="text/css" href="../../../../wc/htdocs/web/css/texto_integro.css" rel="STYLESHEET">   
+</head>
+<body>
+<script>
+function opcionesVentana(){
+
+window.resizeTo(630,520);
+}
+
+window.onload = function(){
+    opcionesVentana();
+}
+
+</script>
+	<div id='CONGRESO_TEXTO_INTEGRO_POPUP'>
+            <div id='CABECERA_TEXTO_POPUP'>
+                    <div class='cabecerah1'><img src="../../../../wc/htdocs/web/img/logo_mini.gif" alt='Congreso de los Diputados' border="0"></div>
+                    <div class='btn_cerrar' title='Cerrar'>
+                        <p><img src="../../../../wc/htdocs/web/img/ico_cerrar.gif" width="9" height="9" alt='Cerrar'  >&nbsp;<a href="javascript:window.close();" title="Cerrar">Cerrar</a></p>                   
+                    </div>
+                    
+                    <div class='fincabecera'>&nbsp;</div>
+            </div>
+
+
+
+<html>    <div id="CONGRESO_TEXTO_INTEGRO_POPUP"> <div id="CABECERA_TEXTO_POPUP"> DS. Congreso de los Diputados, Pleno y Dip. Perm., núm. 1, de 02/04/2004 </div> <div class='fincabecera'>&nbsp;</div>
+    </div> <!-- CONGRESO_TEXTO_INTEGRO --> <div id="TEXTOS_POPUP">	<br>
+    	<div class="titular_texto"><br><a name="(Página1)"></a>
+    CORTES GENERALES
+
+    <br>DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS
+
+    <br>PLENO Y DIPUTACIÓN PERMANENTE
+    </div>
+    <div class="subtitular_texto"><br>AÑO 2004 VIII Legislatura Núm.  1
+    <br>SESIÓN CONSTITUTIVA
+    <br>Sesión Plenaria núm.  1
+    <br>celebrada el viernes, 2 de abril de 2004</div>      	<div class="texto_completo"><br><br>ORDEN DEL DÍA:
+
+    <br><br>-Constitución de la Mesa de Edad ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>-Real Decreto de convocatoria de elecciones ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>-Relación de señores diputados electos ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>-Recursos contencioso-electorales interpuestos ... <a href="#(Página6)">(Página 6)</a>
+
+    <br><br>-Elección de la Mesa del Congreso de los Diputados ... <a href="#(Página7)">(Página 7)</a>
+
+    <br><br>-Juramento o promesa de acatamiento de la Constitución ... <a href="#(Página8)">(Página 8)</a>
+
+    <br><br>-Discurso del señor presidente del Congreso ... <a href="#(Página9)">(Página 9)</a>
+
+    <br><br><center><a name="(Página2)"><b>Página 2</b></a></center>
+
+    <br><br>SUMARIO
+
+    <br><br>Se abre la sesión a las diez y cinco minutos de la mañana.<br>
+
+    <br><br>Constitución de la Mesa de Edad ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>Se constituye la Mesa de Edad, formada por los señores diputados electos
+    don Feliciano Blázquez Sánchez, como presidente, y doña María Isabel
+    Fuentes González y doña Leire Pajín Iraola como secretarias.<br>
+
+    <br><br>El señor presidente de la Mesa de Edad (Blázquez Sánchez) solicita de la
+    Cámara un minuto de silencio en recuerdo de las víctimas y familiares del
+    cruel atentado ocurrido el 11 de marzo.<br>
+
+    <br><br>A continuación muestra su satisfacción por presidir la Mesa de Edad y,
+    tras recordar a los compañeros de anteriores legislaturas, da la
+    bienvenida y felicita a los nuevos miembros de la Cámara.<br>
+
+    <br><br>Real Decreto de convocatoria de elecciones ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>La señora secretaria primera de la Mesa de Edad (Fuentes González) da
+    lectura del artículo 5º del Real Decreto 100/2004, de 19 de enero, de
+    disolución del Congreso de los Diputados y del Senado y de convocatoria
+    de elecciones.<br>
+
+    <br><br>Relación alfabética de señoras y señores diputados electos ... <a href="#(Página3)">(Página 3)</a>
+
+    <br><br>Por las señoras secretarias de la Mesa de Edad (Fuentes González y Pajín
+    Iraola), se procede a dar lectura de la lista de diputados electos.<br>
+
+    <br><br>Recursos contencioso-electorales interpuestos ... <a href="#(Página6)">(Página 6)</a>
+
+    <br><br>La señora secretaria de la Mesa de Edad (Fuentes González) da cuenta del
+    escrito de la Junta Electoral Central por el que informa que no se han
+    presentado recursos contencioso-electorales.<br>
+
+    <br><br>Elección de la Mesa del Congreso de los Diputados ... <a href="#(Página7)">(Página 7)</a>
+
+    <br><br>De acuerdo con el procedimiento previsto en el artículo 37 del Reglamento
+    se procede a la elección de la Mesa del Congreso de los Diputados.<br>
+
+    <br><br>Elección del presidente.<br>
+
+    <br><br>Realizada la votación y verificado el escrutinio, el señor presidente de
+    la Mesa de Edad da cuenta del resultado de la misma, quedando proclamado
+    presidente de la Cámara don Manuel Marín González al haber obtenido 202
+    votos a favor.<br>
+
+    <br><br>Elección de vicepresidentes.<br>
+
+    <br><br>Realizada la votación y verificado el escrutinio, resultaron elegidos doña
+    Carme Chacón Piqueras, como vicepresidenta primera; don Jordi Vilajoana
+    Rovira, como vicepresidente segundo; don Gabriel Cisneros Laborda, como
+    vicepresidente tercero, y don Ignacio Gil Lázaro, como vicepresidente
+    cuarto.<br>
+
+    <br><br>Elección de secretarios.<br>
+
+    <br><br>Realizada la votación y verificado el escrutinio, resultaron elegidos doña
+    María Jesús Sainz García, como secretaria primera; doña Celia Villalobos
+    Talero, como secretaria segunda; don Javier Barrero López, como
+    secretario tercero, y doña Isaura Navarro Casillas, como secretaria
+    cuarta.<br>
+
+    <br><br>Las señoras y señores diputados miembros de la Mesa toman posesión de sus
+    cargos.<br>
+
+    <br><br>Prestación de juramento o promesa de acatamiento de la Constitución ...<br>
+    <a href="#(Página8)">(Página 8)</a>
+
+    <br><br>Se procede a la prestación del juramento o promesa de acatamiento de la
+    Constitución, en primer lugar, por el señor presidente de la Cámara y, a
+    continuación, por el resto de señoras y señores diputados, quienes son
+    llamados por orden alfabético.<br>
+
+    <br><br>Discurso del señor presidente del Congreso de los Diputados ... <a href="#(Página9)">(Página 9)</a>
+
+    <br><br>El señor presidente (Marín González) manifiesta que han adquirido la
+    condición plena de diputados todas las señoras y señores diputados que
+    han contestado al llamamiento.<br>
+
+    <br><br>A continuación agradece tanto el voto a favor como la cortesía de la
+    abstención y, en especial, el trabajo del decano de la Cámara, don
+    Feliciano Blázquez.<br>
+
+    <br><br>Anuncia la reforma del Reglamento de la Cámara, a pesar de las
+    dificultades con las que seguro se
+
+    <br><br><center><a name="(Página3)"><b>Página 3</b></a></center>
+
+    <br><br>encontrará, porque considera que ha llegado el momento de hacerlo y se
+    reúnen las condiciones necesarias en la VIII Legislatura. Asimismo hace
+    una serie de reflexiones sobre el papel de la Mesa del Congreso y,
+    finalmente, declara constituido el Congreso de los Diputados, de
+    conformidad con el artículo 4.º del Reglamento de la Cámara, de cuyo
+    hecho se dará cuenta a Su Majestad el Rey, al Senado y al Gobierno.<br>
+
+    <br><br>Se levanta la sesión a la una y treinta minutos de la tarde.<br>
+
+    <br><br>Se abre la sesión a las diez y cinco minutos de la mañana.<br>
+
+    <br><br>CONSTITUCIÓN DE LA MESA DE EDAD.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Se abre la
+    sesión.<br>
+
+    <br><br>En virtud de lo dispuesto en el artículo 2.º del Reglamento del Congreso
+    de los Diputados, la Mesa de Edad ha quedado constituida por el diputado
+    electo de mayor edad de los presentes, quien les habla, Feliciano
+    Blázquez Sánchez, como presidente, y por las dos más jóvenes como
+    secretarias, a saber, doña María Isabel Fuentes González y doña Leire
+    Pajín Iraola, según los datos que constan en la Cámara.<br>
+
+    <br><br>En primer lugar, señorías, señoras y señores diputados, en recuerdo de las
+    víctimas y familiares del cruel atentado ocurrido el 11 de marzo,
+    solicito a todos ustedes un minuto de silencio. (La Cámara, puesta en
+    pie, guarda un minuto de silencio.)
+
+    <br><br>Muchas gracias.<br>
+
+    <br><br>Muy brevemente, señorías, quiero expresar mi satisfacción por el alto
+    honor que para mí supone asumir esta presidencia, aunque sólo sea por
+    unas pocas horas. Será para mí y para mi familia un recuerdo inolvidable,
+    ya que soy consciente de que muy pocos españoles han podido disfrutar de
+    este privilegio. Quiero también tener un recuerdo para tantos compañeros
+    que estuvieron con nosotros en anteriores legislaturas y que hoy, por
+    diversas circunstancias, no nos acompañan. Vaya para ellos nuestro
+    reconocimiento a su labor. También, como no, a todos ustedes quiero
+    manifestarles mi sincera bienvenida a esta casa y mi enhorabuena por
+    haber conseguido la confianza popular en sus respectivas
+    circunscripciones. Estoy seguro de que ilusión, ganas, preparación y
+    esfuerzo no les van a faltar a todos ustedes para que la VIII Legislatura
+    sea todo lo provechosa que España se merece.<br>
+
+    <br><br>Muchas gracias. (Aplausos.)
+
+    <br><br>Señorías, de conformidad con lo establecido por el artículo 3.º del
+    Reglamento, por la señoras secretarias de la Mesa de Edad se va a dar
+    lectura al Real Decreto de convocatoria, a la relación de las señoras y
+    señores diputados electos y a la relación de recursos
+    contencioso-electorales interpuestos.<br>
+
+    <br><br>La señora secretaria primera de la Mesa de Edad tiene la palabra.<br>
+
+    <br><br>REAL DECRETO DE CONVOCATORIA DE ELECCIONES.<br>
+
+    <br><br>La señora SECRETARIA PRIMERA DE LA MESA DE EDAD (Fuentes González):
+    Artículo 5.º del Real Decreto 100/2004, de 19 de enero, de disolución del
+    Congreso de los Diputados y del Senado y de convocatoria de elecciones:
+    Celebradas las elecciones convocadas por este Real Decreto, las Cámaras
+    resultantes se reunirán en sesiones constitutivas el día 2 de abril a las
+    diez horas. Dado en Madrid, a 19 de enero de 2004. El presidente del
+    Gobierno, José María Aznar López.<br>
+
+    <br><br>RELACIÓN ALFABÉTICA DE SEÑORAS Y SEÑORES DIPUTADOS.<br>
+
+    <br><br>(Por las secretarias de la Mesa de Edad, señoras Fuentes González y Pajín
+    Iraola, se procede a dar lectura de la siguiente relación.)
+
+    <br><br>ABURTO BASELGA, María Rosario Fátima.<br>
+
+    <br><br>ACEBES PANIAGUA, Ángel Jesús.<br>
+
+    <br><br>ACOSTA CUBERO, José.<br>
+
+    <br><br>ALBENDEA PABÓN, Juan Manuel.<br>
+
+    <br><br>ALBORCH BATALLER, Carmen.<br>
+
+    <br><br>ALMUNIA AMANN, Joaquín.<br>
+
+    <br><br>ALONSO NÚÑEZ, Alejandro.<br>
+
+    <br><br>ALONSO SUÁREZ, José Antonio.<br>
+
+    <br><br>ÁLVAREZ ÁLVAREZ, Amador.<br>
+
+    <br><br>ÁLVAREZ ARZA, Magdalena.<br>
+
+    <br><br>ÁLVAREZ OTEO, Eloísa.<br>
+
+    <br><br>AMUEDO MORAL, Emilio.<br>
+
+    <br><br>ANDREU DOMINGO, Josep.<br>
+
+    <br><br>ANTICH OLIVER, Francesc.<br>
+
+    <br><br>ARAGONÉS MENDIGUCHÍA, Carlos.<br>
+
+    <br><br>ARANDA ÁLVAREZ, Elviro.<br>
+
+    <br><br>ARENAS BOCANEGRA, Francisco Javier.<br>
+
+    <br><br>ARIAS CAÑETE, Miguel.<br>
+
+    <br><br>ARÍSTEGUI Y SAN ROMÁN, Gustavo Manuel de.<br>
+
+    <br><br>ARMENGOL CRIADO, María Antonia de.<br>
+
+    <br><br>ARNAIZ GARCÍA, María del Mar.<br>
+
+    <br><br>AROLA BLANQUET, Alfredo Francisco Javier.<br>
+
+    <br><br>ARRIBAS ARAGONÉS, Elías.<br>
+
+    <br><br>ARRÚE BERGARECHE, Marisa.<br>
+
+    <br><br>ASTARLOA HUARTE-MENDICOA, Ignacio.<br>
+
+    <br><br>ATENCIA ROBLEDO, Manuel.<br>
+
+    <br><br>AYALA SÁNCHEZ, Andrés José.<br>
+
+    <br><br>AZPIAZU URIARTE, Pedro María.<br>
+
+    <br><br><center><a name="(Página4)"><b>Página 4</b></a></center>
+
+    <br><br>AZPIROZ VILLAR, José Eugenio.<br>
+
+    <br><br>BALLESTERO DE DIEGO, Alejandro Francisco.<br>
+
+    <br><br>BÁÑEZ GARCÍA, María Fátima.<br>
+
+    <br><br>BAÓN RAMÍREZ, Rogelio.<br>
+
+    <br><br>BARKOS BERRUEZO, Uxue.<br>
+
+    <br><br>BARRACHINA ROS, Miguel.<br>
+
+    <br><br>BARRERO LÓPEZ, Jaime Javier.<br>
+
+    <br><br>BARRIO DE PENAGOS, Juan Antonio.<br>
+
+    <br><br>BATET LAMAÑA, Meritxell.<br>
+
+    <br><br>BEDERA BRAVO, Mario.<br>
+
+    <br><br>BELOKI GUERRA, José Ramón.<br>
+
+    <br><br>BENEGAS HADDAD, José María.<br>
+
+    <br><br>BENITO SERRA, Ernest.<br>
+
+    <br><br>BENZAL ROMÁN, Raimundo.<br>
+
+    <br><br>BERMEJO FERNÁNDEZ, José Luis.<br>
+
+    <br><br>BERMÚDEZ DE CASTRO FERNÁNDEZ, José Antonio.<br>
+
+    <br><br>BERTRAND DE LA RIERA, Leopoldo.<br>
+
+    <br><br>BLANCO LÓPEZ, José.<br>
+
+    <br><br>BLANCO TERÁN, Rosa Delia.<br>
+
+    <br><br>BLÁZQUEZ SÁNCHEZ, Feliciano.<br>
+
+    <br><br>BONÁS PAHISA, Rosa María.<br>
+
+    <br><br>BURGO TAJADURA, Jaime Ignacio del.<br>
+
+    <br><br>BURGOS GALLEGO, Tomás.<br>
+
+    <br><br>CABRERA CALVO-SOTELO, Mercedes.<br>
+
+    <br><br>CABRERA MATOS, Carlos Javier.<br>
+
+    <br><br>CALDERA SÁNCHEZ-CAPITÁN, Jesús.<br>
+
+    <br><br>CALOMARDE GRAMAGE, Joaquín.<br>
+
+    <br><br>CALVO POYATO, Carmen.<br>
+
+    <br><br>CAMARERO BENÍTEZ, Susana.<br>
+
+    <br><br>CAMPOS ARTESEROS, Herick Manuel.<br>
+
+    <br><br>CAMPOY SUÁREZ, Miguel Antonio.<br>
+
+    <br><br>CAMPUZANO I CANADÉS, Carles.<br>
+
+    <br><br>CANET COMA, Francesc.<br>
+
+    <br><br>CARACUEL DEL OLMO, María Amelia.<br>
+
+    <br><br>CARCEDO ROCES, María Luisa.<br>
+
+    <br><br>CARRO GARROTE, Francisco Xavier.<br>
+
+    <br><br>CASAUS RODRÍGUEZ, Yolanda.<br>
+
+    <br><br>CASTELLANO RODRÍGUEZ, María del Carmen.<br>
+
+    <br><br>CASTELLÓ BORONAT, Fernando Vicente.<br>
+
+    <br><br>CASTILLEJO HERNÁNDEZ, Carolina.<br>
+
+    <br><br>CASTILLO VERA, Pilar del.<br>
+
+    <br><br>CASTRO MASAVEU, Alicia.<br>
+
+    <br><br>CEDRÉS RODRÍGUEZ, Olivia.<br>
+
+    <br><br>CERDË ARGENT, Agustí.<br>
+
+    <br><br>CÍSCAR CASABÁN, Cipriá.<br>
+
+    <br><br>CISNEROS LABORDA, Gabriel.<br>
+
+    <br><br>COELLO FERNÁNDEZ-TRUJILLO, María Mercedes.<br>
+
+    <br><br>COLLDEFORNS I SOL, María Montserrat.<br>
+
+    <br><br>CONTRERAS PÉREZ, Francisco.<br>
+
+    <br><br>CORCUERA PLAZA, Juan Carlos.<br>
+
+    <br><br>CORRAL RUIZ, Lucila.<br>
+
+    <br><br>CORTAJARENA ITURRIOZ, Elvira.<br>
+
+    <br><br>CORTÉS MARTÍN, Miguel Ángel.<br>
+
+    <br><br>COSTA CLIMENT, Juan.<br>
+
+    <br><br>COUTO RIVAS, María Esther.<br>
+
+    <br><br>CRUZ VALENTÍN, Raquel de la.<br>
+
+    <br><br>CUADRADO BAUSELA, Jesús.<br>
+
+    <br><br>CUESTA MARTÍNEZ, Álvaro.<br>
+
+    <br><br>CUEVAS DELGADO, Antonio.<br>
+
+    <br><br>CUNILLERA I MESTRES, Teresa.<br>
+
+    <br><br>CHACÓN PIQUERAS, Carme.<br>
+
+    <br><br>DELGADO ARCE, Celso Luis.<br>
+
+    <br><br>DÍAZ DÍAZ, Manuel Ceferino.<br>
+
+    <br><br>DÍAZ PACHECO, Susana.<br>
+
+    <br><br>DÍAZ-CANO DEL REY, Máximo Ramón.<br>
+
+    <br><br>DÍEZ DE BALDEÓN GARCÍA, Clementina.<br>
+
+    <br><br>DURÁN I LLEIDA, Josep Antoni.<br>
+
+    <br><br>ECHÁNIZ SALGADO, José Ignacio.<br>
+
+    <br><br>ELÍAS CORDÓN, María Remedios.<br>
+
+    <br><br>ELOLA RAMÓN, Juan Julián.<br>
+
+    <br><br>ELORRIAGA PISARIK, Gabriel.<br>
+
+    <br><br>ENCINA ORTEGA, Salvador de la.<br>
+
+    <br><br>ERIAS REY, Antonio.<br>
+
+    <br><br>ERKOREKA GERVASIO, Josu Iñaki.<br>
+
+    <br><br>ESCUDERO SÁNCHEZ, María.<br>
+
+    <br><br>ESTEBAN BRAVO, Aitor.<br>
+
+    <br><br>ESTEVE FERRER, Héctor.<br>
+
+    <br><br>ESTEVE ORTEGA, Esperanza.<br>
+
+    <br><br>ESTRELLA PEDROLA, Rafael.<br>
+
+    <br><br>FAJARNÉS RIBAS, Enrique.<br>
+
+    <br><br>FARRERA GRANJA, Esperan?a.<br>
+
+    <br><br>FERNÁNDEZ AGUILAR, Adolfo.<br>
+
+    <br><br>FERNÁNDEZ DÁVILA, María Olaia.<br>
+
+    <br><br>FERNÁNDEZ DE LA VEGA SANZ, María Teresa.<br>
+
+    <br><br>FERNÁNDEZ DE MESA DÍAZ DEL RÍO, Arsenio.<br>
+
+    <br><br>FERNÁNDEZ DÍAZ, Jorge.<br>
+
+    <br><br>FERNÁNDEZ GONZÁLEZ, Daniel.<br>
+
+    <br><br>FERNÁNDEZ MARUGÁN, Francisco Miguel.<br>
+
+    <br><br>FERNÁNDEZ ROZADA, Isidro.<br>
+
+    <br><br>FERNÁNDEZ-CAPEL BAÑOS, Blanca.<br>
+
+    <br><br>FERNÁNDEZ-LASQUETTY Y BLANC, Javier.<br>
+
+    <br><br>FIDALGO FRANCISCO, Alberto.<br>
+
+    <br><br>FOLGADO BLANCO, José.<br>
+
+    <br><br>FUENTES GONZÁLEZ, María Isabel.<br>
+
+    <br><br>FUENTES GUZMÁN, Sebastián.<br>
+
+    <br><br>FUENTES PACHECO, Ana María.<br>
+
+    <br><br>GALACHE CORTÉS, José Luis.<br>
+
+    <br><br>GÁMIR CASARES, Luis.<br>
+
+    <br><br>GARCÍA BREVA, Francisco Javier.<br>
+
+    <br><br>GARCÍA DÍEZ, Joaquín María.<br>
+
+    <br><br>GARCÍA SUÁREZ, María Carme.<br>
+
+    <br><br>GARCÍA VALLS, Antonia.<br>
+
+    <br><br>GARCÍA-HIERRO CARABALLO, Dolores.<br>
+
+    <br><br>GARCÍA-VALDECASAS SALGADO, Julia.<br>
+
+    <br><br>GARRE LÓPEZ, Alberto.<br>
+
+    <br><br>GARRIDO PEÑA, Francisco de Asís.<br>
+
+    <br><br>GIL LÁZARO, Ignacio.<br>
+
+    <br><br>GÓMEZ DARMENDRAIL, Javier.<br>
+
+    <br><br>GÓMEZ SANTAMARÍA, María Gloria.<br>
+
+    <br><br>GONZÁLEZ GUTIÉRREZ, Concepción.<br>
+
+    <br><br>GONZÁLEZ LÓPEZ, Armando.<br>
+
+    <br><br><center><a name="(Página5)"><b>Página 5</b></a></center>
+
+    <br><br>GONZÁLEZ PÉREZ, Francisco Antonio.<br>
+
+    <br><br>GONZÁLEZ RODRÍGUEZ, Adolfo Luis.<br>
+
+    <br><br>GONZÁLEZ SEGURA, Pilar.<br>
+
+    <br><br>GONZÁLEZ SERNA, Carlos.<br>
+
+    <br><br>GRANDE PESQUERO, Pilar.<br>
+
+    <br><br>GRANDES PASCUAL, Luis de.<br>
+
+    <br><br>GRAU I BULDÚ, Pere.<br>
+
+    <br><br>GUERRA GONZÁLEZ, Alfonso.<br>
+
+    <br><br>GUERRA ZUNZUNEGUI, Juan Carlos.<br>
+
+    <br><br>GUINART SOLÁ, Josep María.<br>
+
+    <br><br>GUTIÉRREZ MOLINA, Antonio.<br>
+
+    <br><br>GUTIÉRRREZ VEGARA, Antonio.<br>
+
+    <br><br>HEREDIA DÍAZ, Miguel Ángel.<br>
+
+    <br><br>HERMOSÍN BONO, Carmen.<br>
+
+    <br><br>HERNANDO FRAILE, Rafael Antonio.<br>
+
+    <br><br>HERRERA MARTÍNEZ CAMPOS, Íñigo.<br>
+
+    <br><br>HERRERA TORRES, Joan.<br>
+
+    <br><br>HIERRO RECIO, Luis Ángel.<br>
+
+    <br><br>HOLGADO FLORES, Manuela.<br>
+
+    <br><br>HUERTAS VICENTE, Manuel.<br>
+
+    <br><br>JANÉ I GUASCH, Jordi.<br>
+
+    <br><br>JÁUREGUI ATONDO, Ramón.<br>
+
+    <br><br>JIMÉNEZ PÉREZ, Agustín.<br>
+
+    <br><br>JUANEDA ZARAGOZA, María Rosario.<br>
+
+    <br><br>JUANES BARCIELA, Carmen.<br>
+
+    <br><br>LABORDETA SUBÍAS, José Antonio.<br>
+
+    <br><br>LANZUELA MARINA, Santiago.<br>
+
+    <br><br>LARA CARBÓ, María Teresa de.<br>
+
+    <br><br>LASAGABASTER OLAZÁBAL, Begoña.<br>
+
+    <br><br>LASSALLE RUIZ, José María.<br>
+
+    <br><br>LEGUINA HERRÁN, Joaquín.<br>
+
+    <br><br>LISSAVETZKY DÍEZ, Jaime.<br>
+
+    <br><br>LIZARRAGA GISBERT, María Luisa.<br>
+
+    <br><br>LÓPEZ ÁGUEDA, Óscar.<br>
+
+    <br><br>LÓPEZ AGUILAR, Juan Fernando.<br>
+
+    <br><br>LÓPEZ GARRIDO, Diego.<br>
+
+    <br><br>LÓPEZ I CHAMOSA, Isabel.<br>
+
+    <br><br>LÓPEZ IGLESIAS, Germán Augusto.<br>
+
+    <br><br>LÓPEZ RODRÍGUEZ, María Pilar.<br>
+
+    <br><br>LÓPEZ-AMOR GARCÍA, Fernando.<br>
+
+    <br><br>LÓPEZ-MEDEL BÁSCONES, Jesús.<br>
+
+    <br><br>LOURO GOYANES, Antonio.<br>
+
+    <br><br>LUIS RODRÍGUEZ, Teófilo de.<br>
+
+    <br><br>LLAMAZARES TRIGO, Gaspar.<br>
+
+    <br><br>MADERO JARABO, José.<br>
+
+    <br><br>MADINA MUÑOZ, Eduardo.<br>
+
+    <br><br>MADRAZO DÍAZ, Ana María.<br>
+
+    <br><br>MALARET GARCÍA, Elisenda.<br>
+
+    <br><br>MALDONADO I GILI, Josep.<br>
+
+    <br><br>MANCHA CADENAS, Jesús Andrés.<br>
+
+    <br><br>MANTILLA RODRÍGUEZ, Carlos.<br>
+
+    <br><br>MARDONES SEVILLA, Luis.<br>
+
+    <br><br>MARÍN GONZÁLEZ, Manuel.<br>
+
+    <br><br>MARÓN BELTRÁN, Carmen.<br>
+
+    <br><br>MARQUÍNEZ MARQUÍNEZ, Luis.<br>
+
+    <br><br>MARSAL MUNTALË, Jordi.<br>
+
+    <br><br>MARTEL GÓMEZ, Remedios.<br>
+
+    <br><br>MARTÍN SOLEDAD, Miguel Ángel.<br>
+
+    <br><br>MARTÍNEZ SANJUÁN, Ángel.<br>
+
+    <br><br>MARTÍNEZ SIESO, José Joaquín.<br>
+
+    <br><br>MARTÍNEZ-PUJALTE LÓPEZ, Vicente.<br>
+
+    <br><br>MAS I ESTELA, Manuel.<br>
+
+    <br><br>MATADOR DE MATOS, Carmen.<br>
+
+    <br><br>MATARÍ SÁEZ, Juan José.<br>
+
+    <br><br>MATEOS MARTÍN, José Ramón.<br>
+
+    <br><br>MATO ADROVER, Ana.<br>
+
+    <br><br>MATOS MASCAREÑO, Pablo.<br>
+
+    <br><br>MAYOR OREJA, Jaime.<br>
+
+    <br><br>MAYORAL CORTÉS, Victorino.<br>
+
+    <br><br>MEMBRADO GINER, Jesús.<br>
+
+    <br><br>MÉNDEZ MONASTERIO, Lourdes.<br>
+
+    <br><br>MENDIZÁBAL GOROSTIAGA, Arantza.<br>
+
+    <br><br>MERINO DELGADO, Jesús.<br>
+
+    <br><br>MERINO LÓPEZ, Rafael.<br>
+
+    <br><br>MICHAVILA NÚÑEZ, José María.<br>
+
+    <br><br>MINGO ZAPATERO, Mario.<br>
+
+    <br><br>MONEO DÍEZ, María Sandra.<br>
+
+    <br><br>MONTESERÍN RODRÍGUEZ, María Virtudes.<br>
+
+    <br><br>MONTESINOS DE MIGUEL, Macarena.<br>
+
+    <br><br>MONTILLA AGUILERA, José.<br>
+
+    <br><br>MONTÓN GIMÉNEZ, Carmen.<br>
+
+    <br><br>MONTORO ROMERO, Cristóbal Ricardo.<br>
+
+    <br><br>MORAGAS SÁNCHEZ, Jorge.<br>
+
+    <br><br>MORANO MASA, Juan.<br>
+
+    <br><br>MORATINOS CUYAUBÉ, Miguel Ángel.<br>
+
+    <br><br>MORENO BUSTOS, Ramón.<br>
+
+    <br><br>MORLÁN GRACIA, Víctor.<br>
+
+    <br><br>MUÑOZ GONZÁLEZ, Pedro José.<br>
+
+    <br><br>MUÑOZ SALVË, María Grácia.<br>
+
+    <br><br>MUÑOZ SANTAMARÍA, Lourdes.<br>
+
+    <br><br>MUÑOZ URIOL, Ángeles.<br>
+
+    <br><br>MURCIA BARCELÓ, Francisco Vicente.<br>
+
+    <br><br>NADAL I AYMERICH, María Dolors.<br>
+
+    <br><br>NAHARRO DE MORA, María Encarnación.<br>
+
+    <br><br>NARBONA RUIZ, Cristina.<br>
+
+    <br><br>NASARRE GOICOECHEA, Eugenio.<br>
+
+    <br><br>NAVARRO CASILLAS, Isaura.<br>
+
+    <br><br>NAVARRO GARZÓN, Micaela.<br>
+
+    <br><br>NIÑO RICO, Encarnación.<br>
+
+    <br><br>OLABARRÍA MUÑOZ, Emilio.<br>
+
+    <br><br>OLIVER SAGRERAS, Isabel María.<br>
+
+    <br><br>OLTRA TORRES, María Asunción.<br>
+
+    <br><br>OREIRO RODRÍGUEZ, José Domingo Cipriano.<br>
+
+    <br><br>ORIA GALLOSO, José.<br>
+
+    <br><br>ORTIZ RIVAS, María del Carmen.<br>
+
+    <br><br>PADILLA CARBALLADA, Julio.<br>
+
+    <br><br>PAJÍN IRAOLA, Leire.<br>
+
+    <br><br>PALACIO VALLELERSUNDI, Ana.<br>
+
+    <br><br>PALMA I MUÑOZ, Montserrat.<br>
+
+    <br><br>PAN VÁZQUEZ, María Dolores.<br>
+
+    <br><br>PASTOR JULIÁN, Ana María.<br>
+
+    <br><br>PEDRET I GRENZNER, Jordi.<br>
+
+    <br><br>PERALES PIZARRO, Alfonso.<br>
+
+    <br><br>PÉREZ ANGUITA, María Dolores.<br>
+
+    <br><br><center><a name="(Página6)"><b>Página 6</b></a></center>
+
+    <br><br>PÉREZ DOMÍNGUEZ, María Soledad.<br>
+
+    <br><br>PÉREZ LASERNA, Pío.<br>
+
+    <br><br>PÉREZ MARTÍNEZ, Ángel.<br>
+
+    <br><br>PÉREZ RUBALCABA, Alfredo.<br>
+
+    <br><br>PIGEM I PALMÉS, María Mercé.<br>
+
+    <br><br>PIN ARBOLEDAS, Margarita.<br>
+
+    <br><br>PINTADO BARBANOJ, Ángel.<br>
+
+    <br><br>PLIEGO CUBERO, José.<br>
+
+    <br><br>POLONIO CONTRERAS, Rosa Lucía.<br>
+
+    <br><br>PORTEIRO GARCÍA, María José.<br>
+
+    <br><br>POSADA MORENO, Jesús María.<br>
+
+    <br><br>POZUELO MEÑO, María Isabel.<br>
+
+    <br><br>PUCHE RODRÍGUEZ-ACOSTA, Gabino.<br>
+
+    <br><br>PUIG CORDÓN, Joan.<br>
+
+    <br><br>PUIG GASOL, María Dolores.<br>
+
+    <br><br>PUIGCERCÓS I BOIXASSA, Joan.<br>
+
+    <br><br>QUINTANILLA BARBA, María del Carmen.<br>
+
+    <br><br>QUIRÓS PULGAR, Sebastián.<br>
+
+    <br><br>RAJOY BREY, Mariano.<br>
+
+    <br><br>RAMÓN TORRES, Jordi.<br>
+
+    <br><br>RAMÓN-LLIN I MARTÍNEZ, María Angels.<br>
+
+    <br><br>RASCÓN ORTEGA, Juan Luis.<br>
+
+    <br><br>RATO FIGAREDO, Rodrigo de.<br>
+
+    <br><br>REGUERA DÍAZ, Cándido.<br>
+
+    <br><br>RICO RUIZ, César Antonio.<br>
+
+    <br><br>RICOMÁ DE CASTELLARNAU, Francisco.<br>
+
+    <br><br>RIPA GONZÁLEZ, Vicente.<br>
+
+    <br><br>RIVERO ALCOVER, Gloria Elena.<br>
+
+    <br><br>RIVERO BAUTE, Paulino.<br>
+
+    <br><br>ROBLES OROZCO, Gonzalo.<br>
+
+    <br><br>RODRÍGUEZ HERRER, María Elvira.<br>
+
+    <br><br>RODRÍGUEZ LÓPEZ, María Dolores.<br>
+
+    <br><br>RODRÍGUEZ RAMOS, María.<br>
+
+    <br><br>RODRÍGUEZ RODRÍGUEZ, Román.<br>
+
+    <br><br>RODRÍGUEZ SÁNCHEZ, Francisco.<br>
+
+    <br><br>RODRÍGUEZ ZAPATERO, José Luis.<br>
+
+    <br><br>RODRÍGUEZ-SALMONES CABEZA, Beatriz.<br>
+
+    <br><br>ROLDÓS CABALLERO, María Mercedes.<br>
+
+    <br><br>ROMÁN GUERRERO, Rafael.<br>
+
+    <br><br>RUDI ÚBEDA, Luisa Fernanda.<br>
+
+    <br><br>RUMÍ IBÁÑEZ, María Consuelo.<br>
+
+    <br><br>SÁENZ ROYO, Eva.<br>
+
+    <br><br>SÁEZ JUBERO, Álex.<br>
+
+    <br><br>SAINZ GARCÍA, María Jesús.<br>
+
+    <br><br>SALAZAR BELLO, María Isabel.<br>
+
+    <br><br>SALOM COLL, María.<br>
+
+    <br><br>SALORD TORRENT, Juan.<br>
+
+    <br><br>SALVADOR ARMENDÁRIZ, Carlos Casimiro.<br>
+
+    <br><br>SÁNCHEZ DÍAZ, María Carmen.<br>
+
+    <br><br>SÁNCHEZ FERNÁNDEZ, María Pía    .<br>
+
+    <br><br>SÁNCHEZ GARCÍA, María Jesús Celinda.<br>
+
+    <br><br>SÁNCHEZ I LLIBRE, Josep.<br>
+
+    <br><br>SÁNCHEZ MENÉNDEZ, José Avelino.<br>
+
+    <br><br>SÁNCHEZ RAMOS, Aurelio.<br>
+
+    <br><br>SÁNCHEZ RUBIO, María Josefa.<br>
+
+    <br><br>SÁNCHEZ-CAMACHO PÉREZ, Alicia.<br>
+
+    <br><br>SANTAELLA PORRAS, Juan.<br>
+
+    <br><br>SANTAMARÍA I MATEO, Josep Antoni.<br>
+
+    <br><br>SAURA GARCÍA, Pedro.<br>
+
+    <br><br>SEGURA CLAVELL, José.<br>
+
+    <br><br>SELLER ROCA DE TOGORES, María Enriqueta.<br>
+
+    <br><br>SERNA MASIÁ, Juana.<br>
+
+    <br><br>SEVILLA SEGURA, Jorge.<br>
+
+    <br><br>SIMÓN DE LA TORRE, Julián.<br>
+
+    <br><br>SORAVILLA FERNÁNDEZ, Roberto.<br>
+
+    <br><br>SOUVIRÓN GARCÍA, Federico.<br>
+
+    <br><br>SUÁREZ GONZÁLEZ, Celestino.<br>
+
+    <br><br>TABUYO ROMERO, Domingo Miguel.<br>
+
+    <br><br>TARDÁ I COMA, Joan.<br>
+
+    <br><br>TOMÁS GARCÍA, Luis Juan.<br>
+
+    <br><br>TOMÉ MUGURUZA, Baudilio.<br>
+
+    <br><br>TORME PARDO, Ana.<br>
+
+    <br><br>TORRES BALAGUER, Ricardo.<br>
+
+    <br><br>TORRES GARCÍA, Siro.<br>
+
+    <br><br>TORRES MORA, José Andrés.<br>
+
+    <br><br>TORRES SAHUQUILLO, Gerardo.<br>
+
+    <br><br>TORRES VELA, Javier.<br>
+
+    <br><br>TRILLO-FIGUEROA MARTÍNEZ-CONDE, Federico.<br>
+
+    <br><br>TXUEKA ISASTI, Iñaki.<br>
+
+    <br><br>UNZALU PÉREZ DE EULATE, Pilar.<br>
+
+    <br><br>URÍA ETXEBARRÍA, Margarita.<br>
+
+    <br><br>UTRERA MORA, Francisco.<br>
+
+    <br><br>VADILLO ARNÁEZ, José Félix.<br>
+
+    <br><br>VALCARCE GARCÍA, María Amparo.<br>
+
+    <br><br>VALLÉS VIVES, Francesc.<br>
+
+    <br><br>VAÑÓ FERRE, Francisco.<br>
+
+    <br><br>VÁZQUEZ BLANCO, Ana Belén.<br>
+
+    <br><br>VELASCO GARCÍA, Rosario.<br>
+
+    <br><br>VELASCO MORILLO, Elvira.<br>
+
+    <br><br>VERA PRO, Juan Carlos.<br>
+
+    <br><br>VILAJOANA ROVIRA, Jordi.<br>
+
+    <br><br>VILLAGRASA PÉREZ, María Teresa.<br>
+
+    <br><br>VILLALOBOS TALERO, Celia.<br>
+
+    <br><br>VILLAR GARCÍA-MORENO, Francisco José.<br>
+
+    <br><br>VILLARRUBIA MEDIAVILLA, Julio.<br>
+
+    <br><br>XUCLÁ I COSTA, Jordi.<br>
+
+    <br><br>ZAPLANA HERNÁNDEZ-SORO, Eduardo.<br>
+
+    <br><br>RECURSOS CONTENCIOSO-ELECTORALES INTERPUESTOS.<br>
+
+    <br><br>La señora SECRETARIA DE LA MESA DE EDAD (Fuentes González): Relación de
+    recursos contencioso-electorales. El señor presidente de la Junta
+    Electoral Central, mediante oficio de 31 de marzo de 2004, notifica lo
+    siguiente: De conformidad con la información suministrada por las Juntas
+    Electorales Provinciales y por las de Ceuta y Melilla, comunico a V.E.<br>
+    que no se ha interpuesto ningún recurso contencioso-electoral contra la
+    proclamación de electos realizada por las correspondientes juntas
+    electorales en relación con las elecciones generales del 14 de marzo de
+    2004.<br>
+
+    <br><br><center><a name="(Página7)"><b>Página 7</b></a></center>
+
+    <br><br>ELECCIÓN DE LA MESA DEL CONGRESO DE LOS DIPUTADOS.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): A continuación
+    se va a proceder a la elección de la Mesa del Congreso, de acuerdo con el
+    procedimiento previsto en el artículo 37 del Reglamento.<br>
+
+    <br><br>ELECCIÓN DE PRESIDENTE.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): En primer lugar
+    se elegirá al presidente de la Cámara. La votación tendrá carácter
+    secreto y se realizará por papeletas. Cada diputado escribirá sólo un
+    nombre en la papeleta. Resultará elegido el que obtenga el voto de la
+    mayoría absoluta de los miembros de la Cámara. Si ninguno obtuviera en
+    primera votación dicha mayoría, se repetirá la elección entre los que
+    hayan alcanzado las dos mayores votaciones y resultará elegido el que
+    obtenga más votos.<br>
+
+    <br><br>Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento
+    por orden alfabético de las señoras y señores diputados para que
+    depositen la papeleta en la urna correspondiente. Los miembros de la Mesa
+    votarán al final. Se ruega a las señoras y señores diputados que
+    comuniquen su nombre a la Mesa en el momento de votar.<br>
+
+    <br><br>Comienza la votación.<br>
+
+    <br><br>(Por las secretarias de la Mesa de Edad, señoras Pajín Iraola y Fuentes
+    González, se procede a dar lectura de la lista de los señores diputados,
+    quienes van depositando en la urna sus papeletas.)
+
+    <br><br>Terminada la votación, dijo.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, ¿hay
+    alguna señora o señor diputado que no haya sido nombrado para votar?
+    (Pausa.)
+
+    <br><br>Procedemos al escrutinio.<br>
+
+    <br><br>Terminado el escrutinio, dijo.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, el
+    resultado de la votación ha sido el siguiente: votos emitidos, 349; 202 a
+    favor de don Manuel Marín González; dos a favor de don José Blanco; 142
+    en blanco y tres nulos.<br>
+
+    <br><br>Al haber obtenido el voto de la mayoría absoluta de los miembros de la
+    Cámara, 176, queda, en consecuencia, proclamado presidente del Congreso
+    de los Diputados el diputado don Manuel Marín González. (Aplausos.)
+
+    <br><br>ELECCIÓN DE VICEPRESIDENTES.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, se
+    elegirán a continuación los cuatro vicepresidentes. Cada diputado
+    escribirá exclusivamente un nombre en la papeleta para la elección de los
+    vicepresidentes, resultando elegidos por orden sucesivo como
+    vicepresidentes los cuatro que obtengan mayor número de votos. Si en el
+    resultado de alguna votación se produjera empate, se celebrarán sucesivas
+    votaciones entre los candidatos igualados en votos hasta que el empate
+    quede dirimido.<br>
+
+    <br><br>Por las señoras secretarias de la Mesa de Edad se procederá al llamamiento
+    por orden alfabético de las señoras y señores diputados para que
+    depositen la papeleta en la urna correspondiente. Los miembros de la Mesa
+    de Edad votarán al final. Ruego a SS.SS. que hagan un único doblez en la
+    papeleta para facilitar el recuento final. Se ruega también a las señoras
+    y señores diputados que comuniquen su nombre a la Mesa en el momento de
+    votar.<br>
+
+    <br><br>Comienza la votación.<br>
+
+    <br><br>(Por las secretarias de la Mesa de Edad, señoras Fuentes González y Pajín
+    Iraola, se procede a dar lectura de la lista de los señores diputados,
+    quienes van depositando en la urna sus papeletas.)
+
+    <br><br>Terminada la votación, dijo.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías,
+    ¿alguna señora diputada o señor diputado no ha sido nombrado para votar?
+    (Pausa.)
+
+    <br><br>Comenzamos el escrutinio.<br>
+
+    <br><br>Terminado el escrutinio, dijo.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, el
+    resultado de la votación para la elección de los cuatro vicepresidentes
+    ha sido el siguiente: votos emitidos, 350; 125 a favor de doña Carme
+    Chacón Piqueras; 77 a favor de don Jordi Vilajoana Rovira; 75 a favor de
+    don Gabriel Cisneros Laborda; 72 a favor de don Ignacio Gil Lázaro; un
+    voto nulo.<br>
+
+    <br><br>Quedan, en consecuencia, proclamados vicepresidenta primera, doña Carme
+    Chacón Piqueras (Aplausos.); vicepresidente segundo, don Jordi Vilajoana
+    Rovira (Aplausos.); vicepresidente tercero, don Gabriel Cisneros Laborda
+    (Aplausos.); vicepresidente cuarto, don Ignacio Gil Lázaro. (Aplausos.)
+
+    <br><br><center><a name="(Página8)"><b>Página 8</b></a></center>
+
+    <br><br>ELECCIÓN DE SECRETARIOS.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, a
+    continuación se elegirán los cuatro secretarios. Cada diputado escribirá
+    sólo un nombre en la papeleta para la elección de secretarios. Resultarán
+    elegidos por orden sucesivo como secretarios, los cuatro que obtengan
+    mayor número de votos. Si en algún caso se produjera empate, se
+    celebrarán sucesivas votaciones entre los candidatos igualados en votos
+    hasta que el empate quede dirimido.<br>
+
+    <br><br>Por las señoras secretarias de la Mesa se procederá al llamamiento, por
+    orden alfabético, de las señoras y señores diputados para que depositen
+    la papeleta en la urna correspondiente. Los miembros de la Mesa votarán
+    al final. Se ruega a las señoras y señores diputados que comuniquen su
+    nombre a la Mesa en el momento de votar.<br>
+
+    <br><br>Comienza la votación.<br>
+
+    <br><br>(Por las secretarias de la Mesa de Edad, señoras Fuentes González y Pajín
+    Iraola, se procede a dar lectura de la lista de señores diputados,
+    quienes van depositando sus papeletas en la urna.)
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías,
+    ¿alguna señora diputada o señor diputado ha quedado sin nombrar?
+    (Pausa.)
+
+    <br><br>Por consiguiente, se procederá a realizar el escrutinio de los votos
+    emitidos. Comenzamos el escrutinio.<br>
+
+    <br><br>Terminado el escrutinio, dijo.<br>
+
+    <br><br>El señor PRESIDENTE DE LA MESA DE EDAD (Blázquez Sánchez): Señorías, el
+    resultado de la votación para la elección de los cuatro secretarios de la
+    Mesa del Congreso ha sido el siguiente: votos emitidos, 350; 75 a favor
+    de doña María Jesús Sainz García; 72 a favor de doña Celia Villalobos
+    Talero; 71 a favor de don Javier Barrero López; 67 a favor de doña Isaura
+    Navarro Casillas; 64 a favor de doña Carmen Marón Beltrán. Un voto nulo.<br>
+
+    <br><br>Quedan en consecuencia proclamados: secretaria primera, doña María Jesús
+    Sainz García (Aplausos.); secretaria segunda, doña Celia Villalobos
+    Talero (Aplausos.); secretario tercero, don Javier Barrero López
+    (Aplausos.) y secretaria cuarta, doña Isaura Navarro Casillas.<br>
+    (Aplausos.)
+
+    <br><br>Finalizadas las votaciones, ruego al señor presidente, a los señores
+    vicepresidentes y a los secretarios elegidos en este acto que ocupen sus
+    puestos en la Mesa. (Pausa.)
+
+    <br><br>JURAMENTO O PROMESA DE ACATAMIENTO DE LA CONSTITUCIÓN.<br>
+
+    <br><br>El señor PRESIDENTE DEL CONGRESO DE LOS DIPUTADOS (Marín González):
+    Señorías, terminen los parabienes y continuamos.<br>
+
+    <br><br>Señoras y señores diputados, vamos a proceder al juramento o promesa de
+    acatamiento de la Constitución de todos los miembros de la Cámara en los
+    términos previstos en el Reglamento de la misma y en la Resolución de la
+    Presidencia de 30 de noviembre de 1989. Lo harán en primer lugar la
+    Presidencia, los miembros de la Mesa, y a continuación los restantes
+    diputados. (Pausa.)
+
+    <br><br>Prometo acatar la Constitución y cumplir fielmente mis obligaciones como
+    presidente del Congreso de los Diputados.<br>
+
+    <br><br>Doña Carme Chacón Piqueras, ¿jura o promete acatar la Constitución y
+    cumplir fielmente sus obligaciones como vicepresidenta primera?
+
+    <br><br>La señora CHACÓN PIQUERAS: Sí, prometo.<br>
+
+    <br><br>El señor PRESIDENTE: Don Jordi Vilajoana Rovira, ¿jura o promete acatar la
+    Constitución y cumplir fielmente sus obligaciones como vicepresidente
+    segundo?
+
+    <br><br>El señor VILAJOANA ROVIRA: Sí, prometo.<br>
+
+    <br><br>El señor PRESIDENTE: Don Gabriel Cisneros Laborda, ¿jura o promete acatar
+    la Constitución y cumplir fielmente sus obligaciones como vicepresidente
+    tercero?
+
+    <br><br>El señor CISNEROS LABORDA: Sí, juro.<br>
+
+    <br><br>El señor PRESIDENTE: Don Ignacio Gil Lázaro, ¿jura o promete acatar la
+    Constitución y cumplir fielmente sus obligaciones como vicepresidente
+    cuarto?
+
+    <br><br>El señor GIL LÁZARO: Sí, juro.<br>
+
+    <br><br>El señor PRESIDENTE: Doña María Jesús Sainz García, ¿jura o promete acatar
+    la Constitución y cumplir fielmente sus obligaciones como secretaria
+    primera?
+
+    <br><br>La señora SAINZ GARCÍA: Sí, juro.<br>
+
+    <br><br>El señor PRESIDENTE: Doña Celia Villalobos Talero, ¿jura o promete acatar
+    la Constitución y cumplir fielmente sus obligaciones como secretaria
+    segunda?
+
+    <br><br>La señora VILLALOBOS TALERO: Sí, prometo.<br>
+
+    <br><br>El señor PRESIDENTE: Don Jaime Javier Barrero López, ¿jura o promete
+    acatar la Constitución y cumplir fielmente sus obligaciones como
+    secretario tercero?
+
+    <br><br><center><a name="(Página9)"><b>Página 9</b></a></center>
+
+    <br><br>El señor BARRERO LÓPEZ: Sí, prometo.<br>
+
+    <br><br>El señor PRESIDENTE: Doña Isaura Navarro Casillas, ¿jura o promete acatar
+    la Constitución y cumplir fielmente sus obligaciones como secretaria
+    cuarta?
+
+    <br><br>La señora NAVARRO CASILLAS: Sí, prometo.<br>
+
+    <br><br>El señor PRESIDENTE: Puede sentarse la Mesa.<br>
+
+    <br><br>Señorías, ¿juráis o prometéis acatar la Constitución? Ruego a la
+    secretaria primera, siguiendo el procedimiento señalado, que proceda al
+    llamamiento por orden alfabético de las señoras y señores diputados, para
+    que puedan proceder al acatamiento. Señalo que los miembros del Gobierno
+    en funciones lo harán al final.<br>
+
+    <br><br>(Por los secretarios de la Mesa se procede a dar lectura de la lista de
+    señoras y señores diputados electos, quienes juran o prometen la
+    Constitución o lo hacen por imperativo legal.-A continuación se procede
+    por los secretarios de la Mesa a dar lectura de los miembros del Gobierno
+    en funciones, diputados electos, quienes juran o prometen la
+    Constitución.)
+
+    <br><br>El señor PRESIDENTE: Señorías, todas las señoras y señores diputados que
+    han contestado al llamamiento han adquirido la condición plena de
+    diputados.<br>
+
+    <br><br>DISCURSO DEL SEÑOR PRESIDENTE DEL CONGRESO DE LOS DIPUTADOS.<br>
+
+    <br><br>El señor PRESIDENTE: Señoras y señores diputados, en primer lugar quiero
+    manifestar mi agradecimiento a quienes me han votado y también quiero
+    manifestar mi respeto a quienes han decidido no hacerlo, y aprecio desde
+    luego la cortesía de la abstención.<br>
+
+    <br><br>De una manera particular quiero agradecerle su trabajo al decano de la
+    Cámara, don Feliciano Blázquez. Nunca pensé, querido decano, que las
+    papeletas que me elegirían como presidente pasarían por las expertas
+    manos de un gran médico. Aunque, eso sí, le señalo que el ministro Acebes
+    amablemente me señalaba: No sólo es un gran médico, sino que además es
+    jefe de servicio de anestesia del hospital provincial de Ávila. (Risas.)
+    Gracias, pues, por haber pasado por sus hábiles manos.<br>
+
+    <br><br>Señoras y señores diputados, tal vez me equivoque en el día de hoy y
+    debería limitarme a un discurso ritual sobre la importancia del
+    Parlamento y el honorable papel de los diputados, en general. Tal vez me
+    equivoque, pero prefiero correr el riesgo de entrar directamente en
+    materia.<br>
+
+    <br><br>Comienza hoy la VIII Legislatura y será la tercera -12 años, 12- que el
+    presidente o la presidenta del Congreso anuncia, de una manera u otra,
+    que el Reglamento de la Cámara, nuestra pequeña constitución, será
+    reformado y adaptado a las nuevas realidades. Yo sé que el Congreso se ha
+    renovado profundamente, casi la mitad de SS.SS. son nuevas o nuevos -creo
+    que es muy bueno-, pero seguramente los más veteranos, y los hay en esta
+    Cámara, pensarán oyéndome: Otro esfuerzo más, otro presidente o
+    presidenta con buenas intenciones. Vendrán los debates difíciles, el
+    clima tal vez no sea el más propicio. Pasará el primer año, luego el
+    segundo, vendrán las elecciones locales y autonómicas y tal vez me
+    encuentre, como me ha señalado alguno de mis predecesores, con una Junta
+    de Portavoces en la que me digan otra vez: Querido presidente, lo
+    sentimos, ya no hay tiempo, vienen las elecciones generales y esperemos
+    que otro sesudo y bienintencionado presidente lo intente otra vez.<br>
+
+    <br><br>Mi impresión, señorías, es la siguiente: nuestro Parlamento no puede
+    esperar más. Es el momentum y es la legislatura en la que vamos a
+    reformar definitivamente esta casa. Sea porque la necesidad lleva a la
+    virtud, sea porque a lo mejor somos más virtuosos de lo que parecemos, la
+    nueva realidad que expresa este hemiciclo me lleva a las siguientes
+    consideraciones. En esta legislatura estamos en un Parlamento abierto y
+    ancho políticamente hablando. Quienes ganaron se han comprometido rotunda
+    y claramente respecto al presente y al futuro de esta casa. Quienes
+    estuvieron en el Gobierno y ahora en la oposición estarán interesados en
+    reclamar coherencia y cumplimiento de lo prometido, y si miro al
+    hemiciclo, delante de mí, constato, viendo a los partidos políticos aquí
+    representados, que en este Parlamento existe en esta legislatura un
+    escenario abierto, plural, de gran anchura política, sobre un telón de
+    fondo donde hay compromisos que cumplir y compromisos que exigir.<br>
+
+    <br><br>Señorías, si acierto en lo que significan este hemiciclo y las votaciones
+    que se acaban de producir, llego a la conclusión de que las condiciones
+    están reunidas para reformar nuestro Parlamento en esta legislatura. Será
+    mi tarea principal y estoy decidido a conseguir este objetivo. Lo
+    lamento, señorías, porque van a tener un presidente, pues, obstinado, un
+    presidente obstinado que necesita y va a necesitar rescatar -digo
+    rescatar- los mejores momentos de este hemiciclo, cuando la voluntad y
+    capacidad negociadora se impusieron siempre a la voluntad y capacidad de
+    obstrucción. Hubo una palabra hermosa, o que yo considero hermosa, que
+    definió aquella forma de hacer política, y no necesito siquiera
+    pronunciarla porque hasta los muros de este hemiciclo entienden el
+    mensaje que estoy transmitiendo.<br>
+
+    <br><br>Voy a terminar entrando en lo que yo llamaba zona de riesgo y espero
+    hacerme comprender correctamente. Quiero hablarles de la Mesa del
+    Congreso, como exponente de la nueva realidad política surgida de las
+    pasadas elecciones. He visto, oído y leído, como todos ustedes, las
+    interpretaciones que se están dando. Todas son legítimas y todas se
+    pueden sostener en un discurso político, según la lógica de cada partido
+    político, lo
+
+    <br><br><center><a name="(Página10)"><b>Página 10</b></a></center>
+
+    <br><br>tengo muy claro. Pero, como presidente del Congreso, creo que es mi
+    obligación, respetuosamente, decirles lo que pienso acerca de la Mesa.<br>
+    Todos los miembros de la Mesa forman parte de mi equipo, todos tendrán
+    sus competencias y atribuciones, no habrá excluidos. La Mesa y su
+    presidente son la institución fundamental de este Parlamento. La Mesa es,
+    pues, de todos, de los que la han pactado y también de los que no lo han
+    hecho. Así dicho, así será. Pero también es mi obligación decirles,
+    siempre respetuosamente, lo que la Mesa no debería ser. La Mesa, por sus
+    características particulares que ya señalé anteriormente, no puede ser
+    durante esta legislatura el territorio de la emboscada parlamentaria. La
+    Mesa no puede ser el último recurso para resolver lo que no se pudo
+    resolver en el hemiciclo y en la Junta de Portavoces. La Mesa necesita
+    más que ninguna otra institución que la palabra hermosa que no pronuncié
+    antes se viva en toda su plenitud. Y seré aún más franco: yo estoy
+    convencido de que tener en el equipo a un ponente constitucional me
+    ayudará para hacer comprender a todos que el consenso consiguió en este
+    hemiciclo resolver cuestiones muy difíciles y en alguna que otra sesión
+    nocturna producir casi hasta milagros. Protejan a la Mesa,
+    independientemente de las emociones del momento, protejan a la Mesa y, en
+    la medida que puedan, a su presidente. En Junta de Portavoces, discutan,
+    negocien y busquen compromisos; en el hemiciclo, debatan, expliquen y
+    voten. Protejan a la Mesa y a su presidente porque tal vez sea útil para
+    todos, cuando lleguen los momentos difíciles, disponer de una referencia
+    de equilibrio y de arbitraje en esta casa.<br>
+
+    <br><br>Termino ya. No sé, señorías, si el Congreso se divierte y en ocasiones
+    necesita divertirse, pero termino con la preocupación de tal vez haber
+    fabricado, por mi error, un cliché con un presidente obstinado con los
+    suyos, protegidos por la oposición y -espero que no- un día anestesiado
+    por las hábiles manos de don Feliciano. (Risas.) Estoy seguro de que me
+    han comprendido todos.<br>
+
+    <br><br>Muchas gracias. (Aplausos.)
+
+    <br><br>Señorías, de conformidad con lo dispuesto en el artículo 4.º del
+    Reglamento de la Cámara, declaro constituido el Congreso de los
+    Diputados. De este hecho se dará cuenta a Su Majestad el Rey, al Senado y
+    al Gobierno.<br>
+
+    <br><br>Se levanta la sesión. (Aplausos.)
+
+    <br><br>Era la una y treinta minutos de la tarde.<br>
+    </div>
+<hr size=1 noshade> <!-- BRSCGI © 1995-2004 Baratz Servicios de Teledocumentación, S.A. http://www.baratz.es -->
+
+
+<!-- FUNCION PIE -->
+    
+
+
+
+                 
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	cargaLegSesion('null')
+</script>
+ 
+<!-- FIN  PIE   -->
+        <div id="PIE_POPUP">
+		<p><span lang="es">Congreso de los Diputados</span> &middot; C/Floridablanca s/n - 28071 - MADRID &middot; Copyright 2006. Todos los derechos reservados</p>
+	</div>
+</body>
+
+<!-- Mirrored from www.congreso.es/portal/page/portal/Congreso/PopUpCGI?CMD=VERDOC&CONF=BRSPUB.cnf&BASE=PUW8&PIECE=PUW8&DOCS=1-1&FMT=PUWTXDTS.fmt&OPDEF=Y&QUERY=(D).PUBL.+%26+(CONGRESO).SECC.+%26+(PLENO).ORSE.+Y+CDP200404020001.CODI. by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 01 Mar 2011 23:41:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html></DIV></TD></TR>
+</TABLE>
+</DIV></TD></TR>
+<TR>
+<TD COLSPAN="1" WIDTH="100%" ><IMG SRC="../../../../images/pobtrans.gif" height="4" width="1" ALT=""></TD>
+</TR>
+</TABLE><!----- show footer template = 1824729544 ----->
+</td>
+      </tr>
+    </table>
+  </td></tr>
+</table>
+</div>
+</BODY>
+
+<!-- Mirrored from www.congreso.es/portal/page/portal/Congreso/PopUpCGI?CMD=VERDOC&CONF=BRSPUB.cnf&BASE=PUW8&PIECE=PUW8&DOCS=1-1&FMT=PUWTXDTS.fmt&OPDEF=Y&QUERY=(D).PUBL.+%26+(CONGRESO).SECC.+%26+(PLENO).ORSE.+Y+CDP200404020001.CODI. by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 01 Mar 2011 23:41:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</HTML>
+<!-- Page Metadata Generated On: 02-MAR-2011:00:28:41  Time Taken: 10 msecs -->
