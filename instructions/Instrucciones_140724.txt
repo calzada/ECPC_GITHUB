@@ -1,0 +1,39 @@
+INSTRUCCIONES TRABAJO ECPC PARA MARÍA DEL MAR Y FERNANDO
+
+1) MARÍA DEL MAR Y FERNANDO
+
+1.1. Descargar los discursos del CD desde 2004 a 2011 + Documentar la descarga
+
+1.2. Desarrollar un script estable por partes + Documentar todos los pasos del trabajo: 
+
+1.2.1. Una posible forma de trabajar es que Fernando desarrolle primero un  script que etiquete la estructura de la sesión (de momento no se tendrán en cuenta para nada las etiquetas de los oradores) a partir de una muestra aleatoria de discursos (por ejemplo el primer discurso de cada mes). De hecho, creo que esta parte ya está hecha. 
+1.2.2. Una vez desarrollado el script, Fernando envía el material e instrucciones a María del Mar para que aplique el script anterior a una muestra aleatoria de discursos distinta de la que ha utilizado Fernando para desarrollar el script (por ejemplo el último discurso de cada mes). 
+1.2.3. María del Mar informa a Fernando del resultado y posibles problemas. Entre los dos resuelven los problemas.
+1.2.4. Después, se inicia el etiquetado del nombre de los oradores. Documentar el trabajo. 
+
+Aquí hay dos posibles formas de trabajar (entre otras):
+
+1.2.4.1. Fernando y María del Mar etiquetan, cada uno por su parte y con muestras distintas, a los oradores. Una vez concluido este proceso, se intercambian los scripts, que se aplican a la otra muestra. Fernando y María del Mar solucionan los problemas de forma conjunta.
+1.2.4.2. Fernando desarrolla un script para etiquetar el nombre de los oradores (sobre las muestras que ya tienen etiquetada la estructura). Una vez desarrollado el script, lo pasa a María del Mar para que lo aplique a una muestra distinta y estudie el eficacia del script, al tiempo que se anotan los problemas. Se resuelven los problemas al unísono.
+
+
+2) ANTONIO
+
+1.1. Descargar fichas de diputados del CD de la legislatura VIII
+1.2. Aplicar los scripts que figuran en ECPC_GITHUB/CD/METADATA, en el orden específicado a Antonio por email. 
+1.3. Informar a mc del resultado, pegará los discursos y los validará y enviará a Antonio instrucciones sobre cómo ha de revisar (manualmente) la tabla/base de datos con oradores. 
+1.4. Una vez terminada esta tarea, Antonio podrá: 
+1.4.1. Colaborar en la revisión del etiquetado del corpus (que están haciendo María del Mar y Fernando) o
+1.4.2. Repetir el mismo proceso con las fichas de los diputados del HC. 
+
+ATENCIÓN PARA TODOS:
+
+-- En todo momento podéis enviar WhatsApp a MC
+-- Cada vez que terminéis una fase (y antes de empezar la siguiente) mc ha de dar el visto bueno a María del Mar y Fernando. 
+-- Para desarrollar el script se utilizará el discurso del CD que existe en ECPC_GITHUB/CD/CORPUS.
+-- mc ha de preparar una dtd para validar los discursos una vez etiquetados. Ya está hecha, pero ha de ajustarla.
+-- Recordad, cuanto mejor consigáis etiquetar los discursos menos revisión manual habrá que hacer. 
+-- Documentar todo
+-- Guardar copia de todo tanto en ECPC_GITHUB, como en otra carpeta del ordenador propio (por si hay algún problema con ECPC_GITHUB). 
+
+NOS REUNIREMOS (DE FORMA PERSONAL O CIBERNÁTICA) A PRINCIPIOS DE SEPTIEMBRE PARA HABLAR SOBRE EL PROCESO DE TRABAJO.
