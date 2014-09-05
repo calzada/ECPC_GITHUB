@@ -1,0 +1,12 @@
+(<name>.+</name>)(<birth_date>.+</birth_date>)(<birth_place>.+</birth_place>)(<status>.+</status>)(<gender>.+</gender>)(<institution><io><eu\\p\{Z\}body=".+"/></io></institution>)(<constituency\\p\{Z\}country=".+"/>)(<affiliation><national_party>.+</national_party><ep_group>.+</ep_group></affiliation>)
+
+
+$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8
+
+(<institution>)(<io>)(<eu\\p\{Z\}body=".+"/>)(</io>)(</institution>)
+
+$1\n$2\n$3\n$4\n$5
+
+(<affiliation>)(<national_party>.+</national_party>)(<ep_group>.+</ep_group>)(</affiliation>)
+
+$1\n$2\n$3\n$4\n
