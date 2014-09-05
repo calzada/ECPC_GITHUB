@@ -1,0 +1,143 @@
+<!-- Info about document.
+author: mc
+date: 05/09/2014
+Subject: ep_0.dtd - This is a dtd from the first stage of CD tagging --before enriching speeches with speakers' data. 
+WARNING: Before applying change name from cd_0.dtd to cd.dtd
+NOTICE: DTDs require this format to comment <!--  -->
+
+
+<!ELEMENT ecpc_CD ( header, body+, back* ) >
+
+
+<!ELEMENT header ( legislature, title, label, date, place, edition, index ) >
+<!ATTLIST header filename CDATA #REQUIRED >
+
+<!-- 
+1) If header like like this:
+
+<header> ... </header>
+
+omit/comment the following step
+
+2) if header like this
+<header filename="EN20050110" language="EN">
+use following line. It is on now. Please delete/comment if 1) above applies -->
+
+<!ATTLIST header language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV) #REQUIRED >
+
+
+<!ELEMENT legislature ( #PCDATA ) >
+<!ATTLIST legislature begin CDATA #REQUIRED >
+<!ATTLIST legislature end CDATA #REQUIRED >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT label ( #PCDATA ) >
+
+<!ELEMENT date ( #PCDATA ) >
+
+<!ELEMENT place ( #PCDATA ) >
+
+<!ELEMENT edition ( #PCDATA ) >
+
+<!ELEMENT index ( indextitle, indexitem+ ) >
+
+<!ELEMENT indextitle ( #PCDATA ) >
+<!ELEMENT indexitem ( #PCDATA ) >
+
+<!ELEMENT body ( #PCDATA | heading | intervention | omit )* >
+
+<!-- The following allows paragraph division and numbering. But it should work without paragraph tagging. If paragraphs are tagged they should appear like this in text: <pa></pa> -->
+
+<!ELEMENT heading ( #PCDATA | omit | pa)* >
+
+
+<!-- Types of MEPs --speaker, writer, COMMON_writer - are included for EP. They may be unecessary for other chambers. Same applies to text : speech, writing, writing_COMMON-->
+
+<!ELEMENT intervention ( (speaker|writer|COMMON_writer)+, (speech|writing|writing_COMMON)+ ) >
+
+<!-- 
+1) If intervention like like this:
+
+<intervention> ... </intervention>
+
+omit/comment the following step
+
+2) if intervention like this
+
+<intervention id='in4'>
+
+use following line. It is on now. Please delete/comment if you 1) above applies -->
+
+<!ATTLIST intervention id ID #REQUIRED >
+
+<!ELEMENT speaker ( name, birth_date, birth_place, status, gender, institution, constituency, affiliation, post ) >
+
+
+<!ELEMENT name (#PCDATA)>
+<!-- SCRIPT -->
+<!ELEMENT birth_date (#PCDATA)>
+<!-- birth place means the city/town of birth, it has an attribute for country -->
+<!-- SCRIPT -->
+<!ELEMENT birth_place (#PCDATA)>
+<!-- Birthplace, si no lo sabemos UNKNOWN -->
+<!ATTLIST birth_place country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED>
+<!ELEMENT status (#PCDATA)>
+<!-- SCRIPT -->
+<!ELEMENT gender (#PCDATA)>
+<!-- SCRIPT -->
+<!ELEMENT institution (ni|io|ngo|vip) >
+
+<!ELEMENT ni (#PCDATA) >
+<!-- En el caso del CD sería: <ni country="ES">CD</ni> o <ni country="ES">NON-CD</ni> Posteriormente se pueden estudiar las otras instituciones -->
+<!ATTLIST ni country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED >
+<!ELEMENT io (eu|non-eu) >
+<!ELEMENT eu EMPTY>
+
+<!-- BODY (below) might be improved since we have already an element called body. Not important now, it can be used anyways. The list of bodies might need to be extended as we extend the corpus because more bodies might be represented throughout a whole legislature -->
+
+<!ATTLIST eu body (EP|Commission|Council|ECB|EIB|Ombudsman|HRFASP|CA) #REQUIRED >
+<!ELEMENT non-eu (#PCDATA) >
+<!-- NGO is any non governamental group of people with a common goal . El atributo country no es obligatorio, qué pasa sin la ong es internacional, valor international para el atributo country, no ponerlo, desechar el atributo o formalizar de otra manera? -->
+<!ELEMENT ngo (#PCDATA) >
+<!ATTLIST ngo country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #IMPLIED >
+<!-- Habíamos definido vip como PCDATA pero en realidad puede ser un elemento vacío -->
+<!ELEMENT vip EMPTY>
+<!-- Cuando se dé el caso de que tengamos una persona que no pertenece al parlamento no tendrá constituency, por tanto su country y region serán NA. Cuando se dé el caso de que una persona sí sea del parlamento, pero no sepamos o el country o el region entonces en ese caso pondremos UNKNOWN -->
+<!ELEMENT constituency EMPTY>
+<!-- CONSTITUENCY COUNTRY as it was in the very beginning, country meant the country of the person even if he/she didn't belong to the  House, as it is now it is the country which the MP represents, therefore, this element should be required for all MPs, but not for other people. But country is need for ni. And ngo? And what about the special case of Commission, Council... because it is important, how shall we express country for commissioners? In affiliation, because although not elected directly by citizens for a particular role in the EU institutions they represent their country or cover a quote of power for their country -->
+<!ATTLIST constituency country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED>
+<!-- CONSTITUENCY REGION means any administrative demarcation below country. country #REQUIRED for all corpora, region #IMPLIED for EP and #REQUIRED for CD and HC -->
+<!ATTLIST constituency region CDATA #REQUIRED>
+<!ELEMENT affiliation (national_party,ep) >
+<!ELEMENT ep EMPTY>
+<!ATTLIST ep group (PPE-DE|PSE|ALDE|Verts-ALE|GUE-NGL|IND-DEM|UEN|NI|UNKNOWN|NA) #REQUIRED >
+<!ELEMENT national_party (#PCDATA) >
+
+<!-- Siempre aparecerá la etiqueta post pero cuando no aparezca el cargo en el las actas pondremos NA -->
+<!-- En versiones futuras convendrá estudiar los distintos tipos de cargos de cada parlamento y desarrollar unos atributos que permitan describirlos, homogeneizarlos y cruzarlos -->
+<!ELEMENT post (#PCDATA)>
+
+<!-- Cuando tengamos todo etiquetado por párrafor y frases puede eliminarse la última opción #PCDATA; entonces el speech deberá tener solo etiquetas yde párrafo y omits y dentro de ellas texto. Antes de etiquetar párrafos y frases mantener lo que figura debajo. -->
+
+<!ELEMENT speech ( pa | omit | #PCDATA )* >
+<!ATTLIST speech language ( BG| CS | DA | DE | EL | EN | ES | ET | FI | FR | GA | HU | IT | LT | LV | MT | NL | PL | PT | RO | SL | SK | SV | UNKNOWN ) #REQUIRED >
+
+<!-- Delete / comment following line before numbering speeches -->
+<!ATTLIST speech id ID #REQUIRED >
+
+
+<!ELEMENT pa ( se | omit | #PCDATA)+ >
+<!ATTLIST pa id ID #REQUIRED >
+
+<!ELEMENT se ( #PCDATA | omit )* >
+
+<!-- Delete / comment following line before numbering speeches -->
+<!ATTLIST se id ID #REQUIRED >
+
+
+<!ELEMENT omit ( #PCDATA | se | pa)* >
+
+<!ELEMENT back (update,disclaimer)*>
+<!ELEMENT update (#PCDATA)>
+<!ELEMENT disclaimer (#PCDATA)>
