@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hc.dtd: EC Parliament sessions. $Revision: 1.6 $ -->
+<!-- This dtd is a revision of the ep.dtd 1.6. The main goal is to obtain a dtd to review the HC xml corpus, which is similar (if not the same as) the ep.dtd -->
+<!ELEMENT ecpc_hc (header,body,back*)>
+<!-- JMM: hay que dejar un espacio en blanco entre el nombre del elemento y su tipo -->
+<!ELEMENT header (legislature,title,label,date,place,edition,index)>
+<!ATTLIST header filename CDATA #REQUIRED>
+<!ATTLIST header language (EN) #REQUIRED >
+<!-- Había que dejarlo entre paréntesis si no da error -->
+<!ELEMENT legislature (#PCDATA)>
+<!ATTLIST legislature begin CDATA #REQUIRED>
+<!ATTLIST legislature end CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!-- Date always normalized YYYYMMDD -->
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!-- indexitem tags different items within the index. These will be repeated later on throughout the text as header to separate different items in the session -->
+<!ELEMENT index (indextitle)>
+<!--Atención en ep.dtd figura también este elemento <!ELEMENT indexitem (#PCDATA)>-->  
+<!ELEMENT indextitle (#PCDATA)>
+<!-- JMM: Chair tags the person presiding the session over; intervention contains information about speakers plus speeches; headings are the indexitems which now separate parts of the session -->
+<!-- MC: ATTENTION- The HC dos not still have a body which has a chair, which has intervention, heading and omit. Nino will have to add this element. Eventually it will look like this: <!ELEMENT body (chair)+>
+<!ELEMENT chair (intervention|heading|omit)*>
+<!ATTLIST chair who CDATA #REQUIRED > -->
+<!ELEMENT body (chair|intervention|heading|omit)*>
+<!-- En la ep.dtd figura el elemento intervention así: <!ELEMENT intervention ((speaker|writer)+,(speech|writing)+)> -->
+<!ELEMENT chair (#PCDATA)>
+<!ELEMENT intervention (speaker,speech)>
+<!-- TO BE DONE, change attribute ref by attribute id. On the corpus it will NOT look like this: (<intervention ref='1'>) but like this (<intervention id='in1'>) -->
+<!-- Para ablandar la dtd en este punto podría poner esto: <!ATTLIST intervention ref CDATA #REQUIRED> En este caso puedo poner <intervention ref='1> con la línea anterior de la dtd he de poner <intervention id='i1'> -->
+<!ATTLIST intervention id ID #REQUIRED>
+<!-- Todos los elementos aparecerán siempre pero cuando no sepamos el nombre pondremos UNKNONW; constituency sería NA; affiliation sería NA normalmente salvo excepciones muy raras; post sería NA porque en ese momento no ejerce ningún cargo-->
+<!ELEMENT speaker (name,birth_date,birth_place,status,gender,institution,constituency,affiliation,post*)>
+<!-- name should eventually appear without a question mark, once we solve problems with chair -->
+<!-- TO BE DONE para president de momento añadir <name>UNKNOWN</name> después rellenar con Chair -->
+<!ELEMENT name (#PCDATA)>
+<!-- SCRIPT -->
+<!ELEMENT birth_date (#PCDATA)>
+<!-- birth place means the city/town of birth, it has an attribute for country. So far the HC only has UK but this will have to be changed copying the structure of the EP -->
+<!-- SCRIPT -->
+<!ELEMENT birth_place (#PCDATA)>
+<!-- Birthplace, si no lo sabemos UNKNOWN -->
+<!-- De momento yo no voy a utilizar este atributo: <!ATTLIST birth_place country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED> ; sí que lo haré en un futuro y, por tanto tengo que dejar el birth_place así: <birth_place country="UK">Southport</birth_place>-->
+<!-- JMM: si no lo vas a utilizar ¿qué vas a hacer? OPCIONES: 1) no poner el elemento, tendrás que modificar la DTD; 2) poner algo así como <birth_place country="UNKNOWN">Southport</birth_place> en caso de que no tengas el país; 3) <birth_place country="UK">UNKNOWN</birthplace> en caso de que no tengas la población. Si no lo pones de ninguna manera si lo tienes definido en la DTD te dará error porque no aparece en el documento -->
+<!-- SCRIPT -->
+<!ELEMENT status (#PCDATA)>
+<!-- SCRIPT -->
+<!ELEMENT gender (#PCDATA)>
+<!-- SCRIPT -->
+<!-- Institutions might be eu, ni, io, ngo, vip -->
+<!-- HC a study should be made, we might use the same as for the EP with a difference, we might mantain eu but without its children, and we need to mantain ni and create new children -as body was for eu- (hc, hl, government, court of appeals, Queen...) even a new category/element should be included ri (regional institution) -->
+<!-- CD a study should be made, we might use the same as for the EP with a difference, we might mantain eu but without its children, and we need to mantain ni and create new children -as body was for eu- (cd, senado, gobierno, banco de españa, Rey...) even a new category/element should be included ri (regional institution) -->
+<!ELEMENT institution (ni|io|ngo|vip) >
+<!ELEMENT ni (#PCDATA) >
+<!-- En el caso del CD sería: <ni country="Spain">CD</ni> o <ni country="Spain">NON-CD</ni> Posteriormente se pueden estudiar las otras instituciones -->
+<!-- En el caso del HC sería: <ni country="UK">HC</ni> o <ni country="UK">NON-HC</ni> Posteriormente se pueden estudiar las otras instituciones -->
+<!-- En el caso de países de los cuales no estudiamos su parlamento el contenido para este elemento podría ser NON-ECPC -->
+<!ATTLIST ni country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED >
+<!ELEMENT io (eu|non-eu) >
+<!ELEMENT eu EMPTY>
+<!ATTLIST eu body (EP|Commission|Council|ECB|EIB|Ombudsman|HRFASP|CA) #REQUIRED >
+<!ELEMENT non-eu (#PCDATA) >
+<!-- NGO is any non governamental group of people with a common goal . El atributo country no es obligatorio, qué pasa sin la ong es internacional, valor international para el atributo country, no ponerlo, desechar el atributo o formalizar de otra manera? -->
+<!ELEMENT ngo (#PCDATA) >
+<!ATTLIST ngo country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #IMPLIED >
+<!-- Habíamos definido vip como PCDATA pero en realidad puede ser un elemento vacío -->
+<!ELEMENT vip EMPTY>
+<!-- Cuando se dé el caso de que tengamos una persona que no pertenece al parlamento no tendrá constituency, por tanto su country y region serán NA. Cuando se dé el caso de que una persona sí sea del parlamento, pero no sepamos o el country o el region entonces en ese caso pondremos UNKNOWN -->
+<!ELEMENT constituency EMPTY>
+<!-- CONSTITUENCY COUNTRY as it was in the very beginning, country meant the country of the person even if he/she didn't belong to the  House, as it is now it is the country which the MP represents, therefore, this element should be required for all MPs, but not for other people. But country is need for ni. And ngo? And what about the special case of Commission, Council... because it is important, how shall we express country for commissioners? In affiliation, because although not elected directly by citizens for a particular role in the EU institutions they represent their country or cover a quote of power for their country -->
+<!ATTLIST constituency country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED>
+<!-- CONSTITUENCY REGION means any administrative demarcation below country. country #REQUIRED for all corpora, region #IMPLIED for EP and #REQUIRED for CD and HC -->
+<!ATTLIST constituency region CDATA #REQUIRED>
+<!ELEMENT affiliation (hc,national_party) >
+<!-- JMM: el orden no es igual que en la DTD del PE, ¿podríamos poner primero national_party y después hc? -->
+<!ELEMENT hc EMPTY>
+<!ATTLIST hc group (UNKNOWN|NA) #REQUIRED>
+<!ELEMENT national_party (#PCDATA) >
+<!-- Siempre aparecerá la etiqueta post pero cuando no aparezca el cargo en el las actas pondremos NA -->
+<!-- En versiones futuras convendrá estudiar los distintos tipos de cargos de cada parlamento y desarrollar unos atributos que permitan describirlos, homogeneizarlos y cruzarlos -->
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT speech (#PCDATA|omit|italics)*>
+<!-- SPEECH LANGUAGE in EP should include all official languages plus UNKNOWN, in CD all official languages in the state (Spanish, Catalan, Basque, Galician, Valencian...) and in the HC all official languages (English, Welsh, Gaelic?. So far I leave the dtd like this but in the HC people speech in EN -->
+<!ATTLIST speech language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV|UNKNOWN) #REQUIRED>
+<!-- Add other new languages, since ECPC will gather debates belonging to sessions held after Romanian, Bulgarian, Gaelic and other new languages were incorporated -->
+<!ATTLIST speech id ID #REQUIRED>
+<!-- This attribute must be required in the definitive version, again remember, should ID attributes be unique only for the text or for the whole corpus instead? It should NOT look like this (<speech ref='s1' language="EN">) but like this <speech ref='sp1' language="EN"> -->
+<!ELEMENT p (s|omit)+>
+<!-- P ID again remember, should ID attributes be unique only for the text or for the whole corpus instead? -->
+<!ATTLIST p id ID #REQUIRED>
+<!ELEMENT s (#PCDATA|omit|italics)*>
+<!-- S ID again remember, should ID attributes be unique only for the text or for the whole corpus instead? It should be added with tagssentences.pl and it should look like this (<p id='pa1'><s id_'se1'>If he will make a statement on his Department's policy on encouraging the use of microgeneration in UK households.<s><p>-->
+<!ATTLIST s id ID #REQUIRED>
+<!ELEMENT heading (#PCDATA)>
+<!ATTLIST heading number CDATA #REQUIRED>
+<!-- Omits should not contain any sentece <s>, but a sentece can contain an omit, right? Keep it in mind when revising -->
+<!ELEMENT omit (#PCDATA|italics)*>
+<!-- OMIT DESC these attributes have never been used, but they might be a source of inspiration of a more descriptive family of elements -->
+<!ATTLIST omit desc (opening|action|reaction|procedure|note|closing) #IMPLIED>
+<!ELEMENT italics (#PCDATA)>
+<!-- JMM: no habías declarado el elemento italics -->
+<!ELEMENT back (update,disclaimer)*>
+<!ELEMENT update (#PCDATA)>
+<!ELEMENT disclaimer (#PCDATA)>
