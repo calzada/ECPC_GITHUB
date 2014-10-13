@@ -68,16 +68,16 @@
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -90,26 +90,26 @@
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -117,7 +117,7 @@
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -295,9 +295,9 @@ pay, and develop multi-year agreements based on the accepted index from the trib
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0002.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -305,13 +305,13 @@ pay, and develop multi-year agreements based on the accepted index from the trib
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -403,16 +403,16 @@ pay, and develop multi-year agreements based on the accepted index from the trib
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -425,26 +425,26 @@ pay, and develop multi-year agreements based on the accepted index from the trib
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -452,15 +452,15 @@ pay, and develop multi-year agreements based on the accepted index from the trib
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0001.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -636,9 +636,9 @@ In addition to pursuing the welcome proposal, minimal though it is, of dealing w
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0003.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -646,13 +646,13 @@ In addition to pursuing the welcome proposal, minimal though it is, of dealing w
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -744,16 +744,16 @@ In addition to pursuing the welcome proposal, minimal though it is, of dealing w
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -766,26 +766,26 @@ In addition to pursuing the welcome proposal, minimal though it is, of dealing w
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -793,15 +793,15 @@ In addition to pursuing the welcome proposal, minimal though it is, of dealing w
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0002.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -998,9 +998,9 @@ example, the police in local communities to move young people&#151;or anybody&#1
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0004.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -1008,13 +1008,13 @@ example, the police in local communities to move young people&#151;or anybody&#1
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -1106,16 +1106,16 @@ example, the police in local communities to move young people&#151;or anybody&#1
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -1128,26 +1128,26 @@ example, the police in local communities to move young people&#151;or anybody&#1
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -1155,15 +1155,15 @@ example, the police in local communities to move young people&#151;or anybody&#1
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0003.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -1345,9 +1345,9 @@ expanding the new deal, which has helped more than 1,500 young people in my cons
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0005.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -1355,13 +1355,13 @@ expanding the new deal, which has helped more than 1,500 young people in my cons
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -1453,16 +1453,16 @@ expanding the new deal, which has helped more than 1,500 young people in my cons
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -1475,26 +1475,26 @@ expanding the new deal, which has helped more than 1,500 young people in my cons
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -1502,15 +1502,15 @@ expanding the new deal, which has helped more than 1,500 young people in my cons
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0004.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -1671,9 +1671,9 @@ school or a college. The idea that that means that schools cannot give a view on
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0006.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -1681,13 +1681,13 @@ school or a college. The idea that that means that schools cannot give a view on
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -1779,16 +1779,16 @@ school or a college. The idea that that means that schools cannot give a view on
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -1801,26 +1801,26 @@ school or a college. The idea that that means that schools cannot give a view on
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -1828,15 +1828,15 @@ school or a college. The idea that that means that schools cannot give a view on
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0005.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2008,9 +2008,9 @@ I argued against membership of the exchange rate mechanism and the single curren
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0007.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2018,13 +2018,13 @@ I argued against membership of the exchange rate mechanism and the single curren
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -2116,16 +2116,16 @@ I argued against membership of the exchange rate mechanism and the single curren
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -2138,26 +2138,26 @@ I argued against membership of the exchange rate mechanism and the single curren
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -2165,15 +2165,15 @@ I argued against membership of the exchange rate mechanism and the single curren
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0006.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2346,9 +2346,9 @@ unhappy to go into education. In those circumstances, would a custodial sentence
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0008.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2356,13 +2356,13 @@ unhappy to go into education. In those circumstances, would a custodial sentence
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -2454,16 +2454,16 @@ unhappy to go into education. In those circumstances, would a custodial sentence
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -2476,26 +2476,26 @@ unhappy to go into education. In those circumstances, would a custodial sentence
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -2503,15 +2503,15 @@ unhappy to go into education. In those circumstances, would a custodial sentence
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0007.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2658,9 +2658,9 @@ education and retailing. There have to be higher standards in every possible are
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0009.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2668,13 +2668,13 @@ education and retailing. There have to be higher standards in every possible are
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -2766,16 +2766,16 @@ education and retailing. There have to be higher standards in every possible are
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -2788,26 +2788,26 @@ education and retailing. There have to be higher standards in every possible are
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -2815,15 +2815,15 @@ education and retailing. There have to be higher standards in every possible are
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0008.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2989,9 +2989,9 @@ disciplines of the workplace and getting the motivation that they never received
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0010.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -2999,13 +2999,13 @@ disciplines of the workplace and getting the motivation that they never received
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -3097,16 +3097,16 @@ disciplines of the workplace and getting the motivation that they never received
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -3119,26 +3119,26 @@ disciplines of the workplace and getting the motivation that they never received
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -3146,15 +3146,15 @@ disciplines of the workplace and getting the motivation that they never received
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0009.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3286,9 +3286,9 @@ that may appear, it would take us a big step forward. It would engage the attent
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0011.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3296,13 +3296,13 @@ that may appear, it would take us a big step forward. It would engage the attent
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -3394,16 +3394,16 @@ that may appear, it would take us a big step forward. It would engage the attent
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -3416,26 +3416,26 @@ that may appear, it would take us a big step forward. It would engage the attent
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -3443,15 +3443,15 @@ that may appear, it would take us a big step forward. It would engage the attent
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0010.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3584,9 +3584,9 @@ riches by doing an unskilled job&#151;breaking up Birkenhead municipal buses. He
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0012.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3594,13 +3594,13 @@ riches by doing an unskilled job&#151;breaking up Birkenhead municipal buses. He
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -3692,16 +3692,16 @@ riches by doing an unskilled job&#151;breaking up Birkenhead municipal buses. He
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -3714,26 +3714,26 @@ riches by doing an unskilled job&#151;breaking up Birkenhead municipal buses. He
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -3741,15 +3741,15 @@ riches by doing an unskilled job&#151;breaking up Birkenhead municipal buses. He
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0011.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3890,9 +3890,9 @@ desire to learn is often lost by 16, which is a serious concern. We have heard f
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0013.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -3900,13 +3900,13 @@ desire to learn is often lost by 16, which is a serious concern. We have heard f
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -3998,16 +3998,16 @@ desire to learn is often lost by 16, which is a serious concern. We have heard f
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -4020,26 +4020,26 @@ desire to learn is often lost by 16, which is a serious concern. We have heard f
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -4047,15 +4047,15 @@ desire to learn is often lost by 16, which is a serious concern. We have heard f
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0012.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4190,9 +4190,9 @@ experience shows that many people who leave education at 16 are deeply disengage
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0014.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4200,13 +4200,13 @@ experience shows that many people who leave education at 16 are deeply disengage
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -4298,16 +4298,16 @@ experience shows that many people who leave education at 16 are deeply disengage
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -4320,26 +4320,26 @@ experience shows that many people who leave education at 16 are deeply disengage
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -4347,15 +4347,15 @@ experience shows that many people who leave education at 16 are deeply disengage
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0013.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4491,9 +4491,9 @@ institutions, most of which were colleges, to introduce the courses. I worked ha
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0015.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4501,13 +4501,13 @@ institutions, most of which were colleges, to introduce the courses. I worked ha
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -4599,16 +4599,16 @@ institutions, most of which were colleges, to introduce the courses. I worked ha
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -4621,26 +4621,26 @@ institutions, most of which were colleges, to introduce the courses. I worked ha
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -4648,15 +4648,15 @@ institutions, most of which were colleges, to introduce the courses. I worked ha
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0014.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4789,9 +4789,9 @@ enhance education and skills. Like so much else done by the Executive in recent 
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0016.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -4799,13 +4799,13 @@ enhance education and skills. Like so much else done by the Executive in recent 
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -4897,16 +4897,16 @@ enhance education and skills. Like so much else done by the Executive in recent 
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -4919,26 +4919,26 @@ enhance education and skills. Like so much else done by the Executive in recent 
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -4946,15 +4946,15 @@ enhance education and skills. Like so much else done by the Executive in recent 
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0015.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5092,9 +5092,9 @@ have to have passed functional skills tests in both maths and literacy. That is 
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0017.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5102,13 +5102,13 @@ have to have passed functional skills tests in both maths and literacy. That is 
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -5200,16 +5200,16 @@ have to have passed functional skills tests in both maths and literacy. That is 
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -5222,26 +5222,26 @@ have to have passed functional skills tests in both maths and literacy. That is 
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -5249,15 +5249,15 @@ have to have passed functional skills tests in both maths and literacy. That is 
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0016.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5391,9 +5391,9 @@ We are no longer simply the United Kingdom. We are competing with our colleagues
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0018.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5401,13 +5401,13 @@ We are no longer simply the United Kingdom. We are competing with our colleagues
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -5499,16 +5499,16 @@ We are no longer simply the United Kingdom. We are competing with our colleagues
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -5521,26 +5521,26 @@ We are no longer simply the United Kingdom. We are competing with our colleagues
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -5548,15 +5548,15 @@ We are no longer simply the United Kingdom. We are competing with our colleagues
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0017.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5698,9 +5698,9 @@ a significant problem&#151;namely, that employers found that they would much rat
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0019.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -5708,13 +5708,13 @@ a significant problem&#151;namely, that employers found that they would much rat
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -5806,16 +5806,16 @@ a significant problem&#151;namely, that employers found that they would much rat
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -5828,26 +5828,26 @@ a significant problem&#151;namely, that employers found that they would much rat
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -5855,15 +5855,15 @@ a significant problem&#151;namely, that employers found that they would much rat
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0018.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6008,9 +6008,9 @@ Downing street for the British team in the WorldSkills &#147;olympics&#148; whic
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0020.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6018,13 +6018,13 @@ Downing street for the British team in the WorldSkills &#147;olympics&#148; whic
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -6116,16 +6116,16 @@ Downing street for the British team in the WorldSkills &#147;olympics&#148; whic
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -6138,26 +6138,26 @@ Downing street for the British team in the WorldSkills &#147;olympics&#148; whic
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -6165,15 +6165,15 @@ Downing street for the British team in the WorldSkills &#147;olympics&#148; whic
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0019.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6343,9 +6343,9 @@ families will increase. At some point young people and their families will no lo
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0021.htm">Next Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6353,13 +6353,13 @@ families will increase. At some point young people and their families will no lo
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -6451,16 +6451,16 @@ families will increase. At some point young people and their families will no lo
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="http://www.parliament.uk/site-information/accessibility/">Accessibility</a></li>
+		<li><a href="http://www.parliament.uk/site-information/email-alerts/">Email alerts</a></li>
+		<li><a href="http://www.parliament.uk/site-information/rss-feeds/">RSS feeds</a></li>
+		<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="http://www.parliament.uk/"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -6473,26 +6473,26 @@ families will increase. At some point young people and their families will no lo
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="http://www.parliament.uk/">Home</a></li>
+		<li class="over"><a href="http://www.parliament.uk/business/">Parliamentary business</a></li>
+		<li><a href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords & offices</a></li>
+		<li><a href="http://www.parliament.uk/about/">About Parliament</a></li>
+		<li><a href="http://www.parliament.uk/get-involved/">Get involved</a></li>
+		<li><a href="http://www.parliament.uk/visiting/">Visiting</a></li>
+		<li><a href="http://www.parliament.uk/education/">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="http://www.parliament.uk/business/commons/">House of Commons</a></li>
+			<li><a href="http://www.parliament.uk/business/lords/">House of Lords</a></li>
+			<li><a href="http://services.parliament.uk/calendar/">What's on</a></li>
+			<li><a href="http://www.parliament.uk/business/bills-and-legislation/">Bills & legislation</a></li>
+			<li><a href="http://www.parliament.uk/business/committees/">Committees</a></li>
+			<li class="over"><a href="http://www.parliament.uk/business/publications/">Publications & records</a></li>
+			<li><a href="http://www.parliamentlive.tv/Main/Home.aspx">Parliament TV</a></li>
+			<li><a href="http://www.parliament.uk/business/news/">News</a></li>	
+			<li><a href="http://www.parliament.uk/topics/topical-issues.htm">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -6500,15 +6500,15 @@ families will increase. At some point young people and their families will no lo
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="http://www.parliament.uk/">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="http://www.parliament.uk/business/publications/hansard/commons/">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debtext/80114-0020.htm">Previous Section</a></td>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6613,8 +6613,8 @@ do not have to spend their education maintenance allowance on transport, as thos
 <hr>
 <table width=100%>
 <tr valign=top><td width=33% align=left>&nbsp;&nbsp;&nbsp;</td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<td width=33% align=center><a href="http://www.publications.parliament.uk/pa/cm200708/cmhansrd/cm080114/debindx/80114-x.htm">Index</a></td>
+<td width=33% align=right><a href="http://www.publications.parliament.uk/pa/cm/cmhansrd.htm">Home Page</a></td></tr>
 
 </table>
 
@@ -6622,13 +6622,13 @@ do not have to spend their education maintenance allowance on transport, as thos
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="http://www.parliament.uk/site-information/azindex/">A-Z index</a></li>
+			<li><a href="http://www.parliament.uk/site-information/glossary/">Glossary</a></li>
+			<li><a href="http://www.parliament.uk/site-information/contact-us/">Contact us</a></li>
+			<li><a href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a></li>
+			<li><a href="http://www.parliament.uk/about/working/jobs/">Jobs</a></li>
+			<li><a href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a></li>
+			<li><a href="http://www.parliament.uk/site-information/copyright/">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->

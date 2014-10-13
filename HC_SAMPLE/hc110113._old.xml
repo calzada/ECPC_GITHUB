@@ -68,16 +68,16 @@
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="../../../../../../www.parliament.uk/site-information/accessibility/index.html">Accessibility</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/email-alerts/index.html">Email alerts</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/rss-feeds/index.html">RSS feeds</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="../../../../../../www.parliament.uk/index.html"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -90,26 +90,26 @@
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
+		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
+		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
+		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
+		<li><a href="../../../../../../www.parliament.uk/education/index.html">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
+			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
+			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -117,7 +117,7 @@
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -1255,9 +1255,9 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="110113-0002.html">Next Section</a></td>
+<td width=33% align=center><a href="../debindx/110113-x.html">Index</a></td>
+<td width=33% align=right><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Home Page</a></td></tr>
 
 </table>
 
@@ -1265,13 +1265,13 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="../../../../../../www.parliament.uk/site-information/azindex/index.html">A-Z index</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/glossary/index.html">Glossary</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/foi/index.html">Freedom of Information</a></li>
+			<li><a href="../../../../../../www.parliament.uk/about/working/jobs/index.html">Jobs</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/using-this-website/index.html">Using this website</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/copyright/index.html">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -1365,16 +1365,16 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="../../../../../../www.parliament.uk/site-information/accessibility/index.html">Accessibility</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/email-alerts/index.html">Email alerts</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/rss-feeds/index.html">RSS feeds</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="../../../../../../www.parliament.uk/index.html"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -1387,26 +1387,26 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
+		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
+		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
+		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
+		<li><a href="../../../../../../www.parliament.uk/education/index.html">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
+			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
+			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -1414,7 +1414,7 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -1424,9 +1424,9 @@ sure my hon. Friend has, about the high cost of oil over the Christmas holidays.
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="110113-0001.html">Previous Section</a></td>
+<td width=33% align=center><a href="../debindx/110113-x.html">Index</a></td>
+<td width=33% align=right><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Home Page</a></td></tr>
 
 </table>
 
@@ -2736,9 +2736,9 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="110113-0003.html">Next Section</a></td>
+<td width=33% align=center><a href="../debindx/110113-x.html">Index</a></td>
+<td width=33% align=right><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Home Page</a></td></tr>
 
 </table>
 
@@ -2746,13 +2746,13 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="../../../../../../www.parliament.uk/site-information/azindex/index.html">A-Z index</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/glossary/index.html">Glossary</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/foi/index.html">Freedom of Information</a></li>
+			<li><a href="../../../../../../www.parliament.uk/about/working/jobs/index.html">Jobs</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/using-this-website/index.html">Using this website</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/copyright/index.html">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
@@ -2846,16 +2846,16 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 <div id="contentHolder">
 <div id="top_nav">
 	<ul>
-		<li class="first"></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li class="first"><a href="../../../../../../www.parliament.uk/site-information/accessibility/index.html">Accessibility</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/email-alerts/index.html">Email alerts</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/rss-feeds/index.html">RSS feeds</a></li>
+		<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
 	</ul>
 </div>
 <div id="banner">
 	<div id="banner_top">
 		<div id="banner_img">
-			
+			<a href="../../../../../../www.parliament.uk/index.html"><img src="http://www.publications.parliament.uk/server-side/images/parliament_logo.gif" alt="" width="280" height="45" border="0" /></a>
 		</div>
 
 		<form id="search-form" action="http://www.parliament.uk/search/results" method="get">					
@@ -2868,26 +2868,26 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 </div>
 <div id="main_nav">
 	<ul>
-		<li class="first"></li>
-		<li class="over"></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>						
+		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
+		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
+		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
+		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
+		<li><a href="../../../../../../www.parliament.uk/education/index.html">Education</a></li>						
 	</ul>
 </div>
 	<div id="secondary_nav">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li class="over"></li>
-			<li></li>
-			<li></li>	
-			<li></li>
+			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
+			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
+			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
 		</ul>
 	</div>	
 </div>
@@ -2895,7 +2895,7 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 		
 		
 
-<div class="breadcrumb">You are here: </div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -2905,9 +2905,9 @@ fact that he has already referred to the Thames Gateway. I want to refer to issu
 
 <table width=100%>
 
-<tr valign=top><td width=33% align=left></td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<tr valign=top><td width=33% align=left><a href="110113-0002.html">Previous Section</a></td>
+<td width=33% align=center><a href="../debindx/110113-x.html">Index</a></td>
+<td width=33% align=right><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Home Page</a></td></tr>
 
 </table>
 
@@ -4073,8 +4073,8 @@ companies, he is right: we need to encourage more companies to take apprentices.
 <hr>
 <table width=100%>
 <tr valign=top><td width=33% align=left>&nbsp;&nbsp;&nbsp;</td>
-<td width=33% align=center></td>
-<td width=33% align=right></td></tr>
+<td width=33% align=center><a href="../debindx/110113-x.html">Index</a></td>
+<td width=33% align=right><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Home Page</a></td></tr>
 
 </table>
 
@@ -4082,13 +4082,13 @@ companies, he is right: we need to encourage more companies to take apprentices.
 
 	<div id="footer_holder">
 		<ul id="bottomNavigation">
-			<li class="first"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li class="first"><a href="../../../../../../www.parliament.uk/site-information/azindex/index.html">A-Z index</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/glossary/index.html">Glossary</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/contact-us/index.html">Contact us</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/foi/index.html">Freedom of Information</a></li>
+			<li><a href="../../../../../../www.parliament.uk/about/working/jobs/index.html">Jobs</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/using-this-website/index.html">Using this website</a></li>
+			<li><a href="../../../../../../www.parliament.uk/site-information/copyright/index.html">Copyright</a></li>
 		</ul>
 	</div>
 <!-- close contentHolder div-->
