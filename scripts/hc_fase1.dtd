@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This dtd is based on hc_final.dtd, the dtd that was used to tag ECPC_05. This dtd is thought to be used once we tag (1) HC speeches with regex_sh3.sh (2) hc_fase1.dat (3) we run scrip marimar (to introduce data from tables). It has been prepared for that stage-->
+<!ELEMENT ecpc_hc (header,body,back*)>
+<!-- Add other new languages, since ECPC will gather debates belonging to sessions held after Romanian, Bulgarian, Gaelic and other new languages were incorporated -->
+<!ELEMENT header (title,label,date,place,edition,index)>
+<!ATTLIST header filename CDATA #REQUIRED>
+<!ATTLIST header language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV) #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!-- Date always normalized YYYYMMDD -->
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!-- indexitem tags different items within the index. These will be repeated later on throughout the text as header to separate different items in the session -->
+<!ELEMENT index (indextitle,indexitem*)>
+<!ELEMENT indextitle (#PCDATA)>
+<!ELEMENT indexitem (#PCDATA)>
+<!ATTLIST indexitem number CDATA #REQUIRED>
+<!-- Chair tags the person presiding the session over; intervention contains information about speakers plus speeches; headings are the indexitems which now separate parts of the session -->
+<!ELEMENT body (#PCDATA|chair|intervention|heading|omit)*>
+<!ELEMENT chair (#PCDATA)>
+<!ELEMENT intervention (#PCDATA|speaker|speech|writer|writing|omit|heading)*>
+<!ATTLIST intervention id CDATA #REQUIRED>
+<!-- should ID/ref attributes be unique for the whole corpus or it might be enough if they are unique within their text?  System for all the corpus FILENAME-id example -->
+<!-- Todos los elementos aparecerán siempre pero cuando no sepamos el nombre pondremos UNKNONW; constituency sería NA; affiliation sería NA normalmente salvo excepciones muy raras; post sería NA porque en ese momento no ejerce ningún cargo-->
+<!ELEMENT speaker (name,post?)>
+<!-- name should eventually apperar without a question mark, once we solve problems with chair -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT speech (#PCDATA|omit)*>
+<!-- SPEECH LANGUAGE in EP should include all official languages plus UNKNOWN, in CD all official languages in the state (Spanish, Catalan, Basque, Galician, Valencian...) and in the HC all official languages (English, Welsh, Gaelic? -->
+<!ATTLIST speech language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV|UNKNOWN) #REQUIRED>
+<!-- Add other new languages, since ECPC will gather debates belonging to sessions held after Romanian, Bulgarian, Gaelic and other new languages were incorporated -->
+<!ATTLIST speech id CDATA #REQUIRED>
+<!-- This attribute must be required in the definitive version, again remember, should ID attributes be unique only for the text or for the whole corpus instead? -->
+<!ELEMENT writer (name,post?) >
+<!ELEMENT writing (#PCDATA|omit)*>
+<!-- WRITING REF again remember, should ID attributes be unique only for the text or for the whole corpus instead? -->
+<!-- This attribute must be required and in the definitive version -->
+<!ATTLIST writing id CDATA #REQUIRED>
+<!-- Add other new languages, since ECPC will gather debates belonging to sessions held after Romanian, Bulgarian, Gaelic and other new languages were incorporated -->
+<!ATTLIST writing language (CS|DA|DE|EL|EN|ES|ET|FI|FR|HU|IT|LT|LV|MT|NL|PL|PT|SK|SL|SV|UNKNOWN) #REQUIRED>
+<!-- Heading en un futuro se convertiría en secciones (temáticas) por lo tanto ya no sería PCDATA sino que incluiría elementos como intervention y omit y tendría atributos o elementos para los temas. Se podría utilizar el EUROVOC o un enfoque basado en tesauros o árboles, convendría examinar la metodología Webmatrix (¿enfocada a la palabra?) -->
+<!ELEMENT heading (#PCDATA|omit)*>
+<!ATTLIST heading number CDATA #REQUIRED>
+<!ATTLIST heading type CDATA #REQUIRED>
+<!-- Omits should not contain any sentece <s>, but a sentence can contain an omit, right? Keep it in mind when revising -->
+<!ELEMENT omit (#PCDATA)>
+<!-- OMIT DESC these attributes have never been used, but they might be a source of inspiration of a more descriptive family of elements -->
+<!-- mc: I have added division for the HC where there are omits especially to tag the votings-->
+<!ATTLIST omit desc (time|opening|action|reaction|procedure|note|division|closing|NA) #IMPLIED>
+<!ELEMENT back (update,disclaimer)*>
+<!ELEMENT update (#PCDATA)>
+<!ELEMENT disclaimer (#PCDATA)>
