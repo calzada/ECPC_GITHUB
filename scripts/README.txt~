@@ -10,8 +10,8 @@ Por lo demás, regex_sh2.sh es igual que regex_sh3 pero toma los nombres de los 
 
 También aparecen varias dtd:
 
-1) hc_final.dtd: Esta es la dtd que se aplicó para etiquetar HC_05
-2) hc_final1: Esta es la dtd que hemos de aplicar para todo el corpus de HC (y no sólo 05)
+1) hc_final.dtd: Esta es la dtd que se aplic� para etiquetar HC_05
+2) hc_final1: Esta es la dtd que hemos de aplicar para todo el corpus de HC (y no s�lo 05)
 3) hc_fase1: esta es la dtd que hemos de aplicar tras etiquetar el nombre y la estructura (pero son pasar el script de marinar y los datos de la tabla).
 
 
