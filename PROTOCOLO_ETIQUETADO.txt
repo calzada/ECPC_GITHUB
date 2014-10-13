@@ -14,4 +14,10 @@ STEPS WITH GITHUB TOWER\
 4\'ba Work as usual. When there's a significant change in a local file, it should be staged, committed and pushed into the remote server.\
 \
 XML TAGGING STEPS\
+\
+1\'ba Run homogeneizacion_HC_MAR.pl:\
+\
+perl homogeneizacion_HC_MAR.pl hc*.html\
+\
+2\'ba \
 }
