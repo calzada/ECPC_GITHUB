@@ -8,16 +8,18 @@
 \
 STEPS WITH GITHUB TOWER\
 \
-1\'ba Open Tower (GITHUB Interface)\
-2\'ba Click on Pull for any significant changes in the remote server. \
-3\'ba Open local folder ECPC_GITHUB\
-4\'ba Work as usual. When there's a significant change in a local file, it should be staged, committed and pushed into the remote server.\
+1. Open Tower (GITHUB Interface)\
+2. Click on Pull for any significant changes in the remote server. \
+3. Open local folder ECPC_GITHUB\
+4. Work as usual. When there's a significant change in a local file, it should be staged, committed and pushed into the remote server.\
 \
 XML TAGGING STEPS\
 \
-1\'ba Run homogeneizacion_HC_MAR.pl:\
+1. Run replaceshortnamesinHCMAR.pl\
+perl replaceshortnamesinHCMAR.pl hc*.html\
 \
+2. Run homogeneizacion_HC_MAR.pl:\
 perl homogeneizacion_HC_MAR.pl hc*.html\
 \
-2\'ba \
+3. Run html_numbers.pl scripts to revise encoding and get rid of undesired symbols. \
 }
