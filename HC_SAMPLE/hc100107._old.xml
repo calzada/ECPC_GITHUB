@@ -1,4 +1,4 @@
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0001.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -62,7 +62,7 @@
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -92,7 +92,7 @@
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -104,9 +104,9 @@
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -117,7 +117,7 @@
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -359,7 +359,7 @@ design stage, with the result to be announced shortly. This is one of the four d
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -376,7 +376,7 @@ design stage, with the result to be announced shortly. This is one of the four d
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0001.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0002.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -440,7 +440,7 @@ design stage, with the result to be announced shortly. This is one of the four d
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -470,7 +470,7 @@ design stage, with the result to be announced shortly. This is one of the four d
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -482,9 +482,9 @@ design stage, with the result to be announced shortly. This is one of the four d
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -495,7 +495,7 @@ design stage, with the result to be announced shortly. This is one of the four d
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -713,7 +713,7 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -730,7 +730,7 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0002.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0003.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -794,7 +794,7 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -824,7 +824,7 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -836,9 +836,9 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -849,7 +849,7 @@ coming weeks, before the 31 January deadline for commitments to be lodged in the
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -1086,7 +1086,7 @@ will continue those efforts. Our bilateral discussions are critical to progress,
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -1103,7 +1103,7 @@ will continue those efforts. Our bilateral discussions are critical to progress,
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0003.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0004.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -1167,7 +1167,7 @@ will continue those efforts. Our bilateral discussions are critical to progress,
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -1197,7 +1197,7 @@ will continue those efforts. Our bilateral discussions are critical to progress,
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -1209,9 +1209,9 @@ will continue those efforts. Our bilateral discussions are critical to progress,
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -1222,7 +1222,7 @@ will continue those efforts. Our bilateral discussions are critical to progress,
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -1421,7 +1421,7 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -1438,7 +1438,7 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0004.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0005.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -1502,7 +1502,7 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -1532,7 +1532,7 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -1544,9 +1544,9 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -1557,7 +1557,7 @@ or excavated. I am not sure whether he is suggesting that I should nationalise t
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -1760,7 +1760,7 @@ exceptional emergency fund to assist local authorities that will exceed any budg
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -1777,7 +1777,7 @@ exceptional emergency fund to assist local authorities that will exceed any budg
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0005.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0006.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -1841,7 +1841,7 @@ exceptional emergency fund to assist local authorities that will exceed any budg
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -1871,7 +1871,7 @@ exceptional emergency fund to assist local authorities that will exceed any budg
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -1883,9 +1883,9 @@ exceptional emergency fund to assist local authorities that will exceed any budg
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -1896,7 +1896,7 @@ exceptional emergency fund to assist local authorities that will exceed any budg
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -2099,7 +2099,7 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -2116,7 +2116,7 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0006.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0007.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -2180,7 +2180,7 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -2210,7 +2210,7 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -2222,9 +2222,9 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -2235,7 +2235,7 @@ support for the Prime Minister at 6 o'clock last night, saying that Ministers we
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -2442,7 +2442,7 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -2459,7 +2459,7 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0007.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0008.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -2523,7 +2523,7 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -2553,7 +2553,7 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -2565,9 +2565,9 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -2578,7 +2578,7 @@ Innovation and Skills questions next Thursday. Perhaps he will seek an opportuni
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -2777,7 +2777,7 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -2794,7 +2794,7 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0008.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0009.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -2858,7 +2858,7 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -2888,7 +2888,7 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -2900,9 +2900,9 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -2913,7 +2913,7 @@ world are also doing so, and I was alarmed to read yesterday that the world's bi
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -3130,7 +3130,7 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -3147,7 +3147,7 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0009.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0010.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -3211,7 +3211,7 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -3241,7 +3241,7 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -3253,9 +3253,9 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -3266,7 +3266,7 @@ yesterday, to implement those provisions. That includes the code for fiscal stab
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -3499,7 +3499,7 @@ political courage to implement it, instead of merely talking about it. The Gover
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -3516,7 +3516,7 @@ political courage to implement it, instead of merely talking about it. The Gover
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0010.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0011.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -3580,7 +3580,7 @@ political courage to implement it, instead of merely talking about it. The Gover
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -3610,7 +3610,7 @@ political courage to implement it, instead of merely talking about it. The Gover
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -3622,9 +3622,9 @@ political courage to implement it, instead of merely talking about it. The Gover
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -3635,7 +3635,7 @@ political courage to implement it, instead of merely talking about it. The Gover
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -3704,7 +3704,7 @@ political courage to implement it, instead of merely talking about it. The Gover
  I shall give way to the Chief Secretary.</p>
 
 <p><a name="st_o323"></a><a name="10010724000516"></a><!--meta name="Colno" CONTENT="313"--><a name="100107-0011.htm_spnew14"></a><a name="10010724001168"></a><b>Mr. Liam Byrne</b><!--Mr. Liam Byrne-->
- The hon. Gentleman is enormously kind in giving way. Does he acknowledge that Standard &amp; Poors has said:</p>
+ The hon. Gentleman is enormously kind in giving way. Does he acknowledge that Standard MMMMandPPPP Poors has said:</p>
 <a name="100107-0011.htm_brev1"></a><a name="10010724000789"></a><ul><p class="tabletext">"We believe that the ratings on the UK continue to be supported by its wealthy, diversified economy"?</p>
 </ul>
 <p><a name="stpa_o139"></a><a name="100107-0011.htm_para0"></a><!--meta name="Speaker" CONTENT="Mr. Byrne"--><a name="10010724000517"></a><!--meta name="Colno" CONTENT="313"-->He will also recognise that Fitch said "The UK's triple A rating remains supported by its high value added, diversified economy." He will recognise, too, that Moody's has said that "the outlook for the UK Government is stable. Her Majesty's Government is deemed a resilient triple A issuer." The hon. Gentleman's presentation would be incomplete without such an acknowledgement. Would it not be incomplete, too, without an acknowledgement of the Governor of the Bank of England's growth forecast for 2010-11 of 4.1 per cent., which is much higher than the rate the Chancellor offered?</p>
@@ -3852,7 +3852,7 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -3869,7 +3869,7 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0011.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0012.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -3933,7 +3933,7 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -3963,7 +3963,7 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -3975,9 +3975,9 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -3988,7 +3988,7 @@ that Treasury paper setting out the reality of 17 per cent. cuts in all other De
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -4190,7 +4190,7 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -4207,7 +4207,7 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0012.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0013.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -4271,7 +4271,7 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -4301,7 +4301,7 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -4313,9 +4313,9 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -4326,7 +4326,7 @@ could benefit the economy, such as investing and hiring staff. Mention has been 
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -4394,7 +4394,7 @@ tackled after the next election. We also feel that the Treasury could provide mo
 
 <p><a name="stpa_o191"></a><a name="100107-0013.htm_para13"></a><!--meta name="Speaker" CONTENT="John McFall"--><a name="10010724000614"></a><!--meta name="Colno" CONTENT="325"-->I turn now to the question of the bank payroll tax. The Treasury Committee has been at the forefront in calling for change in the culture of banking, but estimates suggest that the Treasury now expects to receive about £3 billion or £4 billion from the tax when it originally expected only £500 million. That shows that the banking culture has not changed-that banks have simply gone ahead and paid out the bonuses. That is hugely important, because there is public anger about this matter. People are not fooled, and they realise the extent of the bank bail-out. I made that point yesterday to the Economy, Energy and Tourism Committee of the Scottish Parliament, when I was giving evidence to its inquiry. It is important that we remind ourselves of that.</p>
 
-<p><a name="stpa_o192"></a><a name="100107-0013.htm_para14"></a><!--meta name="Speaker" CONTENT="John McFall"--><a name="10010724000615"></a><!--meta name="Colno" CONTENT="325"-->The Treasury purchased £37 billion of shares in RBS and the Lloyds Banking Group; it gave indemnity to the Bank of England for £200 billion of quantitative easing; it has also agreed to guarantee up to £250 billion of wholesale borrowing by banks; it provided about £40 billion of loans and other funding to Bradford &amp; Bingley and the Financial Services Compensation Scheme; and it insured banks' assets to the tune of £280 billion. The National Audit Office, in a recent report, suggested that the net cash outlay for the purchase of shares in banks  <br>
+<p><a name="stpa_o192"></a><a name="100107-0013.htm_para14"></a><!--meta name="Speaker" CONTENT="John McFall"--><a name="10010724000615"></a><!--meta name="Colno" CONTENT="325"-->The Treasury purchased £37 billion of shares in RBS and the Lloyds Banking Group; it gave indemnity to the Bank of England for £200 billion of quantitative easing; it has also agreed to guarantee up to £250 billion of wholesale borrowing by banks; it provided about £40 billion of loans and other funding to Bradford MMMMandPPPP Bingley and the Financial Services Compensation Scheme; and it insured banks' assets to the tune of £280 billion. The National Audit Office, in a recent report, suggested that the net cash outlay for the purchase of shares in banks  <br>
 
 
 <meta name="Date" content="7 Jan 2010">
@@ -4501,7 +4501,7 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -4518,7 +4518,7 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0013.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0014.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -4582,7 +4582,7 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -4612,7 +4612,7 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -4624,9 +4624,9 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -4637,7 +4637,7 @@ Friend the Member for Wokingham (Mr. Redwood) and my hon. Friend the Member for 
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -4808,7 +4808,7 @@ the only function of Government after the forthcoming general election will be t
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -4825,7 +4825,7 @@ the only function of Government after the forthcoming general election will be t
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0014.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0015.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -4889,7 +4889,7 @@ the only function of Government after the forthcoming general election will be t
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -4919,7 +4919,7 @@ the only function of Government after the forthcoming general election will be t
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -4931,9 +4931,9 @@ the only function of Government after the forthcoming general election will be t
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -4944,7 +4944,7 @@ the only function of Government after the forthcoming general election will be t
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -5127,7 +5127,7 @@ second decade of the new millennium is faced by our people united in the pursuit
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -5144,7 +5144,7 @@ second decade of the new millennium is faced by our people united in the pursuit
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0015.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0016.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -5208,7 +5208,7 @@ second decade of the new millennium is faced by our people united in the pursuit
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -5238,7 +5238,7 @@ second decade of the new millennium is faced by our people united in the pursuit
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -5250,9 +5250,9 @@ second decade of the new millennium is faced by our people united in the pursuit
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -5263,7 +5263,7 @@ second decade of the new millennium is faced by our people united in the pursuit
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -5430,7 +5430,7 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -5447,7 +5447,7 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0016.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0017.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -5511,7 +5511,7 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -5541,7 +5541,7 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -5553,9 +5553,9 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -5566,7 +5566,7 @@ that view in the speech from the Opposition Front Bencher, the hon. Member for R
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -5746,7 +5746,7 @@ now have so little credibility in influencing the key area of European financial
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -5763,7 +5763,7 @@ now have so little credibility in influencing the key area of European financial
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0017.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0018.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -5827,7 +5827,7 @@ now have so little credibility in influencing the key area of European financial
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -5857,7 +5857,7 @@ now have so little credibility in influencing the key area of European financial
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -5869,9 +5869,9 @@ now have so little credibility in influencing the key area of European financial
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -5882,7 +5882,7 @@ now have so little credibility in influencing the key area of European financial
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -6058,7 +6058,7 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -6075,7 +6075,7 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0018.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0019.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -6139,7 +6139,7 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -6169,7 +6169,7 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -6181,9 +6181,9 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -6194,7 +6194,7 @@ over youth unemployment on that scale. There would be shrieks of horror and outr
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -6365,7 +6365,7 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -6382,7 +6382,7 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0019.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0020.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:48 GMT -->
 <head>
 
@@ -6446,7 +6446,7 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -6476,7 +6476,7 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -6488,9 +6488,9 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -6501,7 +6501,7 @@ and the disabled. I want to make that point very clear. The free bus pass for pe
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -6689,7 +6689,7 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -6706,7 +6706,7 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0020.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:48 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0021.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:48 GMT -->
 <head>
 
@@ -6770,7 +6770,7 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -6800,7 +6800,7 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -6812,9 +6812,9 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -6825,7 +6825,7 @@ band, an increase in national insurance, and a payroll tax on bank bonuses. Beca
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -6885,7 +6885,7 @@ to the financial system. True, it was not helped by over-lax financial regulatio
  Does my hon. Friend agree that the public should be slightly daunted by the fact that no fewer than 50 of the new and improved Tory candidates actually work in the City of London and must have been involved in some of the dubious transactions that got us into the mess we are in?</p>
 
 <p><a name="st_o448"></a><a name="10010726000171"></a><!--meta name="Colno" CONTENT="374"--><a name="100107-0021.htm_spnew4"></a><a name="10010726000274"></a><b>Paul Farrelly</b><!--Paul Farrelly-->
- I was involved in the City myself many years ago, and I had very good reasons for leaving it. My right hon. Friend may not be surprised to learn that the City will be well represented in the constituency of Newcastle-under-Lyme during the next election, as my Conservative opponent is 27 and a City lawyer with Sullivan &amp; Cromwell, which advised Lehman Brothers just before it collapsed. He will be close at hand on Monday, when bankers and lawyers will be emptying their wallets at the Carlton club-president, one Margaret Thatcher-for a £65 a head fundraising dinner. I have the invitation here if my right hon. Friend wishes to take it up.</p>
+ I was involved in the City myself many years ago, and I had very good reasons for leaving it. My right hon. Friend may not be surprised to learn that the City will be well represented in the constituency of Newcastle-under-Lyme during the next election, as my Conservative opponent is 27 and a City lawyer with Sullivan MMMMandPPPP Cromwell, which advised Lehman Brothers just before it collapsed. He will be close at hand on Monday, when bankers and lawyers will be emptying their wallets at the Carlton club-president, one Margaret Thatcher-for a £65 a head fundraising dinner. I have the invitation here if my right hon. Friend wishes to take it up.</p>
 <br>
 
 
@@ -6987,7 +6987,7 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -7004,7 +7004,7 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0021.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:48 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0022.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 <head>
 
@@ -7068,7 +7068,7 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -7098,7 +7098,7 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -7110,9 +7110,9 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -7123,7 +7123,7 @@ eloquently outlined the challenges ahead if the Government do not get a grip on 
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -7286,7 +7286,7 @@ that cord blood may be helpful in treating brain injuries in children. It is als
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
@@ -7303,7 +7303,7 @@ that cord blood may be helpful in treating brain injuries in children. It is als
 </body>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0022.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:47 GMT -->
 </html>
-﻿<html>
+--<html>
 <!-- Mirrored from www.publications.parliament.uk/pa/cm200910/cmhansrd/cm100107/debtext/100107-0023.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Sep 2014 23:26:48 GMT -->
 <head>
 
@@ -7367,7 +7367,7 @@ that cord blood may be helpful in treating brain injuries in children. It is als
             </SCRIPT>
             <SCRIPT LANGUAGE="JavaScript1.1" SRC="http://www.publications.parliament.uk/styles/webtrends.js"></SCRIPT>
             <NOSCRIPT>
-                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+                        <IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://www.stats.tso.co.uk/dcs8a1rrculeroaqmbjq87oq1_4s7l/njs.gif?dcsuri=/nojavascript&WT.js=No">
             </NOSCRIPT> 
 
 <div id="contentHolder">
@@ -7397,7 +7397,7 @@ that cord blood may be helpful in treating brain injuries in children. It is als
 	<ul>
 		<li class="first"><a href="../../../../../../www.parliament.uk/index.html">Home</a></li>
 		<li class="over"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></li>
-		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords & offices</a></li>
+		<li><a href="../../../../../../www.parliament.uk/mps-lords-and-offices/index.html">MPs, Lords MMMMandPPPP offices</a></li>
 		<li><a href="../../../../../../www.parliament.uk/about/index.html">About Parliament</a></li>
 		<li><a href="../../../../../../www.parliament.uk/get-involved/index.html">Get involved</a></li>
 		<li><a href="../../../../../../www.parliament.uk/visiting/index.html">Visiting</a></li>
@@ -7409,9 +7409,9 @@ that cord blood may be helpful in treating brain injuries in children. It is als
 			<li><a href="../../../../../../www.parliament.uk/business/commons/index.html">House of Commons</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/lords/index.html">House of Lords</a></li>
 			<li><a href="../../../../../../services.parliament.uk/calendar/index.html">What's on</a></li>
-			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills & legislation</a></li>
+			<li><a href="../../../../../../www.parliament.uk/business/bills-and-legislation/index.html">Bills MMMMandPPPP legislation</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/committees/index.html">Committees</a></li>
-			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications & records</a></li>
+			<li class="over"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications MMMMandPPPP records</a></li>
 			<li><a href="../../../../../../www.parliamentlive.tv/Main/Home.html">Parliament TV</a></li>
 			<li><a href="../../../../../../www.parliament.uk/business/news/index.html">News</a></li>	
 			<li><a href="../../../../../../www.parliament.uk/topics/topical-issues.html">Topics</a></li>
@@ -7422,7 +7422,7 @@ that cord blood may be helpful in treating brain injuries in children. It is als
 		
 		
 
-<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> &gt; </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
+<div class="breadcrumb">You are here: <span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/index.html">Parliament home page</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/index.html">Parliamentary business</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/index.html">Publications and Records</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/index.html">Hansard</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement"><a href="../../../../../../www.parliament.uk/business/publications/hansard/commons/index.html">Commons Debates</a></span><span class="breadcrumbElement"> > </span><span class="breadcrumbElement">Daily Hansard - Debate</span></div>
 
 <div id="maincontent1">
 
@@ -7584,7 +7584,7 @@ Health and other stakeholders. This group will operate as a high-level taskforce
 
 <hr>
 <table width=100%>
-<tr valign=top><td width=33% align=left>&nbsp;&nbsp;&nbsp;</td>
+<tr valign=top><td width=33% align=left>   </td>
 <td width=33% align=center><a href="../debindx/100107-x.html">Index</a></td>
 <td width=33% align=right><a href="../../../../cm/cmhansrd.html">Home Page</a></td></tr>
 
@@ -7607,7 +7607,7 @@ Health and other stakeholders. This group will operate as a high-level taskforce
 </div>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'></script>"));
 </script>
 <script type="text/javascript">
  try {
