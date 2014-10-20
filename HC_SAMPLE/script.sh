@@ -53,7 +53,7 @@ perl -pi -e 's/<(H4|h4).*?>(.*?was asked.*?)(<.*?>)*?<\/(H4|h4)>/XZXZomit desc="
 
 echo '9º Etiquetar hora entre omits: <H5>'
 # 9º Etiquetar hora entre omits: <H5>
-perl -pi -e 's/<(H5|h5).*?>(\p{N}+\.*?\p{N}*?.*?)(am|pm)<\/(H5|h5)>/XZXZomit desc="time"YWYW$2$3XZXZ\/omitYWYW/g;' *.xml
+perl -pi -e 's/<(H5|h5).*?>(\p{N}+\.*?\p{N}*?.*?)\p{Z}(am|pm)<\/(H5|h5)>/XZXZomit desc="time"YWYW$2$3XZXZ\/omitYWYW/g;' *.xml
 
 echo '10º Etiquetar headings de diversos tipos'
 # 10º Etiquetar headings de diversos tipos
@@ -88,3 +88,13 @@ perl -pi -e 's/now adjourn.*?<i>\p{Z}*?.*?\[(.*?)\](<\/i>)?/now adjourn\. \($1\)
 echo '13.4 Para cambiar corchetes por parentesis en: this day'
 # 13.4 Para cambiar corchetes por parentesis en: this day
 perl -pi -e 's/\[(\p{Z}*?this day\p{Z}*?\p{P}*?\p{Z}*?)\]/\($1\)/g;' *.xml
+
+echo '13.5 Para etiquetar las reacciones'
+# 13.5 Para etiquetar las reacciones
+perl -pi -e 's/\[(.*?Interruption.*?|.*?Laughter.*?|.*?Hon.\p{Z}*?Members.*?)\]/XZXZomit desc="reaction"YWYW$1XZXZ\/omitYWYW/g;' *.xml
+
+echo '13.6 Para etiquetar hora dentro de omit desc=div'
+# 13.6 Para etiquetar hora dentro de omit desc=div
+perl -pi -e 's/\[(\p{N}+.*?\p{N}*?\p{Z}*?)\p{Z}(AM|PM|am|pm)/XZXZomit desc="time"YWYW$1$2XZXZ\/omitYWYW/g' *.xml
+
+
