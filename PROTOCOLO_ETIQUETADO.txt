@@ -15,24 +15,29 @@ perl replaceshortnamesinHCMAR.pl hc*.html
 2. Run homogeneizacion_HC_MAR.pl:
 perl homogeneizacion_HC_MAR.pl hc*.html
 
-3. Run html_numbers*.sh
-sh html_numbers3.sh *.xml
-
-4. Run cambiar_extension.sh to change the file extension of a html file to xml:
+3. Run cambiar_extension.sh to change the file extension of a html file to xml:
 sh cambiar_extension.sh
 
-5. Run html_numbers*.sh scripts to revise encoding and get rid of undesired symbols:
+4. Run html_numbers*.sh scripts to revise encoding and get rid of undesired symbols:
 sh html_numbers*.sh 
 
-6. Do the xml tagging
+5. Do the xml tagging
 
-7. Add <p> and <s> --> DO WE NEED THIS STEP? Do we have a script for this?
+6. Add <p> and <s> --> DO WE NEED THIS STEP? Do we have a script for this?
 
-8. Number interventions, speeches, paragrpahs and sentences.
+7. Number interventions, speeches, paragrpahs and sentences.
 
-
+*****************
 Excepciones en las intervenciones, todas tienen su nombre menos las que aparecen como Hon. Members:
 
 hc061207.xml
 
 <a name="61207-0002.htm_spnew12"></a><a name="06120759001093"></a><b>Hon. Members:</b><!----> Answer!<a name="st_o47"></a><a name="06120759000105"></a>
+
+hc060123.xml
+
+[Reserved matters] se etiqueta como omit desc=reframe
+
+hc071206.xml
+Se etiqueta como intervention pero deber’a ser un comentario
+<!--meta name="Colno" CONTENT="975"--><a name="71206-0006.htm_spnew8"></a><a name="07120645001167"></a><b>Several hon. Members</b><!----><i> rose</i>

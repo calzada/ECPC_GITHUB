@@ -89,12 +89,22 @@ echo '13.4 Para cambiar corchetes por parentesis en: this day'
 # 13.4 Para cambiar corchetes por parentesis en: this day
 perl -pi -e 's/\[(\p{Z}*?this day\p{Z}*?\p{P}*?\p{Z}*?)\]/\($1\)/g;' *.xml
 
-echo '13.5 Para etiquetar las reacciones'
+echo '13.5 Para etiquetar las reacciones como desc=reaction'
 # 13.5 Para etiquetar las reacciones
 perl -pi -e 's/\[(.*?Interruption.*?|.*?Laughter.*?|.*?Hon.\p{Z}*?Members.*?)\]/XZXZomit desc="reaction"YWYW$1XZXZ\/omitYWYW/g;' *.xml
 
-echo '13.6 Para etiquetar hora dentro de omit desc=div'
+echo '13.6 Para etiquetar hora dentro de omit desc=time'
 # 13.6 Para etiquetar hora dentro de omit desc=div
 perl -pi -e 's/\[(\p{N}+.*?\p{N}*?\p{Z}*?)\p{Z}(AM|PM|am|pm)/XZXZomit desc="time"YWYW$1$2XZXZ\/omitYWYW/g' *.xml
 
+echo '13.7 Para etiquetar resto de omits'
+# 13.7 Para etiquetar resto de omits
+perl -pi -e 's/\[\p{Z}*?(<i>)*?\p{Z}*?(Mr\.*?|Mrs\.*?|Ms|Dr\.*?|Sir|Rev.*?|.on\.*?\p{Z}*?\.ember|Lady|Lord)*?(\p{Z}*?\p{L}+?\p{Z}*?\p{L}*?\.*?\p{Z}+?\p{L}+?)(-\p{L}+?)*?(\p{Z}*?\.*?)(\p{Z}*?<\/i>\p{Z}*?)*?(\.*?)\p{Z}*?\]/XZXZomit desc="refname"YWYW\$1$2$3$4$5$6$7XZXZ\/omitYWYW/g' *.xml
 
+echo '13.8 Para etiquetar official report como desc=refdoc'
+# 13.8 Para etiquetar official report
+perl -pi -e 's/\[(.*?Official Report.*?)\]/XZXZomit desc="refdoc"YWYW$1XZXZ\/omitYWYW/g' *.xml
+
+echo '13.9 Para etiquetar resto de omits como desc=unknown. Clasificar después del etiquetado'
+# 13.9 Para etiquetar resto de omits como desc=unknown. Clasificar después del etiquetado
+perl -pi -e 's/\[(.*?)\]/XZXZomit desc="unknown"YWYW$1XZXZ\/omitYWYW/g' *.xml
