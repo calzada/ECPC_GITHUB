@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo '\n\n';
+echo 'LIMPIEZA\n'
+
 echo '1º Quitar etiqueta de html \&nbsp;'
 # 1º Quitar etiqueta de html \&nbsp;
 perl -pi -e 's/\&nbsp;/ /g' *.xml
@@ -108,3 +111,20 @@ perl -pi -e 's/\[(.*?Official Report.*?)\]/XZXZomit desc="refdoc"YWYW$1XZXZ\/omi
 echo '13.9 Para etiquetar resto de omits como desc=unknown. Clasificar después del etiquetado'
 # 13.9 Para etiquetar resto de omits como desc=unknown. Clasificar después del etiquetado
 perl -pi -e 's/\[(.*?)\]/XZXZomit desc="unknown"YWYW$1XZXZ\/omitYWYW/g' *.xml
+
+echo '14º Para etiquetar rose dentro de omit'
+# 14º Etiquetar rose dentro de omit
+perl -pi -e 's/<i>(\p{Z}+rose.*?XZXZ)/IITT$1/g;' *.xml
+perl -pi -e 's/<i>(\p{Z}*?rose.*?)(<\/i>)+?/XZXZomit desc="reaction"YWYW$1XZXZ\/omitYWYW/g;' *.xml
+perl -pi -e 's/IITT/<i>/g;' *.xml
+perl -pi -e 's/(-->)(<i>)*?\p{Z}*?(rose—)/$1XZXZomit desc="reaction"YWYW$3XZXZ\/omitYWYW/g' *.xml
+perl -pi -e 's/(YWYW)\p{Z}+?(rose—)/$1$2/g' *.xml
+
+echo '15º Quitar numeros que anteceden a las preguntas escritas'
+# 15º Quitar numeros que anteceden a las preguntas escritas
+perl -pi -e 's/(<b>)\p{Z}*?\p{N}+\./$1/g' *.xml
+perl -pi -e 's/(CONTENT="\p{N}+"-->\p{Z}*?)T\.*?\p{N}+\./$1/g' *.xml
+perl -pi -e 's/(CONTENT="\p{N}+"-->)\p{N}+\./$1/g' *.xml;
+perl -pi -e 's/(<!--\p{Z}*?)\p{N}+/$1/g' *.xml
+perl -pi -e 's/(XZXZ\/headingYWYW\p{Z}*?)\p{N}+\./$1/g' *.xml
+perl -pi -e 's/(<\/a>)\p{Z}*?\p{N}+\./$1/g' *.xml

@@ -41,3 +41,19 @@ hc060123.xml
 hc071206.xml
 Se etiqueta como intervention pero deber’a ser un comentario
 <!--meta name="Colno" CONTENT="975"--><a name="71206-0006.htm_spnew8"></a><a name="07120645001167"></a><b>Several hon. Members</b><!----><i> rose</i>
+
+A partir del 2006 las intervenciones escritas se etiquetan diferente
+
+<!--meta name="Colno" CONTENT="141"--><a name="50125-01_wqn0">
+
+pasa a etiquetarse como:
+
+<!--meta name="Colno" CONTENT="635"--><a name="0801142000371">
+
+modificamos la regex
+
+<!--META NAME="Colno" CONTENT="\p{N}+"-->\p{Z}*?<A NAME="\p{N}+-\p{N}+_wqn\p{N}+">...
+
+por
+
+<!--META NAME="Colno" CONTENT="\p{N}+"-->\p{Z}*?<A NAME="\p{N}+">...
