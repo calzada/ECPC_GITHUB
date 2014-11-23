@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This dtd refers to speaker databases for EP, CD and HC. It might need adjustment for each parliament -->
+<!-- author: mc -->
+<!-- last updated: 23/07(2014 -->
+
+<!ELEMENT mps (speaker+)>
+<!ELEMENT speaker (name+,birth_date,birth_place,status,gender,institution,constituency,affiliation,additional_info,post*)>
+<!-- IT MUST BE COMPLETED WITH ANTONIO'S TAGS -->
+
+<!ELEMENT name (#PCDATA)>
+<!-- SCRIPT -->
+<!-- name should eventually appear without a question mark, once we solve problems with chair -->
+<!-- TO BE DONE para president de momento añadir <name>UNKNOWN</name> después rellenar con Chair -->
+
+<!ELEMENT birth_date (#PCDATA)>
+<!-- SCRIPT -->
+
+<!ELEMENT birth_place (#PCDATA)>
+<!-- SCRIPT -->
+<!-- birth place means the city/town of birth, it has an attribute for country -->
+<!-- Birthplace, si no lo sabemos UNKNOWN -->
+<!ATTLIST birth_place country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED>
+<!-- DECIDE WHETHER WE WANT THIS ATTRIBUTE IN CD -->
+
+<!ELEMENT status (#PCDATA)>
+<!-- SCRIPT -->
+
+<!ELEMENT gender (#PCDATA)>
+<!-- SCRIPT -->
+
+<!ELEMENT institution (ni|io|ngo|vip) >
+<!-- SCRIPT -->
+<!ELEMENT ni (#PCDATA) >
+<!-- SCRIPT -->
+<!-- ni means national institution -->
+<!-- For CD : <ni country="Spain">CD</ni> o <ni country="Spain">NON-CD</ni> Other institutions may be required once we start tagging -->
+<!-- FOR HC: <ni country="UK">HC</ni> o <ni country="UK">NON-HC</ni> Other institutions may be required once we start tagging -->
+
+<!ATTLIST ni country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #REQUIRED >
+<!-- SCRIPT -->
+<!-- When dealing with third-party countries (i.e. not UK, Spain or EU, we may use NON-ECPC -->
+
+<!ELEMENT io (eu|non-eu) >
+<!-- SCRIPT -->
+<!-- io means "international organisations"; thus, this is only applicable to the EU, etc. -->
+<!ELEMENT eu EMPTY>
+<!ATTLIST eu body (EP|Commission|Council|ECB|EIB|Ombudsman|HRFASP|CA) #REQUIRED >
+<!ELEMENT non-eu (#PCDATA) >
+<!ELEMENT ngo (#PCDATA) >
+<!-- NGO is any non governamental group of people with a common goal . El atributo country no es obligatorio, qué pasa sin la ong es internacional, valor international para el atributo country, no ponerlo, desechar el atributo o formalizar de otra manera? -->
+<!ATTLIST ngo country (AD|AE|AF|AG|AI|AL|AM|AN|AO|AQ|AR|AS|AT|AU|AW|AX|AZ|BA|BB|BD|BE|BF|BG|BH|BI|BJ|BL|BM|BN|BO|BR|BS|BT|BV|BW|BY|BZ|CA|CC|CD|CF|CG|CH|CI|CK|CL|CM|CN|CO|CP|CR|CU|CV|CX|CY|CZ|DE|DJ|DK|DM|DO|DZ|EC|EE|EG|EH|EL|ER|ES|ET|FI|FJ|FK|FM|FO|FR|MK|GA|GD|GE|GF|GG|GH|GI|GL|GM|GN|GP|GQ|GS|GT|GU|GW|GY|HK|HM|HN|HR|HT|HU|ID|IE|IL|IM|IN|IO|IQ|IR|IS|IT|JE|JM|JO|JP|KE|KG|KH|KI|KM|KN|KP|KR|KW|KY|KZ|LA|LB|LC|LI|LK|LR|LS|LT|LU|LV|LY|MA|MC|MD|ME|MF|MG|MH|ML|MM|MN|MO|MP|MQ|MR|MS|MT|MU|MV|MW|MX|MY|MZ|NA|NC|NE|NF|NG|NI|NL|NO|NP|NR|NU|NZ|OM|PA|PE|PF|PG|PH|PK|PL|PM|PN|PR|PS|PT|PW|PY|QA|RE|RO|RS|RU|RW|SA|SB|SC|SD|SE|SG|SH|SI|SJ|SK|SL|SM|SN|SO|SR|ST|SV|SY|SZ|TC|TD|TF|TG|TH|TJ|TK|TL|TM|TN|TO|TR|TT|TV|TW|TZ|UA|UG|UK|UM|US|UY|UZ|VA|VC|VE|VG|VI|VN|VU|WF|WS|YE|YT|ZA|ZM|ZW|UNKNOWN) #IMPLIED >
+<!ELEMENT vip EMPTY>
+<!--SCRIPT-->
+<!-- vip was initially PCDATA but it could actually be an empty element -->
+
+<!ELEMENT constituency ( #PCDATA ) >
+
+<!-- When the speaker is not an (HC|CD) MP or MEP, he/she will have no contituency. His/her country will be NA. If the speaker is an (HC|CD) MP or MEP, but we no not know his/her country of origin, we will use UNKNOWN -->
+
+<!-- CONSTITUENCY COUNTRY as it was in the very beginning, country meant the country of the person even if he/she didn't belong to the  House, as it is now it is the country which the MP represents, therefore, this element should be required for all MPs, but not for other people. Country is required for ni. And ngo? And what about the special case of Commission, Council... because it is important, how shall we express country for commissioners? In affiliation, because although not elected directly by citizens for a particular role in the EU institutions they represent their country or cover a quote of power for their country -->
+<!ATTLIST constituency region CDATA #IMPLIED>
+<!-- CONSTITUENCY REGION means any administrative demarcation below country. country #REQUIRED for all corpora, region #IMPLIED for EP and #REQUIRED for CD and HC -->
+<!ELEMENT affiliation (national_party,cd) >
+<!--SCRIPT-->
+<!--change ep for affiliation in HC or EP-->
+
+<!ELEMENT ep EMPTY>
+<!ATTLIST ep group (PPE-DE|PSE|ALDE|Verts-ALE|GUE-NGL|IND-DEM|UEN|NI|UNKNOWN|NA) #REQUIRED >
+
+<!ELEMENT cd EMPTY>
+<!--SCRIPT-->
+<!ATTLIST cd group CDATA #REQUIRED>
+<!-- Shall we add groups? -->
+
+<!ELEMENT hc EMPTY>
+<!--SCRIPT-->
+<!ATTLIST hc group CDATA #REQUIRED>
+<!-- Shall we add groups? -->
+
+<!ELEMENT national_party (#PCDATA) >
+<!-- <!ELEMENT post (#PCDATA)> -->
+<!-- Siempre aparecerá la etiqueta post pero cuando no aparezca el cargo en el las actas pondremos NA -->
+<!-- En versiones futuras convendrá estudiar los distintos tipos de cargos de cada parlamento y desarrollar unos atributos que permitan describirlos, homogeneizarlos y cruzarlos -->
+
+<!-- The following elements are only applicable for the CD -->
+
+<!ELEMENT additional_info ( official_cv | personal_cv | replacing | starting_date | taxes | term )* >
+
+
+<!ELEMENT official_cv ( #PCDATA ) >
+
+<!ELEMENT personal_cv ( #PCDATA ) >
+
+<!ELEMENT replacing ( #PCDATA ) >
+
+
+<!ELEMENT starting_date ( #PCDATA ) >
+
+<!ELEMENT taxes ( #PCDATA ) >
+
+<!ELEMENT term ( #PCDATA ) >

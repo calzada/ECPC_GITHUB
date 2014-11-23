@@ -1,0 +1,19 @@
+<speaker>
+<name>Borrell Fontelles, Josep</name>
+<birth_date>19470424</birth_date>
+<birth_place country="ES">Pobla de Segur</birth_place>
+<status>NA</status>
+<gender>male</gender>
+<institution>
+<io>
+<eu body="EP"/>
+</io>
+</institution>
+<constituency country="ES"/>
+<affiliation>
+<national_party>Partido Socialista Obrero Español</national_party>
+<ep group="PSE"/>
+</affiliation>
+<post>NA</post>
+</speaker>
+

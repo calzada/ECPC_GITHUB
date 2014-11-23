@@ -27,7 +27,7 @@ while ( @ARGV ) {
 		if($line =~ /<.*?DS\.\WCongreso de los Diputados.*?\d{2}\/\d{2}\/\d{4}.*?$/) {
 		      $line =~ s/<.*?DS\.\WCongreso de los Diputados.*?(\d{2})\/(\d{2})\/\d{2}(\d{2}).*?$/CD$3$2$1/g;
 		      $line =~ s/\s//g;
-		      rename($input_file, $line . ".html");
+		      rename($input_file, $line . ".xml");
 		}
 	}
     close(INFILE);	

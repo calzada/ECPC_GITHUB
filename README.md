@@ -47,7 +47,7 @@ mkdir nameofdirectory
     4.3. Point to your local repository at the remote repository in GITHUB doing
     *git remote add origin https://github.com/yourusername/repoyouwanttobringtoyourcomputer.git*
     4.4. Clone the repo in your computer with
-    *git clone https://github.com/calzada/repoyouwanttobringtoyourcomputer.git*
+    *git clone https://github.co/calzada/repoyouwanttobringtoyourcomputer.git*
 
 YOU ARE DONE!
 
