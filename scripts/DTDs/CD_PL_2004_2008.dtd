@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- cd.dtd by Fer 20/10/14 -->
+
+<!ELEMENT ecpc_CD (header, body, back)>
+
+<!ELEMENT header (legislature, title, label, date, place, edition, index)>
+
+<!ELEMENT legislature (#PCDATA)>
+<!ATTLIST legislature begin NMTOKEN #FIXED "20040402">
+<!ATTLIST legislature end NMTOKEN #FIXED "20080401">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+
+<!ELEMENT index (indexitem+)>
+<!ELEMENT indexitem (#PCDATA | omit | page_number)*>
+<!ELEMENT page_number (#PCDATA)>
+<!ELEMENT omit (#PCDATA)>
+
+<!ELEMENT body (chair | omit)+>
+<!ELEMENT chair (heading | intervention | omit)*>
+<!ATTLIST chair who CDATA #REQUIRED>
+
+<!ELEMENT heading (#PCDATA | omit)*>
+
+<!ELEMENT intervention (speaker, speech)>
+<!ELEMENT speaker (name, post) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT speech (#PCDATA | omit)*>
+<!ATTLIST speech language NMTOKEN #FIXED "ES">
+
+<!ELEMENT back (#PCDATA)>

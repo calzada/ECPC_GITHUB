@@ -1,0 +1,715 @@
+L8_PL (PARA PASAR EN JEDIT A TODO EL DIRECTORIO CON L8_PL)
+
+
+
+# quitar palabra página sobrante
+Find
+\n^Página
+
+replace
+
+
+
+
+# quitar \n que sobra en title
+find
+<title>(.*?)\n(.*?)<\/title>
+
+replace
+<title>$1$2<\/title>
+
+
+
+
+# quitar \n que sobra en edition
+find
+<edition>(.*?)\n(.*?)<\/edition>
+
+replace
+<edition>$1$2<\/edition>
+
+
+
+#quitar espacio sobrante en primer párrafo de algunas intervenciones
+find
+(<speech language="ES">\n)\s
+
+replace
+$1
+
+
+
+#añadir cierres donde hacen falta
+find
+(<\/omit>\s*?\n)(<intervention>\n<speaker>)
+
+replace
+$1<\/speech>\n<\/intervention>\n\n$2
+
+
+
+
+#añadir etiquetas
+
+find
+(<\/intervention>\n)La señora\s(.*?)(<\/name>\n<post>NA<\/post>)
+
+find
+(<\/intervention>\n)El señor\s(.*?)(<\/name>\n<post>NA<\/post>)
+
+replace
+$1\n<intervention>\n<speaker>\n<name>$2$3
+
+
+
+
+#añadir etiquetas
+find
+(\.\s*?\n)(<intervention>\n<speaker>\n<name>)
+
+replace
+$1<\/speech>\n<\/intervention>\n\n$2
+
+
+
+
+#añadir etiquetas
+find
+(…\s*?\n|\?\s*?\n)(<intervention>\n<speaker>\n<name>)
+
+replace
+$1<\/speech>\n<\/intervention>\n\n$2
+
+
+
+
+# quitar un espacio
+find
+(ORDEN DEL DÍA:\n)\s
+
+replace 
+$1
+
+
+
+#sumario añadir un salto párrafo
+find
+(SUMARIO:)\s(\w)
+
+replace
+$1\n$2
+
+
+
+#añadir etiquetas
+find
+(<intervention>\n<speaker>\n<name>)(.*?):\s
+
+replace
+$1$2<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">\n
+
+
+
+
+# corregir presidente
+find
+<name>PRESIDENTE<\/name>\n<post>NA<\/post>
+
+replace
+<name>MARÍN GONZÁLEZ<\/name>\n<post>PRESIDENTE<\/post>
+<name>BONO MARTÍNEZ<\/name>\n<post>PRESIDENTE<\/post>
+
+
+
+#añadir etiquetas
+find
+El señor\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}):\s
+
+find
+La señora\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}):\s
+
+replace
+\n<intervention>\n<speaker>\n<name>$1</name>\n<post>NA</post>\n</speaker>\n<speech language="ES">\n
+
+
+
+# añadir etiquetas
+find
+\nEl señor\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu})(<\/name>)
+
+find
+\nLa señora\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu})(<\/name>)
+
+replace
+<intervention>\n<speaker>\n<name>$1$2
+
+
+
+#añadir etiquetas
+find
+(<\/omit>)\s(<intervention>)
+
+
+replace
+$1\n<\/speech>\n</intervention>\n\n$2
+
+
+
+#corrección
+find
+<name>VICEPRESIDENTA<\/name>\n<post>NA<\/post>
+
+replace
+<name>Chacón Piqueras<\/name>\n<post>VICEPRESIDENTA<\/post>
+<name>Cunillera i Mestres<\/name>\n<post>VICEPRESIDENTA<\/post>
+
+
+
+# corrección
+find
+La señora VICEPRESIDENTA \(Chacón Piqueras\):\s
+La señora VICEPRESIDENTA \(Cunillera i Mestres\):\s
+
+replace
+<intervention>\n<speaker>\n<name>Chacón Piqueras</name>\n<post>VICEPRESIDENTA</post>\n</speaker>\n<speech language="ES">\n
+<intervention>\n<speaker>\n<name>Cunillera i Mestres</name>\n<post>VICEPRESIDENTA</post>\n</speaker>\n<speech language="ES">\n
+
+
+#corrección
+find
+<name>PRESIDENTE<\/name>\n<post>NA<\/post>
+
+replace
+<name>MARÍN GONZÁLEZ<\/name>\n<post>PRESIDENTE<\/post>
+<name>BONO MARTÍNEZ<\/name>\n<post>PRESIDENTE<\/post>
+
+
+
+#añadir al final
+find
+(\n<\/chair>\n\n<\/body>)
+
+replace
+<\/speech>\n<\/intervention>\n\n$1
+
+
+
+#ministro solbes
+find
+(<name>)(VICEPRESIDENTE SEGUNDO DEL GOBIERNO Y MINISTRO DE ECONOMÍA Y HACIENDA) \((Solbes Mira)\)(<\/name>\n)(<post>)NA(<\/post>)
+
+replace
+$1$3$4$5$2$6
+
+
+
+
+# el señor MAYÚSCULAS (Nombre)
+find
+(\n)El señor (\p{Lu}.*?\p{Lu}\p{Lu})\s*?\((\p{Lu}\p{Ll}.+?\p{Ll})\):\s
+
+(\n)La señora (\p{Lu}.*?\p{Lu}\p{Lu})\s*?\((\p{Lu}\p{Ll}.+?\p{Ll})\):\s
+
+replace
+$1\n<intervention>\n<speaker>\n<name>$3<\/name>\n<post>$2<\/post>\n<\/speaker>\n<speech language="ES">\n
+
+
+
+# al final de todo falta un \n
+#<\/omit>\s<\/speech>
+
+
+
+#<\/omit>\n<\/speech>
+
+
+
+
+# añadir etiquetas
+find
+(\w\.)\sLa señora\s(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu})(<\/name>)
+
+find
+(\w\.)\sEl señor\s(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu})(<\/name>)
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n<intervention>\n<speaker>\n<name>$2$3
+
+
+
+#corregir final de algunos heading
+find
+(\w\.)\s(<heading>)
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n$2
+
+
+
+
+
+# omit mal puesto
+find
+(<omit>)(\(\p{Lu}\p{Lu}+?\).*?)(\(Núm.*?\d\d\.\)<\/omit>)
+
+
+
+(<omit>)(\(\p{Lu}\p{Lu}+?\).*?)(\(.*?\)<\/omit>)
+
+replace
+$2$1$3
+
+
+# =
+find
+(<omit>)(\(Convergència i Unió\).*?\s)(\(.*?\.\)<\/omit>)
+
+find
+(<omit>)(\(CONVERGÈNCIA I UNIÓ\).*?\s)(\(.*?\.\)<\/omit>)
+
+replace
+$2$1$3
+
+
+
+#omit delante de (ECR)
+find
+(<omit>)(\(ERC\).*?\.\s)(\(Núm)
+
+replace
+$2$1$3
+
+
+
+# =
+(<omit>)(\(EAJ-PNV\).*?\.\s)(\(Núm)
+
+
+(<omit>)(\(EAJ-PNV\).*?)(\(.*?\.\)<\/omit>)
+
+
+$2$1$3
+
+
+# =
+(<omit>)(\(Sr\..+?|\(Sra\..+?|\(Señor.+?|\(Señora.+?\).*?)(\(.*?\.\)<\/omit>)
+
+(<omit>)(\(SE.+?\).*?)(\(.*?\.\)<\/omit>)
+
+(<omit>)(\(\d\d.*?\).*?)(\(.*?\.\)<\/omit>)
+
+$2$1$3
+
+
+
+#
+(<heading>\n.*?)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">\n(.*?\n<\/heading>)
+
+
+
+$1\s$2
+
+
+
+# algunos números de página se quedan sin etiquetar
+find
+(\.\s\.\s\.\s)\n(\d+?\s)
+
+(\.\.\.\s)\n(\d+?\s)
+
+replace
+$1<page_number>Página\s$2<\/page_number>
+
+
+
+
+
+
+#name y post fallo: el nombre en paréntesis y el cargo se quedan dentro de name
+find
+(<name>)(.*?)\s\((.*?)\)(<\/name>\n)(<post>)(.*?)(<\/post>)
+
+(<name>)(.*?)\((.*?)\)(<\/name>\n)(<post>)(.*?)(<\/post>)
+
+replace
+$1$3$4$5$2$7
+
+
+#name y post fallo 2: el nombre en paréntesis y el cargo se quedan dentro de post
+find
+(<intervention>\n<speaker>\n<name>).*?(<\/name>\n<post>)(.*?)\s\((.*?)\):\s
+
+(<intervention>\n<speaker>\n<name>).*?(<\/name>\n<post>)(.*?)\s<omit>\((.*?)\):\s
+
+replace
+$1$4$2$3<\/post>\n<\/speaker>\n<speech language="ES">\n
+
+
+#fallo en sumario
+find
+(S U M A R I O)\s
+
+replace
+\n<\/indexitem>\n<indexitem>\n$1:\n
+
+
+
+#quitar guion en MINISTROS DE INMIGRA-CIÓN, CIEN-CIA, etc
+find
+INMIGRA-CIÓN
+
+
+replace
+INMIGRACIÓN
+
+
+
+
+
+
+#
+(<name>Chacón Piqueras</name>\n<post>VICEPRESIDENTA</post>\n</speaker>\n)(\w)
+(<name>Cunillera i Mestres</name>\n<post>VICEPRESIDENTA</post>\n</speaker>\n)(\w)
+
+
+$1<speech language="ES">\n$2
+
+
+
+#
+<back>
+
+
+<back><!--  
+
+
+#
+</back>
+
+
+ --></back>
+
+
+
+
+#arreglar algunas partes de heading que se quedan en medio de intervenciones
+find
+(\p{Ll}\p{Ll}+?\.\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?:\s*?)(\n<\/speech>\n<\/intervention>)
+
+(\p{Ll}\p{Ll}+?\.\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?\.\s*?)(\n<\/speech>\n<\/intervention>)
+
+(<\/omit>\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?:\s*?)(\n<\/speech>\n<\/intervention>)
+
+(<\/omit>\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?\.\s*?)(\n<\/speech>\n<\/intervention>)
+
+replace
+$1$3\n\n<heading>\n$2\n<\/heading>\n
+
+
+
+# =
+find
+(\w\.\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+\.\s<omit>\(.*?\)<\/omit>)\s*?(\n<\/speech>\n<\/intervention>)
+
+(<\/omit>\s*?)\n(\p{Lu}\p{Lu}+.*?\p{Lu}+\.\s<omit>\(.*?\)<\/omit>)\s*?(\n<\/speech>\n<\/intervention>)
+
+replace
+$1$3\n\n<heading>\n$2\n<\/heading>\n
+
+
+#
+find
+(\n\n)(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?:\s*?)(\n<\/speech>\n<\/intervention>)
+
+(\n\n)(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?\.\s*?)(\n<\/speech>\n<\/intervention>)
+
+replace
+$1<heading>\n$2\n<\/heading>\n
+
+
+
+#
+find
+(\w\.\s*?\n)(\p{Lu}\p{Lu}+.*?\p{Lu}.*?)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">
+
+replace
+$1<\/speech>\n<\/intervention>\n\n<heading>\n$2\n<\/heading>\n\n
+
+
+
+#= pero sin salto de párrafo
+find
+(\w\.\s*?)(\p{Lu}\p{Lu}+.*?\p{Lu}.*?)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n<heading>\n$2\n<\/heading>\n\n
+
+
+
+
+#
+find
+(\p{Ll}\.\s*?<omit>.*?<\/omit>)\s(<heading>\n—*\s*?\p{Lu}\p{Lu}+.*?\p{Lu}+.*?\n<\/heading>)
+
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n$2
+
+
+
+#
+find
+(\p{Ll}\.\s*?<omit>.*?<\/omit>)\s(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?)\n<\/speech>\n<\/intervention>
+
+(\p{Ll}\.\s<omit>.*?<\/omit>)\s(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?)\n<\/speech>\n<\/intervention>
+
+(\p{Ll}\.\s<omit>.*?<\/omit>)\s\n(\p{Lu}\p{Lu}+.*?\p{Lu}+.*?)\n<\/speech>\n<\/intervention>
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n<heading>\n$2\n<\/heading>\n
+
+
+
+#
+find
+(\w\.\s)(\p{Lu}\p{Lu}+.*?\p{Lu}\p{Lu}\p{Lu}+.*?)(\n<\/speech>\n<\/intervention>)
+
+
+replace
+$1$3\n\n<heading>\n$2\n<\/heading>\n
+
+
+
+#añadir etiquetas
+find
+(\w\w\.\s*?)(<intervention>\n<speaker>)
+
+replace
+$1\n<\/speech>\n<\/intervention>\n\n$2
+
+
+#
+find
+(\w\.\n)\s*?El señor\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}\p{Lu}+?<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">)
+
+(\w\.\n)\s*?La señora\s*?(\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}\p{Lu}+?<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">)
+
+
+replace
+$1<\/speech>\n<\/intervention>\n\n<intervention>\n<speaker>\n<name>$2
+
+
+#
+find
+(<\/intervention>\n)La señora (\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}\p{Lu}+?.*?)\((.*?)\):\s
+
+(<\/intervention>\n)El señor (\p{Lu}\p{Lu}+?.*?\p{Lu}\p{Lu}\p{Lu}+?.*?)\((.*?)\):\s
+
+
+replace
+$1\n<intervention>\n<speaker>\n<name>$3<\/name>\n<post>$2<\/post>\n<\/speaker>\n<speech language="ES">\n
+
+
+
+# quitar espacios al principio de frase
+find
+^\s(\w)
+
+replace
+$1
+
+
+
+#
+(\n<\/speech>\n<\/intervention>)\n<\/speech>\n<\/intervention>
+
+
+$1
+
+
+#
+\n(\n<\/speech>\n<\/intervention>)
+
+\n\s(\n<\/speech>\n<\/intervention>)
+
+$1
+
+
+
+#
+(IU, ICV-EUiA, CHA)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">\n(La Izquierda Plural)
+
+
+$1: $2
+_______________________________
+
+
+
+# ESTAS SOLO EN LOS DOCS QUE HAGA FALTA
+#(\(núm\. expte\..*?\d+?\d+?\))
+#(\(núm.*? exp.*?\d+?\d+?\))
+#(\(NÚMERO DE EXPEDIENTE \d+?/\d\d\d+?\))
+
+#<omit>$1<\/omit>
+
+
+
+
+
+___________________________________
+
+
+
+#A PARTIR DE AQUÍ LO QUE TODAVÍA FALLA SON LAS INTERVENCIONES DE ALGUNOS MINISTROS, LAS CUALES PROCEDO A CORREGIR CON UN SEARCH AND REPLACE EN TODO EL DIRECTORIO, Y LOS HEADINGS, LA PARTE MÁS DELICADA POR SU TENDENCIA A CONTENER ERRORES DE TODO EL ETIQUETADO DEL CD
+
+
+
+#
+(<name>MINISTRO DE ASUNTOS EXTE-RIORES Y DE COOPERACIÓN)\s(<omit>)(\(Moratinos Cuyaubé\)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">\n.*?)(\(.*?\.\)<\/omit>)
+
+
+(<name>.*?)\s(<omit>)(\(.*?\)<\/name>\n<post>NA<\/post>\n<\/speaker>\n<speech language="ES">\n.*?)(\(.*?\.\)<\/omit>)
+
+
+$1$3$2$4
+
+
+
+#NO REGEX EJ:
+<name>VICEPRESIDENTE SEGUNDO DEL GOBIERNO Y MINISTRO DE ECONOMÍA Y HACIENDA(Solbes Mira)</name>
+<post>NA</post>
+
+
+
+<name>Solbes Mira</name>
+<post>VICEPRESIDENTE SEGUNDO DEL GOBIERNO Y MINISTRO DE ECONOMÍA Y HACIENDA</post>
+
+##################################33
+
+LEGISLATURA 10
+CAMBIO DE FORMATO EN HEADER E INDEX
+CAMBIO RADICAL DE FORMATO A PARTIR DEL 54 
+
+
+#
+(\(núm.*? exp.*?\d+?\d+?\))
+
+
+<omit>$1<\/omit>
+
+
+
+# (L10) se han olvidado de poner el puntito dentro de los omits
+(…)(\(.*?\))\.(\s)
+
+(!)(\(.*?\))\.(\s)
+
+(\?)(\(.*?\))\.(\s)
+
+(\s)(\(.*?\)),(\s)
+
+(\s)(\(.*?\))(\s)
+
+(\s)(\(.*?\))\.(\s)
+
+(\.)(\(.*?\))\.(\s)
+
+
+$1<omit>$2<\/omit>$3
+
+
+
+#
+<omit><omit>
+
+<omit>
+
+
+#
+<\/omit><\/omit>
+
+
+<\/omit>
+
+
+
+
+
+#######LO SIGUIENTE ES MEJOR HACERLO CUANDO ESTA TODO EN UNA LINEA
+
+
+# etiqueta chair who presi
+(<omit>\(El señor presidente|<omit>\(La señora presidenta)(\socupa la Presidencia\)<\/omit>)
+
+
+\n<\/chair>\n$1$2\n<chair who="Posada Moreno, Jesús">\n
+
+
+# etiqueta chair who de presidente
+(\n<\/chair>)(\n<omit>\(El señor presidente|\n<omit>\(La señora presidenta)(\socupa la Presidencia\)<\/omit>)(\n<chair who="Posada Moreno, Jesús">\n)(.*?)(<\/speech>\n<\/intervention>)
+
+
+$5$6\n$1\n$2$3\n$4
+
+
+
+
+
+# etiqueta chair who vice
+(<omit>\(El señor vicepresidente,\s|<omit>\(La señora vicepresidenta,\s)(.*?)(,\socupa la Presidencia\)<\/omit>)
+
+
+\n<\/chair>\n$1$2$3\n<chair who="$2">\n
+
+
+
+# etiqueta chair who de vicepresidente/a
+(\n<\/chair>)(\n<omit>\(El señor vicepresidente,\s|\n<omit>\(La señora vicepresidenta,\s)(.*?)(,\socupa la Presidencia\)<\/omit>)(\n<chair who=".+?">\n)(.*?)(<\/speech>\n<\/intervention>)
+
+
+$6$7\n$1\n$2$3$4\n$5
+
+
+
+
+
+
+
+
+
+
+
+# etiquetar el número de página
+perl -pi -e 's/\.\s\.\s(\d+?\s)/<page_number>Página\s$1<\/page_number>/g' *.xml
+
+# etiquetar el número de página 2
+perl -pi -e 's/\.\.\s(\d+?\s)/<page_number>Página $1<\/page_number>/g' *.xml
+
+# etiquetar el número de página 2
+perl -pi -e 's/\.\.\s\n(\d+?\s)/<page_number>Página $1<\/page_number>/g' *.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################################3
+
+
+IMPORTANTE ¿QUE PASA SI USO DOS VECES EL INTERROGANTE STINGY ??
+POR EJEMPLO
+.*?? 
+APURARA MAS?
